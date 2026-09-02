@@ -71,8 +71,11 @@ img{max-width:100%}
 .tags{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0}
 .linkbtn{color:var(--blue);text-decoration:none;font-weight:800;font-size:13px}
 .star{border:0;background:none;font-size:20px;line-height:1;padding:2px 4px}
+.q-support{margin:10px 0}
+.q-support summary{cursor:pointer;font-size:12px;font-weight:800;color:var(--gold);margin-bottom:6px;list-style:none}
+.q-support summary::-webkit-details-marker{display:none}
 .q-context{white-space:pre-wrap;background:#0b1020;border:1px solid var(--line);border-radius:12px;
-  padding:12px;margin:10px 0;font-size:14px;max-height:38vh;overflow:auto}
+  padding:12px;font-size:14px;line-height:1.55;max-height:46vh;overflow:auto}
 .q-stem{font-size:17px;font-weight:650;margin:12px 0}
 .opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--panel2);
   border-radius:14px;padding:12px 14px;margin:7px 0;font-weight:600}
@@ -500,7 +503,7 @@ SCREENS.quiz = {
           <span class="pill muted">${esc(it.disciplina||"")}</span>
           <span class="pill muted">${esc(it.fonte||"")}</span>
         </div>
-        ${it.context?`<div class="q-context">${esc(it.context)}</div>`:""}
+        ${it.context?`<details class="q-support" open><summary>📄 Texto de apoio (toque para recolher)</summary><div class="q-context">${esc(it.context)}</div></details>`:""}
         <div class="q-stem">${esc(it.stem)}</div>
         <div id="qArea"></div>
         <div id="qFeed"></div>

@@ -7,199 +7,301 @@
   "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído.",
   "questoes": [
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 1, "topico": "Tipologia textual",
-      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito à transição energética, a empresa investe recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, promove pesquisa e desenvolvimento de soluções de baixo carbono e investe em projetos socioambientais para recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 1,
+      "topico": "Tipologia textual",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "Quanto à tipologia, o texto CB1A1-I classifica-se como dissertativo e tem como objetivo principal a defesa da sustentabilidade socioambiental.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 2, "topico": "Compreensão de texto",
-      "enunciado": "Texto CB1A1-I (ver item 1).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 2,
+      "topico": "Compreensão de texto",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "Entende-se do texto CB1A1-I que a produção de petróleo de baixo carbono reverte os efeitos da mudança climática.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 3, "topico": "Compreensão de texto",
-      "enunciado": "Texto CB1A1-I (ver item 1).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 3,
+      "topico": "Compreensão de texto",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "De acordo com o texto CB1A1-I, o investimento de recursos e tecnologias para possibilitar uma transição energética responsável inclui-se entre as ações desenvolvidas pela Petrobras.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 4, "topico": "Reescrita e voz passiva",
-      "enunciado": "Texto CB1A1-I (ver item 1).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 4,
+      "topico": "Reescrita e voz passiva",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "Estariam mantidas a correção gramatical e a coerência das ideias caso o segmento \"A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias\" fosse reescrito como: \"O compromisso da Petrobras com a sustentabilidade é demonstrado por meio do desenvolvimento de estratégias\".",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 5, "topico": "Pontuação",
-      "enunciado": "Texto CB1A1-I (ver item 1).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 5,
+      "topico": "Pontuação",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "Estaria mantida a correção gramatical do último período do primeiro parágrafo caso a vírgula empregada após a palavra \"ambientais\" fosse substituída por ponto final, com a devida troca de minúscula por maiúscula no início do novo período.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 6, "topico": "Classes de palavras",
-      "enunciado": "Texto CB1A1-I (ver item 1).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 6,
+      "topico": "Classes de palavras",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "Nos trechos \"para viabilizar a elevada participação de energias renováveis\" e \"negócios de menor intensidade de carbono\", os vocábulos \"elevada\" e \"menor\" classificam-se gramaticalmente como adjetivos.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 7, "topico": "Pontuação",
-      "enunciado": "Texto CB1A1-I (ver item 1).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 7,
+      "topico": "Pontuação",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "Estaria mantida a correção gramatical do último período do segundo parágrafo caso fosse inserida uma vírgula após a expressão \"baixo carbono\".",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 8, "topico": "Concordância verbal",
-      "enunciado": "Texto CB1A1-I (ver item 1).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 8,
+      "topico": "Concordância verbal",
+      "enunciado": "Texto CB1A1-I — A Petrobras demonstra compromisso com a sustentabilidade por meio do desenvolvimento de estratégias para acelerar a descarbonização e atuar de forma ética e transparente, com operações seguras, respeito às pessoas e ao meio ambiente e foco na geração de valor. Seis dos dez compromissos de sustentabilidade da empresa estão associados a carbono; os outros quatro referem-se a segurança hídrica, conservação da biodiversidade, gestão de resíduos e responsabilidade social. No que diz respeito aos desafios da transição energética, a empresa contribui para a mitigação da mudança climática por meio do investimento de recursos e tecnologias na produção de petróleo de baixo carbono no Brasil, gerando energia, divisas e riquezas relevantes para o financiamento de uma transição energética responsável, e para a capacidade de ofertar gás e energia despachável para viabilizar a elevada participação de energias renováveis na matriz elétrica brasileira. Além disso, investe em novos produtos e negócios de menor intensidade de carbono, promove pesquisa e desenvolvimento de novas tecnologias e soluções de baixo carbono e investe em projetos socioambientais para a recuperação e conservação de florestas. (Internet: <https://petrobras.com.br>, com adaptações.)",
       "questao": "No último período do segundo parágrafo, as formas verbais \"investe\" e \"promove\", na terceira pessoa do singular, concordam com o termo \"matriz elétrica brasileira\", que encerra o período imediatamente anterior.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 9, "topico": "Semântica",
-      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). \"Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Paridade de importação não é preço que a companhia deve praticar.\" Prates disse que, em sua gestão, não haverá o \"dogma do preço de paridade internacional (PPI)\", abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras ao que é cobrado pelas importadoras. Sobre a venda de ativos do Polo Bahia Terra, Prates afirmou que \"o que está assinado será cumprido; o que não está assinado será revisto\". (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 9,
+      "topico": "Semântica",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Considerando a articulação das ideias do primeiro parágrafo, é correto afirmar que a expressão \"lá fora\" está empregada com o mesmo sentido de \"internacionalmente\".",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 10, "topico": "Compreensão de texto",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 10,
+      "topico": "Compreensão de texto",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Depreende-se do texto que a atual política de preços da Petrobras visa à possibilidade de redução do preço do combustível para o consumidor brasileiro.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 11, "topico": "Interpretação e vocabulário",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 11,
+      "topico": "Interpretação e vocabulário",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Entende-se do segundo parágrafo que, segundo o presidente da Petrobras, o PPI não deve ser visto como uma doutrina indiscutível.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 12, "topico": "Tempos verbais e inferência",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 12,
+      "topico": "Tempos verbais e inferência",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Infere-se do segundo parágrafo, sobretudo pelo emprego da forma verbal \"haverá\", no futuro, que Jean Paul Prates ainda não havia sido efetivado na presidência da Petrobras.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 13, "topico": "Relações de sentido",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 13,
+      "topico": "Relações de sentido",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "No trecho \"Questionado se haverá redução no preço da gasolina\", a oração expressa uma condição imposta pela imprensa ao presidente da Petrobras.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 14, "topico": "Compreensão de texto",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 14,
+      "topico": "Compreensão de texto",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Entende-se do texto que, quanto à venda de ativos, o presidente da Petrobras pretende rever todos os compromissos assumidos pela companhia antes de sua gestão.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 15, "topico": "Substituição vocabular",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 15,
+      "topico": "Substituição vocabular",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "A expressão \"sob uma nova ótica\" poderia ser substituída por \"em outra perspectiva\", respeitando-se a ortografia oficial e a coerência das ideias do texto.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 16, "topico": "Coesão e substituição",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 16,
+      "topico": "Coesão e substituição",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Estariam mantidos os sentidos e a correção gramatical caso o termo \"pelo\", em \"O mercado nacional é composto pelo que é produzido aqui\", fosse substituído por \"daquilo\".",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 17, "topico": "Concordância verbal",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 17,
+      "topico": "Concordância verbal",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "No segmento \"a negociação de preços que levem em consideração o cenário econômico nacional\", a substituição da forma verbal \"levem\" por \"leve\" manteria a correção gramatical e a coerência das ideias.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 18, "topico": "Tempos e modos verbais",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 18,
+      "topico": "Tempos e modos verbais",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "No terceiro parágrafo, as formas verbais \"prevê\", \"alinhe\" e \"cobra\" estão todas flexionadas no presente do indicativo, expressando uma sequência de ações frequentes.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 19, "topico": "Reescrita e sentido",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 19,
+      "topico": "Reescrita e sentido",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Estariam mantidos os sentidos do trecho \"logo isso tem de refletir no preço para o consumidor final\" caso ele fosse reescrito como \"e isso tem de refletir logo no preço para o consumidor final\".",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Português", "tipo": "certo_errado", "item_original": 20, "topico": "Referenciação",
-      "enunciado": "Texto CB1A1-II (ver item 9).",
+      "disciplina": "Português",
+      "tipo": "certo_errado",
+      "item_original": 20,
+      "topico": "Referenciação",
+      "enunciado": "Texto CB1A1-II — Em 23/3/2023, o presidente da Petrobras, Jean Paul Prates, afirmou à imprensa que a companhia não deve praticar o preço de paridade internacional (PPI). “Se lá fora o preço do petróleo diminuiu, entendo que diminuiu também em termos de insumos para as refinarias, logo isso tem de refletir no preço para o consumidor final. Não é necessário que o preço do combustível esteja amarrado ao preço do importador, que é o nosso principal concorrente. Paridade de importação não é preço que a companhia deve praticar.” Prates disse que, em sua gestão como presidente da estatal, não haverá o “dogma do preço de paridade internacional (PPI)”, abrindo espaço para a negociação de preços que levem em consideração o cenário econômico nacional. Instituída em 2016, a política do PPI prevê que a Petrobras alinhe os valores que cobra das distribuidoras pelo combustível ao que é cobrado pelas importadoras que trazem o petróleo refinado em forma de diesel e gasolina para o Brasil. Questionado se haverá redução no preço da gasolina, Prates disse que as equipes estão avaliando o mercado. “Sempre que a gente puder ter o preço mais barato para vender para o nosso consumidor brasileiro, a gente vai fazer isso”, concluiu. O presidente também afirmou que a venda dos ativos do Polo Bahia Terra está sendo reavaliada sob uma nova ótica e que “o que está assinado será cumprido; o que não está assinado será revisto”. (Internet: <www.cnnbrasil.com.br>, com adaptações.)",
       "questao": "Pelas relações de sentido entre os dois primeiros períodos do primeiro parágrafo, conclui-se que o vocábulo \"isso\" faz referência a \"preço de paridade internacional\".",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 21, "topico": "Conversão de unidades",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 21,
+      "topico": "Conversão de unidades",
       "enunciado": "Um estagiário do setor de atendimento é considerado eficiente quando todos os seus atendimentos duram, no máximo, 9 minutos.",
       "questao": "O atendimento de um estagiário eficiente durará, no máximo, 3/20 de hora.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 22, "topico": "Potenciação e desigualdades",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 22,
+      "topico": "Potenciação e desigualdades",
       "enunciado": "Um estagiário é eficiente quando todos os seus atendimentos duram, no máximo, 9 minutos.",
       "questao": "Se todos os tempos de atendimento de um estagiário forem sempre inferiores a (0,5)^3 hora, então esse estagiário será considerado eficiente.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 23, "topico": "Progressão aritmética",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 23,
+      "topico": "Progressão aritmética",
       "questao": "Suponha que, em 2022, a quantidade de atendimentos de um setor tenha crescido mensalmente em progressão aritmética de razão 75. Se em julho de 2022 foram registrados 2.500 atendimentos, então, em janeiro de 2022, o número de atendimentos foi superior a 2.100.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 24, "topico": "Progressão geométrica",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 24,
+      "topico": "Progressão geométrica",
       "questao": "Um estagiário realizou 15 atendimentos cujos tempos decresceram, ao longo da manhã, em progressão geométrica de razão 2/3. Se o primeiro atendimento durou 18 minutos, então o último durou mais de 10 minutos.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 26, "topico": "Análise combinatória",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 26,
+      "topico": "Análise combinatória",
       "enunciado": "Uma equipe de manutenção é composta por 8 pintores e 10 soldadores.",
       "questao": "A quantidade de maneiras de se escolher um grupo com 2 pintores e 2 soldadores é inferior a 1.200.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 27, "topico": "Teoria dos conjuntos",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 27,
+      "topico": "Teoria dos conjuntos",
       "questao": "Para três conjuntos não vazios A, B e C, se A está contido em B e C não contém B, então C também não contém A.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 30, "topico": "Função exponencial",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 30,
+      "topico": "Função exponencial",
       "questao": "Seja C(t) = 5 · e^(0,05t) a quantidade de combustível, em milhões de litros, demandada em uma cidade t anos após um instante inicial. Nesse caso, para t = 10, a quantidade demandada será igual ao dobro da quantidade no instante inicial.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 31, "topico": "Função quadrática",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 31,
+      "topico": "Função quadrática",
       "questao": "A profundidade p, em metros, na qual um equipamento deve ser posicionado a cada hora x do dia é dada por p(x) = 0,2x² − 4x + 25. Nessa situação, o equipamento deve ser posicionado a 5 metros de profundidade duas vezes a cada dia.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 32, "topico": "Matrizes e determinantes",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 32,
+      "topico": "Matrizes e determinantes",
       "enunciado": "Considere uma matriz A de ordem 2×3, uma matriz B de ordem 3×3 e uma matriz C de ordem 3×2.",
       "questao": "É possível calcular os determinantes das matrizes A e C, porém não o da matriz B.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 33, "topico": "Produto de matrizes",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 33,
+      "topico": "Produto de matrizes",
       "enunciado": "Considere uma matriz A de ordem 2×3, uma matriz B de ordem 3×3 e uma matriz C de ordem 3×2.",
       "questao": "É possível calcular o produto A × B, mas não o produto C × A.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 34, "topico": "Geometria espacial",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 34,
+      "topico": "Geometria espacial",
       "enunciado": "Considere um cilindro reto cuja base tem raio de 4 cm e cuja altura mede 8 cm.",
       "questao": "O volume do cilindro é igual a 128π cm³.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 35, "topico": "Geometria espacial",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 35,
+      "topico": "Geometria espacial",
       "enunciado": "Considere um cilindro reto cuja base tem raio de 4 cm e cuja altura mede 8 cm.",
       "questao": "A área da base do cilindro é duas vezes maior que a sua área lateral.",
       "gabarito": "ERRADO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 37, "topico": "Geometria plana",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 37,
+      "topico": "Geometria plana",
       "questao": "A soma dos ângulos internos de um triângulo é igual a 180°.",
       "gabarito": "CERTO"
     },
     {
-      "disciplina": "Raciocínio lógico", "tipo": "certo_errado", "item_original": 40, "topico": "Juros simples",
+      "disciplina": "Raciocínio lógico",
+      "tipo": "certo_errado",
+      "item_original": 40,
+      "topico": "Juros simples",
       "questao": "Um investidor aplicou R$ 1.000,00 em um fundo que rende 10% ao mês, com carência de um ano; se o recurso for sacado antes do fim da carência, os juros são simples. Sacando exatamente 15 dias após a aplicação (mês comercial), o investidor recebeu um montante de R$ 1.150,00.",
       "gabarito": "ERRADO"
     }
