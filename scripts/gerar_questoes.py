@@ -264,10 +264,19 @@ Regras:
 Retorne somente JSON:
 {{"questoes": [{{"questao": "...", "gabarito": "CERTO", "explicacao": "...", "topico": "..."}}]}}
 """
-    try:
-        resp = chamar_gemini(prompt, SCHEMA_TREINO, temperature=0.7)
-    except Exception as erro:
-        print(f"  falhou: {erro}")
+    resp = None
+    for tentativa in range(1, 4):
+        try:
+            resp = chamar_gemini(
+                prompt, SCHEMA_TREINO,
+                max_output_tokens=8192, temperature=0.7,
+            )
+            if resp.get("questoes"):
+                break
+        except Exception as erro:
+            print(f"  tentativa {tentativa} falhou: {erro}")
+    if not resp or not resp.get("questoes"):
+        print("  nenhuma questao de treino retornada nesta execucao.")
         return 0
 
     existentes = {normalizar_texto(q["questao"])[:120] for q in doc["questoes"]}
