@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-09-02T00:28:02.515806+00:00",
+  "atualizado_em": "2026-09-02T01:17:37.798543+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Penal",
@@ -22,7 +22,7 @@
       "item_original": 9,
       "questao": "No texto sobre a evolução histórica da polícia, a transferência da polícia do sistema de justiça para o governo da cidade é apresentada como uma mudança de paradigma quanto ao papel policial na sociedade.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está CERTA. O texto da prova descreve o processo histórico em que a polícia deixa de ser um mero braço de execução de sentenças judiciais e passa a atuar na gestão urbana e na ordem pública municipal. Essa transição institucional representou uma verdadeira mudança de paradigma, redefinindo o papel preventivo e administrativo da corporação perante a sociedade. A pegadinha comum em questões de compreensão de texto do Cebraspe é supor que 'mudança de paradigma' seja uma extrapolação interpretativa. Contudo, o raciocínio correto é identificar que a alteração de subordinação estrutural e de finalidade funcional descrita no texto fundamenta plenamente a ideia de transformação conceitual e prática.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 9 - gabarito oficial definitivo"
     },
     {
@@ -36,7 +36,7 @@
       "item_original": 10,
       "questao": "A reescrita que atribui diretamente aos países europeus o empenho em prevenir crimes e apresenta esse empenho como causa do desenvolvimento de uma habilidade policial específica mantém integralmente a correção gramatical e os sentidos do trecho original.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está ERRADA. Propostas de reescrita da banca exigem atenção redobrada às relações de causa, efeito e atribuição sintático-semântica de responsabilidade. Ao transferir a ação diretamente para os países europeus e estabelecer um nexo causal estrito que não constava no texto original, a paráfrase distorceu os sentidos primitivos, além de criar inadequações gramaticais no encadeamento dos termos. A pegadinha reside em o texto reescrito soar fluido e plausível isoladamente. O candidato deveria confrontar minuciosamente a oração original com a versão proposta, percebendo que a inversão de papéis temáticos e a imposição de uma causalidade inédita violam o requisito de fidelidade semântica.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 10 - gabarito oficial definitivo"
     },
     {
@@ -50,7 +50,7 @@
       "item_original": 11,
       "questao": "O primeiro parágrafo permite inferir que o desenvolvimento, no século XIX, de campos científicos ligados à justiça criminal esteve associado a visões preconceituosas dirigidas a determinados grupos sociais.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está CERTA. A leitura atenta do primeiro parágrafo permite inferir essa associação, pois o texto contextualiza que o surgimento da criminologia e de saberes correlatos no século XIX se apoiou em noções de determinismo biológico e estigmatização de classes marginalizadas. O raciocínio a ser empregado é o de inferência autorizada: os elementos contextuais fornecidos pelo autor levam logicamente à conclusão de que essas ciências nascentes reproduziam preconceitos sociais da época. A pegadinha é temer que a palavra 'preconceituosas' seja um juízo de valor externo do candidato, mas ela reflete com precisão a crítica histórica exposta no texto base.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 11 - gabarito oficial definitivo"
     },
     {
@@ -64,7 +64,7 @@
       "item_original": 13,
       "questao": "Segundo o texto, a violência no período medieval era frequente e socialmente aceita.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está CERTA. A análise textual demonstra que o cotidiano medieval era marcado pela constância de condutas violentas, as quais não eram vistas com o mesmo estranhamento moral contemporâneo, integrando a dinâmica social ordinária da época. A pegadinha consiste em aplicar valores e conceitos morais da sociedade atual para julgar o passado, o que levaria o candidato a duvidar de que a violência pudesse ser 'socialmente aceita'. O candidato deveria se ater estritamente às informações literais do texto, reconhecendo que tanto a frequência quanto a normalização social dos atos violentos foram expressamente caracterizadas pelo autor.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 13 - gabarito oficial definitivo"
     },
     {
@@ -78,7 +78,7 @@
       "item_original": 17,
       "questao": "No contexto do texto, o emprego da palavra 'irrupção' indica que a violência podia atingir os indivíduos de maneira súbita.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está CERTA. O vocábulo 'irrupção' tem como significado fundamental o ato de surgir de forma repentina, impetuosa, violenta e inesperada. No contexto apresentado, ele qualifica o modo como episódios de violência acometiam as pessoas no dia a dia, irrompendo sem aviso prévio. A pegadinha clássica da banca é explorar a paronímia entre 'irrupção' (aparecimento súbito/invasão) e 'erupção' (expulsão vulcânica ou cutânea), ou tentar induzir o candidato a achar que o termo indicava previsibilidade ou continuidade. O raciocínio correto exige apenas o domínio semântico do vocabulário aliado à verificação de sua coerência no fluxo do texto.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 17 - gabarito oficial definitivo"
     },
     {
@@ -92,7 +92,7 @@
       "item_original": 22,
       "questao": "Segundo o Manual de Redação da Presidência da República, informatividade integra, ao lado de objetividade e impessoalidade, o conjunto de características expressamente indicado para a redação oficial.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está ERRADA. De acordo com o Manual de Redação da Presidência da República (3ª edição), os atributos da redação oficial são expressamente: clareza, precisão, objetividade, concisão, coesão e coerência, impessoalidade, e uso do padrão culto da língua. Embora a redação oficial deva transmitir informações, o termo 'informatividade' não figura no rol expresso de atributos fixados pelo manual. A pegadinha reside em usar um substantivo que parece semanticamente lógico e desejável para um texto público. O candidato precisava lembrar a lista taxativa prevista no MRPR e constatar que 'informatividade' não é uma das características formais catalogadas na norma técnica.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 22 - gabarito oficial definitivo"
     },
     {
@@ -106,7 +106,7 @@
       "item_original": 23,
       "questao": "Na identificação da signatária de uma comunicação oficial, quando o cargo é ocupado por mulher, o nome do cargo não deve ser flexionado para o gênero feminino.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está ERRADA. Conforme as diretrizes do Manual de Redação da Presidência da República e a legislação pertinente, a identificação do signatário deve flexionar o cargo para o gênero feminino sempre que ocupado por mulher (ex.: 'Diretora', 'Coordenadora', 'Ministra de Estado'). A pegadinha decorre de antigas praxes burocráticas superadas que mantinham o cargo invariável no masculino genérico. O raciocínio exigido é simples e direto: a norma padrão e o manual prescrevem a concordância de gênero nos nomes de cargos, funções e postos públicos para refletir a pessoa que o ocupa, sendo incorreto vedar a flexão feminina.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 23 - gabarito oficial definitivo"
     },
     {
@@ -120,7 +120,7 @@
       "item_original": 24,
       "questao": "Nas comunicações oficiais, o vocativo deve ser seguido de vírgula.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está CERTA. O Manual de Redação da Presidência da República estabelece que o vocativo, utilizado para se dirigir formalmente ao destinatário no início das comunicações (como em 'Senhor Ministro,' ou 'Senhor Coordenador,'), deve ser obrigatoriamente finalizado por vírgula. A pegadinha frequente envolve a confusão com outros sinais de pontuação, como dois-pontos ou ponto-e-vírgula, ou a analogia incorreta com regras de correspondência particular em outros idiomas. O candidato deve memorizar a padronização oficial: nas comunicações do serviço público federal brasileiro, após o vocativo emprega-se estritamente a vírgula, seguindo-se o corpo do texto na linha posterior.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 24 - gabarito oficial definitivo"
     },
     {
@@ -134,7 +134,7 @@
       "item_original": 25,
       "questao": "Todo e-mail institucional possui automaticamente valor documental equivalente ao de documento original, independentemente de outros requisitos.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está ERRADA. O e-mail institucional é amplamente utilizado na administração pública pela celeridade, mas não adquire de forma automática e irrestrita o valor de documento original. Para ter eficácia probatória plena equivalente ao documento formal físico ou oficial nato, é necessária a observância de requisitos de autenticidade, integridade e validade jurídica, como o uso de certificação digital no padrão ICP-Brasil. A pegadinha está no emprego da palavra generalizante 'automaticamente' e na expressão 'independentemente de outros requisitos'. O candidato deve desconfiar de afirmações absolutas e lembrar que a validade documental em meio eletrônico depende de segurança da informação regulamentada.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 25 - gabarito oficial definitivo"
     },
     {
@@ -148,7 +148,7 @@
       "item_original": 26,
       "questao": "No padrão de redação oficial, o campo assunto deve sintetizar de forma geral o conteúdo que será tratado na comunicação e seguir a formatação prevista pelo manual.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está CERTA. O campo 'Assunto' no padrão ofício tem como função essencial dar uma síntese precisa e direta do tema tratado no documento, permitindo ao destinatário identificar de imediato a matéria. Além disso, deve seguir a formatação padronizada pelo Manual de Redação da Presidência da República (como o destaque em negrito e o alinhamento adequado). A pegadinha consiste em supor que o assunto deva ser detalhado e exaustivo, quando sua finalidade é justamente a concisão e a clareza. O raciocínio correto é constatar que a assertiva descreve perfeitamente o papel e a exigência normativa desse elemento estrutural.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 26 - gabarito oficial definitivo"
     },
     {
@@ -162,7 +162,7 @@
       "item_original": 27,
       "questao": "Considere um modelo em que a taxa de espalhamento de uma notícia seja p vezes (1 - p), com constante de proporcionalidade igual a 1. Se 30% da população já conhece a notícia, então a taxa de espalhamento é superior a 20% por unidade de tempo.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está CERTA. A taxa de espalhamento é dada pela fórmula T = p * (1 - p). Se 30% da população já conhece a notícia, temos p = 0,30. Substituindo na expressão, obtemos T = 0,30 * (1 - 0,30) = 0,30 * 0,70 = 0,21, o que corresponde a 21% por unidade de tempo. Como 21% é estritamente maior que 20%, a afirmação é verdadeira. A pegadinha pode surgir no cálculo com decimais ou na pressa de estimar mentalmente a taxa sem estruturar a multiplicação. O candidato deve apenas converter a porcentagem em número decimal, executar a multiplicação básica e comparar o resultado final com o parâmetro dado no enunciado.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 27 - gabarito oficial definitivo"
     },
     {
@@ -176,7 +176,7 @@
       "item_original": 28,
       "questao": "No modelo em que a taxa de espalhamento é p vezes (1 - p), se essa taxa for 16% por unidade de tempo, então necessariamente mais de 75% da população ainda desconhece a notícia.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A afirmativa está ERRADA. A taxa é calculada por T = p * (1 - p) = 0,16. Resolvendo a equação do segundo grau p - p² = 0,16, temos p² - p + 0,16 = 0. As raízes dessa equação são p = 0,20 ou p = 0,80. Se p = 0,80 (80% conhecem a notícia), a fração que desconhece é (1 - p) = 0,20 (20%), valor que não é superior a 75%. A pegadinha reside no termo 'necessariamente': para p = 0,20, a parcela que desconhece seria de 80% (maior que 75%), mas como há uma segunda raiz viável em que os que desconhecem são apenas 20%, a conclusão categórica do item torna-se falsa.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 28 - gabarito oficial definitivo"
     },
     {
