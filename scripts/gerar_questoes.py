@@ -27,6 +27,7 @@ import json
 import os
 import re
 import sys
+import time
 import unicodedata
 from pathlib import Path
 
@@ -203,7 +204,7 @@ QUESTOES:
 Retorne somente JSON: {{"explicacoes": [{{"id": "...", "explicacao": "..."}}]}}
 """
     ultimo_erro = None
-    for tentativa in range(1, 4):
+    for tentativa in range(1, 5):
         try:
             resp = chamar_gemini(prompt, SCHEMA_EXPLICACOES, temperature=0.4)
             mapa = {
@@ -221,7 +222,10 @@ Retorne somente JSON: {{"explicacoes": [{{"id": "...", "explicacao": "..."}}]}}
         except Exception as erro:
             ultimo_erro = erro
             print(f"  tentativa {tentativa} falhou: {erro}")
-    raise RuntimeError(f"Falha no backfill de explicacoes: {ultimo_erro}")
+            time.sleep(tentativa * 8)  # backoff p/ 429/503 transitorio
+    # API indisponivel agora nao e erro do projeto: sai limpo, proximo run pega.
+    print(f"  backfill adiado (Gemini indisponivel): {ultimo_erro}")
+    return 0
 
 
 # ==========================================================
@@ -283,6 +287,7 @@ Retorne somente JSON:
                 break
         except Exception as erro:
             print(f"  tentativa {tentativa} falhou: {erro}")
+            time.sleep(tentativa * 8)
     if not resp or not resp.get("questoes"):
         print("  nenhuma questao de treino retornada nesta execucao.")
         return 0
