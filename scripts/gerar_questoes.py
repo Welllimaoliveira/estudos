@@ -4,16 +4,20 @@ GERAR / ENRIQUECER QUESTOES
 Adaptado de podcast/generate_podcast.py (mesmo padrao de chamada ao Gemini com
 responseSchema + retries). Aqui NAO gera audio: so mexe em data/questoes.json.
 
-O que faz por execucao:
+REGRA DO PROJETO: o banco (data/questoes.json) e formado SOMENTE por questoes
+de provas anteriores reais, com gabarito oficial. Questoes novas se adicionam a
+mao (ou via scripts/importar_prova.py) a partir do caderno oficial + gabarito
+definitivo da banca.
+
+O que este script faz por execucao:
 
 1. BACKFILL DE EXPLICACOES (principal)
    Para questoes com "explicacao" vazia, pede ao Gemini uma explicacao didatica
    do gabarito OFICIAL. A IA nunca decide/muda o gabarito - ele vem do JSON.
 
-2. QUESTOES DE TREINO (secundario, opcional)
-   Gera algumas questoes conceituais autorais de certo/errado por disciplina,
-   marcadas com "tipo": "certo_errado" e "origem": "treino-ia". Sem citar numero
-   de artigo/jurisprudencia (mesma trava de prompt do projeto podcast).
+2. QUESTOES DE TREINO (DESLIGADO por padrao: QUESTOES_TREINO_POR_RUN = 0)
+   Questoes autorais de IA. So use se quiser um modo de treino conceitual
+   separado; ficam marcadas com "origem": "treino-ia".
 
 Segredo necessario: GEMINI_API_KEY
 """
@@ -36,7 +40,11 @@ MODELO_GEMINI = "gemini-flash-latest"
 
 # limites por execucao (nao estourar a cota gratuita)
 MAX_EXPLICACOES_POR_RUN = 12
-QUESTOES_TREINO_POR_RUN = 4          # 0 desativa
+
+# 0 = desligado. O projeto usa SOMENTE questoes de provas anteriores; a IA
+# entra apenas para explicar o gabarito oficial (nunca para inventar questao
+# ou decidir gabarito). Deixe em 0 salvo se quiser questoes autorais de treino.
+QUESTOES_TREINO_POR_RUN = 0
 DISCIPLINAS_TREINO = [
     "Direito Constitucional", "Direito Administrativo", "Informática",
     "Raciocínio lógico", "Português", "Atualidades",

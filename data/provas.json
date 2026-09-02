@@ -53,6 +53,26 @@
       "tags": ["tribunal", "judiciario", "estadual"]
     },
     {
+      "orgao": "Petrobras",
+      "cargo": "Diversos cargos de nível superior e técnico",
+      "ano": 2023,
+      "banca": "Cesgranrio",
+      "nivel": "Superior",
+      "prova": "https://www.pciconcursos.com.br/provas/petrobras",
+      "gabarito": "https://www.cesgranrio.org.br/concursos/encerrados/",
+      "tags": ["petroleo", "estatal", "cesgranrio"]
+    },
+    {
+      "orgao": "Petrobras",
+      "cargo": "Técnico(a) e áreas administrativas",
+      "ano": 2021,
+      "banca": "Cebraspe",
+      "nivel": "Médio",
+      "prova": "https://www.cebraspe.org.br/concursos/encerrado",
+      "gabarito": "https://www.cebraspe.org.br/concursos/encerrado",
+      "tags": ["petroleo", "estatal", "cebraspe"]
+    },
+    {
       "orgao": "Banco do Brasil",
       "cargo": "Escriturario - Agente Comercial",
       "ano": 2023,

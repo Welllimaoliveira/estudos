@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-09-02T01:24:26.504054+00:00",
+  "atualizado_em": "2026-09-02T01:31:38.145115+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Penal",
@@ -850,70 +850,6 @@
       "gabarito": "ERRADO",
       "explicacao": "",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 8 - gabarito oficial definitivo"
-    },
-    {
-      "id": "TREINO-2026-0001",
-      "concurso": "Treino",
-      "orgao": "",
-      "ano": 2026,
-      "banca": "Autoral (IA)",
-      "disciplina": "Direito Administrativo",
-      "tipo": "certo_errado",
-      "topico": "Atos Administrativos",
-      "item_original": "",
-      "questao": "A autoexecutoriedade e um atributo presente em todos os atos administrativos, autorizando a administracao publica a compelir materialmente o administrado ao cumprimento da obrigacao sem a necessidade de previa intervencao do Poder Judiciario.",
-      "gabarito": "ERRADO",
-      "explicacao": "O item esta incorreto porque a autoexecutoriedade nao e um atributo presente em absolutamente todos os atos administrativos. Ela se manifesta apenas quando expressamente prevista em lei ou em situacoes de urgencia que demandem acao imediata do Estado. Alem disso, certos atos, como a cobranca de multas pecuniarias, exigem ajuizamento de cobranca judicial, nao podendo a Administracao compeli-los diretamente pela via executoria material. A pegadinha reside no uso do termo generalista 'em todos os atos', desconsiderando as excecoes classicas da doutrina.",
-      "origem": "treino-ia",
-      "fonte": "Questao autoral gerada por IA para treino conceitual."
-    },
-    {
-      "id": "TREINO-2026-0002",
-      "concurso": "Treino",
-      "orgao": "",
-      "ano": 2026,
-      "banca": "Autoral (IA)",
-      "disciplina": "Direito Administrativo",
-      "tipo": "certo_errado",
-      "topico": "Poderes Administrativos",
-      "item_original": "",
-      "questao": "No ciclo de policia administrativa, as fases de ordem e de sancao de policia possuem carater coercitivo indelegavel a pessoas juridicas de direito privado integrantes da administracao indireta, admitindo-se a delegacao apenas dos atos de consentimento e fiscalizacao.",
-      "gabarito": "ERRADO",
-      "explicacao": "O item esta incorreto. Embora a fase de ordenamento legislativo seja indelegavel, a jurisprudencia consolidada reconhece que a aplicacao de sancoes decorrentes do poder de policia pode ser delegada a pessoas juridicas de direito privado da Administracao Indireta, desde que prestadoras de servicos publicos em regime nao concorrencial e criadas por lei. A pegadinha reside em restringir a delegabilidade exclusivamente as fases de fiscalizacao e consentimento, ignorando a possibilidade de delegacao da fase sancionatoria.",
-      "origem": "treino-ia",
-      "fonte": "Questao autoral gerada por IA para treino conceitual."
-    },
-    {
-      "id": "TREINO-2026-0003",
-      "concurso": "Treino",
-      "orgao": "",
-      "ano": 2026,
-      "banca": "Autoral (IA)",
-      "disciplina": "Direito Administrativo",
-      "tipo": "certo_errado",
-      "topico": "Organizacao Administrativa",
-      "item_original": "",
-      "questao": "A desconcentracao administrativa caracteriza-se pela distribuicao interna de competencias no ambito de uma mesma pessoa juridica, o que mantem o vinculo de hierarquia e subordinacao entre os orgaos publicos envolvidos.",
-      "gabarito": "CERTO",
-      "explicacao": "O item esta correto. A desconcentracao e a tecnica de distribuicao interna de competencias dentro da estrutura de uma unica pessoa juridica, com a criacao de orgaos despersonalizados. Esse arranjo preserva a relacao hierarquica, subordinacao e controle vertical entre os niveis da estrutura administrativa. A pegadinha comum nesse tema e tentar confundir desconcentracao (orgaos internos, mesma entidade, com hierarquia) com descentralizacao (novas entidades juridicas, sem hierarquia, havendo apenas supervisao ministerial).",
-      "origem": "treino-ia",
-      "fonte": "Questao autoral gerada por IA para treino conceitual."
-    },
-    {
-      "id": "TREINO-2026-0004",
-      "concurso": "Treino",
-      "orgao": "",
-      "ano": 2026,
-      "banca": "Autoral (IA)",
-      "disciplina": "Direito Administrativo",
-      "tipo": "certo_errado",
-      "topico": "Responsabilidade Civil do Estado",
-      "item_original": "",
-      "questao": "Em situacoes de omissao estatal generica, a responsabilidade civil da Administracao Publica e de natureza subjetiva, exigindo-se a comprovacao do dano, da inercia culposa do servico perante um dever legal de agir e do nexo de causalidade entre eles.",
-      "gabarito": "CERTO",
-      "explicacao": "O item esta correto. Na omissao generica do Estado, em que nao ha uma relacao de custodia ou dever juridico especifico de impedir o resultado lesivo, vigora a teoria da culpa administrativa (falta do servico), de matriz subjetiva. Assim, e indispensavel demonstrar negligencia, imprudencia ou impericia do aparato estatal. A pegadinha consiste em induzir o candidato a generalizar a regra da responsabilidade objetiva da administracao para toda e qualquer situacao, inclusive omissoes genericas.",
-      "origem": "treino-ia",
-      "fonte": "Questao autoral gerada por IA para treino conceitual."
     }
   ]
 }

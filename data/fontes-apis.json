@@ -47,9 +47,9 @@
       "auth": "Chave de API (GEMINI_API_KEY, tier gratuito)",
       "cors": "Nao usar no navegador (chave ficaria exposta) - roda na Action",
       "limite": "Cota diaria do tier gratuito, folgada para o uso do projeto",
-      "fornece": "Geracao de novas questoes de estudo e explicacoes didaticas (gabarito nunca e decidido pela IA).",
+      "fornece": "APENAS explicacoes didaticas do gabarito oficial das questoes. A IA nunca cria questao nem decide gabarito - o banco e 100% de provas anteriores.",
       "docs": "https://ai.google.dev/gemini-api/docs",
-      "status": "USADA pela Action gerar-questoes."
+      "status": "USADA pela Action gerar-questoes (so backfill de explicacoes)."
     },
     {
       "nome": "Sites das bancas (Cebraspe, FGV, FCC, Cesgranrio, VUNESP...)",

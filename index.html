@@ -402,12 +402,14 @@ SCREENS.questoes = {
     const qs = doc.questoes;
     const discs = [...new Set(qs.map(q=>q.disciplina))].sort();
     const bancas = [...new Set(qs.map(q=>q.banca))].sort();
+    const concursos = [...new Set(qs.map(q=>q.concurso).filter(Boolean))].sort();
     root.append(el(`
       <div>
         <div class="card">
           <h2>✍️ Banco de questões</h2>
-          <p class="mut small">${qs.length} questões de certo/errado. Filtre e monte uma sessão.</p>
+          <p class="mut small">${qs.length} questões reais de provas anteriores. Filtre e monte uma sessão.</p>
           <div class="filters">
+            <select class="field" id="qConcurso"><option value="">Todos os concursos</option>${concursos.map(x=>`<option>${esc(x)}</option>`).join("")}</select>
             <select class="field" id="qDisc"><option value="">Todas as disciplinas</option>${discs.map(x=>`<option>${esc(x)}</option>`).join("")}</select>
             <select class="field" id="qBanca"><option value="">Todas as bancas</option>${bancas.map(x=>`<option>${esc(x)}</option>`).join("")}</select>
           </div>
@@ -433,8 +435,9 @@ SCREENS.questoes = {
     </div>`));
 
     const pick = ()=>{
-      const dv=$("#qDisc").value, bv=$("#qBanca").value, unseen=$("#qUnseen").checked;
+      const cv=$("#qConcurso").value, dv=$("#qDisc").value, bv=$("#qBanca").value, unseen=$("#qUnseen").checked;
       return qs.filter(q=>{
+        if(cv && q.concurso!==cv) return false;
         if(dv && q.disciplina!==dv) return false;
         if(bv && q.banca!==bv) return false;
         if(unseen && (q.id in S.respostas)) return false;
@@ -454,14 +457,24 @@ SCREENS.questoes = {
     };
   }
 };
-function toSessionCE(q){
-  return {
-    tipo:"certo_errado", disciplina:q.disciplina,
-    fonte: q.fonte || `${q.banca} ${q.ano} ${q.concurso||""}`.trim(),
-    context:"", stem:q.questao, correct:q.gabarito,
-    explicacao:q.explicacao || "", _id:q.id
+function toSession(q){
+  const ref = [q.concurso, q.cargo, q.banca, q.ano].filter(Boolean).join(" · ");
+  const base = {
+    disciplina:q.disciplina,
+    fonte: ref || q.fonte || "",
+    context: q.enunciado || "",
+    stem: q.questao,
+    explicacao: q.explicacao || "",
+    _id: q.id
   };
+  if(q.tipo === "multipla" && Array.isArray(q.alternativas)){
+    return { ...base, tipo:"multipla",
+      alternatives: q.alternativas.map((t,i)=>({ letter:"ABCDE"[i], text:t })),
+      correct: q.gabarito };
+  }
+  return { ...base, tipo:"certo_errado", correct:q.gabarito };
 }
+const toSessionCE = toSession; // compat
 
 /* ============================================================
    MOTOR DE QUESTÕES (quiz)  — usado por questoes / provas / simulado / trilhas
@@ -590,13 +603,15 @@ SCREENS.simulado = {
   sub:"simulado cronometrado",
   render(){
     const doc = DATA.questoes;
-    const discs = doc? [...new Set(doc.questoes.map(q=>q.disciplina))].sort() : [];
+    const concursos = doc? [...new Set(doc.questoes.map(q=>q.concurso).filter(Boolean))].sort() : [];
     root.append(el(`
       <div>
         <div class="card">
           <h2>⏱️ Simulado</h2>
-          <p class="mut small">Mistura questões do banco (certo/errado) com questões do ENEM. Cronometrado, com placar por disciplina.</p>
-          <label class="small mut">Quantidade</label>
+          <p class="mut small">Questões reais de provas anteriores + questões do ENEM. Cronometrado, com placar por disciplina.</p>
+          <label class="small mut">Concurso</label>
+          <select class="field" id="sConcurso"><option value="">Todos</option>${concursos.map(x=>`<option>${esc(x)}</option>`).join("")}</select>
+          <label class="small mut" style="display:block;margin-top:8px">Quantidade</label>
           <select class="field" id="sQtd"><option>10</option><option selected>20</option><option>30</option></select>
           <label class="small mut" style="display:block;margin-top:8px">Incluir ENEM</label>
           <select class="field" id="sEnem">
@@ -621,9 +636,12 @@ SCREENS.simulado = {
     });
     $("#sGo").onclick = async ()=>{
       const btn=$("#sGo"), msg=$("#sMsg"); btn.disabled=true; msg.textContent="Montando o simulado...";
-      const qtd = +$("#sQtd").value, enemY = $("#sEnem").value;
+      const qtd = +$("#sQtd").value, enemY = $("#sEnem").value, cv = $("#sConcurso").value;
       let items = [];
-      if(doc) items = shuffle(doc.questoes).slice(0, enemY==="0"?qtd:Math.ceil(qtd*0.6)).map(toSessionCE);
+      if(doc){
+        let pool = doc.questoes.filter(q=>!cv || q.concurso===cv);
+        items = shuffle(pool).slice(0, enemY==="0"?qtd:Math.ceil(qtd*0.6)).map(toSessionCE);
+      }
       if(enemY!=="0"){
         try{ items = items.concat(await loadEnemQuestions(+enemY, "", qtd-items.length)); }
         catch(e){ msg.textContent="ENEM indisponível agora — seguindo só com o banco local."; }
