@@ -76,6 +76,29 @@ img{max-width:100%}
 .q-support summary::-webkit-details-marker{display:none}
 .q-context{white-space:pre-wrap;background:#0b1020;border:1px solid var(--line);border-radius:12px;
   padding:12px;font-size:14px;line-height:1.55;max-height:46vh;overflow:auto}
+.qbar{display:flex;align-items:center;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:10px}
+.qbar .tab{border:0;background:none;color:var(--mut);font-weight:800;font-size:12.5px;padding:6px 9px;border-radius:8px}
+.qbar .tab.on{color:var(--gold);background:var(--panel2)}
+.qbar .timer{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:800;color:var(--blue);
+  border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-size:13px}
+.qcrumb{font-size:11.5px;color:var(--mut);margin-bottom:8px}
+.qcrumb b{color:var(--txt)}
+.qmeta{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:10px;font-size:13px}
+.qmeta .h{font-weight:800;margin-bottom:5px}
+.qmeta .h .ac{color:var(--green)}.qmeta .h .er{color:var(--red)}
+.qmeta div{margin:2px 0}
+.qmeta .k{color:var(--mut)}
+.qidrow{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--mut);margin-bottom:12px}
+.qidrow .fav{border:0;background:none;font-size:19px;line-height:1;cursor:pointer;padding:0}
+.qidrow .nav{margin-left:auto;display:flex;gap:6px}
+.qidrow .nav button{border:1px solid var(--line);background:var(--panel2);color:var(--txt);border-radius:9px;width:34px;height:30px;font-weight:900}
+.qidrow .nav button:disabled{opacity:.35}
+.gabgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:6px}
+.gabcell{border:1px solid var(--line);background:var(--panel2);border-radius:9px;padding:6px 4px;text-align:center;font-size:12px}
+.gabcell b{display:block;font-size:14px}
+.gabcell.ok{border-color:var(--green);color:var(--green)}
+.gabcell.bad{border-color:var(--red);color:var(--red)}
+.gabcell.cur{outline:2px solid var(--blue)}
 .q-stem{font-size:17px;font-weight:650;margin:12px 0}
 .opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--panel2);
   border-radius:14px;padding:12px 14px;margin:7px 0;font-weight:600}
@@ -461,9 +484,11 @@ SCREENS.questoes = {
   }
 };
 function toSession(q){
-  const ref = [q.concurso, q.cargo, q.banca, q.ano].filter(Boolean).join(" · ");
+  const ref = [q.banca, q.ano, q.cargo].filter(Boolean).join(" · ");
   const base = {
     disciplina:q.disciplina,
+    concurso: q.concurso || "",
+    topico: q.topico || "",
     fonte: ref || q.fonte || "",
     context: q.enunciado || "",
     stem: q.questao,
@@ -482,26 +507,74 @@ const toSessionCE = toSession; // compat
 /* ============================================================
    MOTOR DE QUESTÕES (quiz)  — usado por questoes / provas / simulado / trilhas
    ============================================================ */
-let Q = null;
+let Q = null, qTimer = null;
 function startSession(items, opts){
-  Q = { items, i:0, answers:[], startedAt:Date.now(), opts:opts||{} };
+  opts = opts || {};
+  if(opts.corrigirNaHora === undefined) opts.corrigirNaHora = true;
+  Q = { items, i:0, answers:new Array(items.length).fill(null), startedAt:Date.now(),
+        elapsed:0, opts, view:"questoes" };
   go("quiz");
 }
+function qStats(){
+  let resolvidas=0, acertos=0, erros=0;
+  Q.answers.forEach((a,i)=>{ if(a==null) return; resolvidas++;
+    if(a===Q.items[i].correct) acertos++; else erros++; });
+  return { resolvidas, acertos, erros };
+}
+function fmtClock(s){ const m=Math.floor(s/60); return `${String(m).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`; }
+function startClock(){
+  stopClock();
+  qTimer = setInterval(()=>{
+    if(!Q){ stopClock(); return; }
+    Q.elapsed = Math.round((Date.now()-Q.startedAt)/1000);
+    const t = document.getElementById("qClock");
+    if(t) t.textContent = fmtClock(Q.elapsed); else stopClock();
+  }, 1000);
+}
+function stopClock(){ if(qTimer){ clearInterval(qTimer); qTimer=null; } }
+
 SCREENS.quiz = {
-  sub:"sessão de questões",
+  sub:"questões",
   render(){
     if(!Q){ go("home"); return; }
+    root.innerHTML = "";
+    if(Q.i >= Q.items.length){ return renderQuizResult(); }
     const it = Q.items[Q.i];
-    const done = Q.i>=Q.items.length;
-    if(done){ return renderQuizResult(); }
+    const st = qStats();
+    window.scrollTo(0,0);
+    backBtn.classList.remove("hidden");
     brandSub.textContent = `${Q.opts.titulo||"questões"} · ${Q.i+1}/${Q.items.length}`;
-    const answeredThis = Q.answers[Q.i];
+
+    const bar = el(`
+      <div class="qbar">
+        <button class="tab ${Q.view==="questoes"?"on":""}" data-v="questoes">Questões</button>
+        <button class="tab ${Q.view==="gabarito"?"on":""}" data-v="gabarito">Gabarito</button>
+        <button class="tab ${Q.view==="config"?"on":""}" data-v="config">Config</button>
+        <span class="timer" id="qClock">${fmtClock(Q.elapsed)}</span>
+      </div>`);
+    root.append(bar);
+    bar.querySelectorAll(".tab").forEach(b=> b.onclick = ()=>{ Q.view=b.dataset.v; SCREENS.quiz.render(); });
+
+    if(Q.view === "gabarito"){ startClock(); return renderGabaritoView(); }
+    if(Q.view === "config"){ startClock(); return renderConfigView(); }
+
+    const fav = it._id && S.favoritos.includes(it._id);
     const box = el(`
       <div>
-        <div class="progressbar" style="margin:4px 0 12px"><i style="width:${Q.i/Q.items.length*100}%"></i></div>
-        <div class="row wrap small mut">
-          <span class="pill muted">${esc(it.disciplina||"")}</span>
-          <span class="pill muted">${esc(it.fonte||"")}</span>
+        <div class="qcrumb">Estudo › <b>${esc(it.concurso || Q.opts.titulo || "Questões")}</b> › <b>${esc(it.disciplina||"")}</b></div>
+        <div class="qmeta">
+          <div class="h">Questão ${Q.i+1} de ${Q.items.length}
+            <span class="mut">(${st.resolvidas} resolvidas, <span class="ac">${st.acertos} acertos</span> e <span class="er">${st.erros} erros</span>)</span></div>
+          <div><span class="k">Matéria:</span> ${esc(it.disciplina||"—")}</div>
+          <div><span class="k">Assunto:</span> ${esc(it.topico||"—")}</div>
+        </div>
+        <div class="qidrow">
+          <button class="fav" title="salvar questão">${fav?"★":"☆"}</button>
+          <span>#${esc(it._id||"—")} &nbsp;·&nbsp; ${esc(it.fonte||"")}</span>
+          <span class="nav">
+            <button id="qPrev" ${Q.i===0?"disabled":""}>‹</button>
+            <button id="qNextNav" ${Q.i+1>=Q.items.length?"disabled":""}>›</button>
+          </span>
         </div>
         ${it.context?`<details class="q-support" open><summary>📄 Texto de apoio (toque para recolher)</summary><div class="q-context">${esc(it.context)}</div></details>`:""}
         <div class="q-stem">${esc(it.stem)}</div>
@@ -509,32 +582,55 @@ SCREENS.quiz = {
         <div id="qFeed"></div>
       </div>`);
     root.append(box);
+    startClock();
+
+    box.querySelector(".fav").onclick = ()=>{
+      if(!it._id) return;
+      const k = S.favoritos.indexOf(it._id);
+      if(k>=0) S.favoritos.splice(k,1); else S.favoritos.push(it._id);
+      save(); SCREENS.quiz.render();
+    };
+    $("#qPrev").onclick = ()=>{ if(Q.i>0){ Q.i--; SCREENS.quiz.render(); } };
+    $("#qNextNav").onclick = ()=>{ if(Q.i+1<Q.items.length){ Q.i++; SCREENS.quiz.render(); } };
+
     const area = $("#qArea"), feed = $("#qFeed");
+    const answeredThis = Q.answers[Q.i];
 
     if(it.tipo==="certo_errado"){
       const wrap = el(`<div class="ce"><button data-v="CERTO">CERTO</button><button data-v="ERRADO">ERRADO</button></div>`);
       area.append(wrap);
       wrap.querySelectorAll("button").forEach(b=> b.onclick = ()=> answerQuiz(b.dataset.v, wrap, feed, it));
-      if(answeredThis) lockCE(wrap, feed, it, answeredThis);
+      if(answeredThis){ Q.opts.corrigirNaHora ? lockCE(wrap, feed, it, answeredThis) : markCEpick(wrap, answeredThis); }
     } else {
       it.alternatives.forEach(a=>{
         const b = el(`<button class="opt"><span class="lt">${a.letter}</span>${esc(a.text)}</button>`);
         b.onclick = ()=> answerQuiz(a.letter, area, feed, it);
         area.append(b);
       });
-      if(answeredThis) lockMC(area, feed, it, answeredThis);
+      if(answeredThis){ Q.opts.corrigirNaHora ? lockMC(area, feed, it, answeredThis) : markMCpick(area, answeredThis); }
     }
   }
 };
+
+function markCEpick(wrap, chosen){
+  wrap.querySelectorAll("button").forEach(b=>{ b.disabled=true; if(b.dataset.v===chosen) b.classList.add("pick"); });
+  $("#qFeed").innerHTML = `<button class="btn primary wide" id="qNext">${Q.i+1>=Q.items.length?"Finalizar":"Próxima →"}</button>`;
+  $("#qNext").onclick = ()=>{ Q.i++; SCREENS.quiz.render(); };
+}
+function markMCpick(area, chosen){
+  area.querySelectorAll(".opt").forEach(b=>{ b.disabled=true; if(b.querySelector(".lt").textContent===chosen) b.classList.add("pick"); });
+  $("#qFeed").innerHTML = `<button class="btn primary wide" id="qNext">${Q.i+1>=Q.items.length?"Finalizar":"Próxima →"}</button>`;
+  $("#qNext").onclick = ()=>{ Q.i++; SCREENS.quiz.render(); };
+}
 function verdict(feed, it, chosen){
   const ok = chosen===it.correct;
   feed.innerHTML = `
     <div class="explain">
-      <b style="color:${ok?"var(--green)":"var(--red)"}">${ok?"✓ Você acertou":"✗ Resposta: "+it.correct}</b>
-      ${it.explicacao?`<p style="margin:6px 0 0">${esc(it.explicacao)}</p>`:`<p class="mut" style="margin:6px 0 0">Gabarito oficial: <b>${it.correct}</b>.</p>`}
+      <b style="color:${ok?"var(--green)":"var(--red)"}">${ok?"✓ Você acertou":"✗ Resposta correta: "+it.correct}</b>
+      ${it.explicacao?`<p style="margin:6px 0 0">${esc(it.explicacao)}</p>`:`<p class="mut" style="margin:6px 0 0">Gabarito oficial: <b>${it.correct}</b>. Explicação será adicionada em breve.</p>`}
     </div>
-    <button class="btn primary wide" id="qNext">${Q.i+1>=Q.items.length?"Ver resultado":"Próxima →"}</button>`;
-  $("#qNext").onclick = ()=>{ Q.i++; go("quiz"); };
+    <button class="btn primary wide" id="qNext">${Q.i+1>=Q.items.length?"Finalizar":"Próxima →"}</button>`;
+  $("#qNext").onclick = ()=>{ Q.i++; SCREENS.quiz.render(); };
 }
 function lockCE(wrap, feed, it, chosen){
   wrap.querySelectorAll("button").forEach(b=>{
@@ -557,8 +653,11 @@ function answerQuiz(chosen, area, feed, it){
   if(Q.answers[Q.i]) return;
   Q.answers[Q.i] = chosen;
   const ok = chosen===it.correct;
-  if(it.tipo==="certo_errado") lockCE(area, feed, it, chosen); else lockMC(area, feed, it, chosen);
-  // persistência: só questões do banco local (id sem prefixo enem-)
+  if(Q.opts.corrigirNaHora){
+    if(it.tipo==="certo_errado") lockCE(area, feed, it, chosen); else lockMC(area, feed, it, chosen);
+  } else {
+    if(it.tipo==="certo_errado") markCEpick(area, chosen); else markMCpick(area, chosen);
+  }
   if(it._id && !String(it._id).startsWith("enem-")){
     S.respostas[it._id] = ok;
     const ri = S.revisao.indexOf(it._id);
@@ -566,35 +665,82 @@ function answerQuiz(chosen, area, feed, it){
     if(ok && ri>=0) S.revisao.splice(ri,1);
     save();
   }
+  const h = document.querySelector(".qmeta .h");
+  if(h){ const s=qStats();
+    h.innerHTML = `Questão ${Q.i+1} de ${Q.items.length} <span class="mut">(${s.resolvidas} resolvidas, <span class="ac">${s.acertos} acertos</span> e <span class="er">${s.erros} erros</span>)</span>`;
+  }
 }
+
+function renderGabaritoView(){
+  const st = qStats();
+  const wrap = el(`<div>
+    <p class="mut small">${st.resolvidas}/${Q.items.length} respondidas · ${st.acertos} certas · ${st.erros} erradas</p>
+    <div class="gabgrid" id="gg"></div>
+    <button class="btn wide" id="ggFinish" style="margin-top:14px">Finalizar e ver relatório</button>
+  </div>`);
+  root.append(wrap);
+  const gg = $("#gg");
+  Q.items.forEach((it,i)=>{
+    const a = Q.answers[i];
+    const cls = a==null ? "" : (a===it.correct ? "ok" : "bad");
+    const cell = el(`<button class="gabcell ${cls} ${i===Q.i?"cur":""}">
+      <b>${i+1}</b>${a==null?"—":(it.tipo==="certo_errado"? a[0] : a)}</button>`);
+    cell.onclick = ()=>{ Q.i=i; Q.view="questoes"; SCREENS.quiz.render(); };
+    gg.append(cell);
+  });
+  $("#ggFinish").onclick = ()=>{ Q.i=Q.items.length; SCREENS.quiz.render(); };
+}
+
+function renderConfigView(){
+  const o = Q.opts;
+  const wrap = el(`<div>
+    <label class="check" style="border:0"><input type="checkbox" id="cfgCorrige" ${o.corrigirNaHora?"checked":""}>
+      <span>Corrigir ao responder <span class="mut small">(desmarcado: só corrige no fim, estilo prova)</span></span></label>
+    <button class="btn wide" id="cfgReset" style="margin-top:14px">Reiniciar esta sessão</button>
+    <button class="btn wide ghost" id="cfgSair" style="margin-top:8px">Sair sem finalizar</button>
+  </div>`);
+  root.append(wrap);
+  $("#cfgCorrige").onchange = e=>{ o.corrigirNaHora = e.target.checked; };
+  $("#cfgReset").onclick = ()=>{
+    Q.answers = new Array(Q.items.length).fill(null); Q.i=0; Q.startedAt=Date.now(); Q.elapsed=0; Q.view="questoes";
+    SCREENS.quiz.render();
+  };
+  $("#cfgSair").onclick = ()=>{ stopClock(); Q=null; go("home"); };
+}
+
 function renderQuizResult(){
+  stopClock();
   const total = Q.items.length;
   const acertos = Q.answers.filter((a,i)=>a===Q.items[i].correct).length;
-  const pct = Math.round(acertos/total*100);
-  const secs = Math.round((Date.now()-Q.startedAt)/1000);
+  const respondidas = Q.answers.filter(a=>a!=null).length;
+  const pct = respondidas ? Math.round(acertos/respondidas*100) : 0;
+  const secs = Q.elapsed || Math.round((Date.now()-Q.startedAt)/1000);
   const byDisc = {};
   Q.items.forEach((it,i)=>{
     const d = it.disciplina||"Geral";
-    byDisc[d] = byDisc[d]||{t:0,c:0};
-    byDisc[d].t++; if(Q.answers[i]===it.correct) byDisc[d].c++;
+    byDisc[d] = byDisc[d]||{t:0,c:0,r:0};
+    byDisc[d].t++;
+    if(Q.answers[i]!=null){ byDisc[d].r++; if(Q.answers[i]===it.correct) byDisc[d].c++; }
   });
   if(Q.opts.mode==="simulado"){
     S.simulados.push({ data:new Date().toISOString(), total, acertos, pct, secs });
     S.simulados = S.simulados.slice(-30); save();
   }
-  brandSub.textContent = "resultado";
+  brandSub.textContent = "relatório";
   root.innerHTML = "";
   root.append(el(`
     <div class="result">
       <div class="big">${pct>=70?"🏅":pct>=50?"💪":"📌"}</div>
-      <h2>${acertos} de ${total} — ${pct}%</h2>
-      <p class="mut">Tempo: ${Math.floor(secs/60)}min ${secs%60}s</p>
+      <h2>${acertos} de ${respondidas} — ${pct}%</h2>
+      <p class="mut">${total} questões · tempo ${Math.floor(secs/60)}min ${secs%60}s</p>
       <div class="kv">
-        ${Object.entries(byDisc).map(([d,o])=>`<div><b>${o.c}/${o.t}</b><span class="mut small">${esc(d)}</span></div>`).join("")}
+        ${Object.entries(byDisc).map(([d,o])=>`<div><b>${o.c}/${o.r||o.t}</b><span class="mut small">${esc(d)}</span></div>`).join("")}
       </div>
-      <button class="btn primary wide" id="rHome" style="margin-top:8px">Voltar ao início</button>
-      <button class="btn wide ghost" id="rAgain" style="margin-top:8px">Nova sessão</button>
+      <button class="btn primary wide" id="rReview" style="margin-top:8px">Revisar questões</button>
+      <button class="btn wide" id="rAgain" style="margin-top:8px">Nova sessão</button>
+      <button class="btn wide ghost" id="rHome" style="margin-top:8px">Início</button>
     </div>`));
+  $("#rReview").onclick = ()=>{ Q.i=0; Q.view="questoes"; brandSub.textContent="questões"; SCREENS.quiz.render(); };
   $("#rHome").onclick = ()=>{ Q=null; go("home"); };
   $("#rAgain").onclick = ()=>{ Q=null; back(); };
 }
