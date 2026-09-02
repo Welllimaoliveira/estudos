@@ -1,0 +1,88 @@
+{
+  "_comentario": "Catalogo de APIs e fontes de dados usadas (ou uteis) para o Estuda Ai. 'status' = como o site usa hoje.",
+  "fontes": [
+    {
+      "nome": "ENEM API (enem.dev)",
+      "tipo": "API REST publica",
+      "base": "https://api.enem.dev/v1",
+      "auth": "Nenhuma",
+      "cors": "Liberado (Access-Control-Allow-Origin: *)",
+      "limite": "~10 requisicoes por janela curta (header X-Ratelimit-Limit)",
+      "fornece": "Provas e questoes reais do ENEM 2009-2023: enunciado, imagens, alternativas e gabarito.",
+      "endpoints": [
+        "GET /exams  - lista de provas por ano",
+        "GET /exams/{ano}  - detalhe da prova",
+        "GET /exams/{ano}/questions?limit=&offset=  - questoes paginadas",
+        "GET /exams/{ano}/questions/{indice}  - questao especifica"
+      ],
+      "docs": "https://docs.enem.dev",
+      "status": "USADA no site (modulo Provas ENEM e Banco de Questoes, direto do navegador)."
+    },
+    {
+      "nome": "Concursos no Brasil - RSS de concursos",
+      "tipo": "Feed RSS",
+      "base": "https://www.concursosnobrasil.com.br/concursos/feed/",
+      "auth": "Nenhuma",
+      "cors": "Nao (lido no servidor pela GitHub Action, nao pelo navegador)",
+      "limite": "Feed com ~10-25 itens mais recentes",
+      "fornece": "Concursos abertos e previstos: orgao, UF, status, vagas, salario, link para a materia.",
+      "docs": "https://www.concursosnobrasil.com.br/",
+      "status": "USADA pela Action atualizar-concursos (gera data/concursos.json 1x/dia)."
+    },
+    {
+      "nome": "JC Concursos - RSS de noticias",
+      "tipo": "Feed RSS",
+      "base": "https://www.jcconcursos.com.br/feed/",
+      "auth": "Nenhuma",
+      "cors": "Nao (lido no servidor pela Action)",
+      "limite": "Feed de noticias recentes",
+      "fornece": "Noticias e avisos de edital publicado, prorrogacao, convocacao.",
+      "docs": "https://jcconcursos.uol.com.br/",
+      "status": "USADA pela Action como fonte complementar de editais/noticias."
+    },
+    {
+      "nome": "Google Gemini API",
+      "tipo": "API de LLM",
+      "base": "https://generativelanguage.googleapis.com/v1beta",
+      "auth": "Chave de API (GEMINI_API_KEY, tier gratuito)",
+      "cors": "Nao usar no navegador (chave ficaria exposta) - roda na Action",
+      "limite": "Cota diaria do tier gratuito, folgada para o uso do projeto",
+      "fornece": "Geracao de novas questoes de estudo e explicacoes didaticas (gabarito nunca e decidido pela IA).",
+      "docs": "https://ai.google.dev/gemini-api/docs",
+      "status": "USADA pela Action gerar-questoes."
+    },
+    {
+      "nome": "Sites das bancas (Cebraspe, FGV, FCC, Cesgranrio, VUNESP...)",
+      "tipo": "Paginas oficiais",
+      "base": "ver data/bancas.json",
+      "auth": "Nenhuma",
+      "cors": "-",
+      "limite": "-",
+      "fornece": "Provas anteriores e gabaritos oficiais definitivos, editais.",
+      "docs": "",
+      "status": "USADA como links curados no modulo Provas & Gabaritos."
+    },
+    {
+      "nome": "Imprensa Nacional - Diario Oficial da Uniao (DOU)",
+      "tipo": "Portal de consulta",
+      "base": "https://www.in.gov.br/consulta/",
+      "auth": "Nenhuma para consulta",
+      "cors": "-",
+      "limite": "-",
+      "fornece": "Publicacao oficial de editais de concursos federais.",
+      "docs": "https://www.in.gov.br/",
+      "status": "NAO integrada ainda - candidata para a v2 (buscar editais federais direto na fonte)."
+    },
+    {
+      "nome": "PCI Concursos",
+      "tipo": "Site agregador",
+      "base": "https://www.pciconcursos.com.br/",
+      "auth": "-",
+      "cors": "-",
+      "limite": "Nao possui RSS/API aberta; bloqueia acesso automatizado",
+      "fornece": "Maior lista de concursos do Brasil (consulta manual).",
+      "docs": "",
+      "status": "NAO integrada - apenas link externo para consulta manual."
+    }
+  ]
+}

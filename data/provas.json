@@ -1,0 +1,86 @@
+{
+  "_comentario": "Links curados de provas anteriores e gabaritos oficiais. Sempre confira a versao definitiva do gabarito no site da banca.",
+  "atualizado_em": "2026-09-01",
+  "provas": [
+    {
+      "orgao": "Policia Rodoviaria Federal (PRF)",
+      "cargo": "Policial Rodoviario Federal",
+      "ano": 2021,
+      "banca": "Cebraspe",
+      "nivel": "Superior",
+      "prova": "https://www.cebraspe.org.br/concursos/prf_21",
+      "gabarito": "https://www.cebraspe.org.br/concursos/prf_21",
+      "tags": ["policial", "federal", "seguranca"]
+    },
+    {
+      "orgao": "Policia Federal (PF)",
+      "cargo": "Agente / Escrivao / Delegado",
+      "ano": 2021,
+      "banca": "Cebraspe",
+      "nivel": "Superior",
+      "prova": "https://www.cebraspe.org.br/concursos/pf_21",
+      "gabarito": "https://www.cebraspe.org.br/concursos/pf_21",
+      "tags": ["policial", "federal", "seguranca"]
+    },
+    {
+      "orgao": "INSS",
+      "cargo": "Tecnico do Seguro Social",
+      "ano": 2022,
+      "banca": "Cebraspe",
+      "nivel": "Medio",
+      "prova": "https://www.cebraspe.org.br/concursos/inss_22",
+      "gabarito": "https://www.cebraspe.org.br/concursos/inss_22",
+      "tags": ["federal", "previdencia", "nivel medio"]
+    },
+    {
+      "orgao": "Receita Federal",
+      "cargo": "Auditor-Fiscal / Analista-Tributario",
+      "ano": 2023,
+      "banca": "FGV",
+      "nivel": "Superior",
+      "prova": "https://conhecimento.fgv.br/concursos/rfb23",
+      "gabarito": "https://conhecimento.fgv.br/concursos/rfb23",
+      "tags": ["fiscal", "federal", "tributos"]
+    },
+    {
+      "orgao": "Tribunal de Justica de Sao Paulo (TJ-SP)",
+      "cargo": "Escrevente Tecnico Judiciario",
+      "ano": 2023,
+      "banca": "VUNESP",
+      "nivel": "Superior",
+      "prova": "https://www.vunesp.com.br/",
+      "gabarito": "https://www.vunesp.com.br/",
+      "tags": ["tribunal", "judiciario", "estadual"]
+    },
+    {
+      "orgao": "Banco do Brasil",
+      "cargo": "Escriturario - Agente Comercial",
+      "ano": 2023,
+      "banca": "Cesgranrio",
+      "nivel": "Medio",
+      "prova": "https://www.cesgranrio.org.br/concursos/encerrados/",
+      "gabarito": "https://www.cesgranrio.org.br/concursos/encerrados/",
+      "tags": ["bancario", "nivel medio"]
+    },
+    {
+      "orgao": "Camara dos Deputados",
+      "cargo": "Analista Legislativo",
+      "ano": 2024,
+      "banca": "FGV",
+      "nivel": "Superior",
+      "prova": "https://conhecimento.fgv.br/concursos",
+      "gabarito": "https://conhecimento.fgv.br/concursos",
+      "tags": ["legislativo", "federal"]
+    },
+    {
+      "orgao": "ENEM (referencia de interpretacao e RLM)",
+      "cargo": "Exame Nacional do Ensino Medio",
+      "ano": 2023,
+      "banca": "Inep",
+      "nivel": "Medio",
+      "prova": "enem-api",
+      "gabarito": "enem-api",
+      "tags": ["enem", "interpretacao", "questoes na hora"]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_comentario": "Bancas organizadoras de concursos no Brasil. 'site' e a pagina oficial de provas/gabaritos ou concursos.",
+  "bancas": [
+    {
+      "id": "cebraspe",
+      "nome": "Cebraspe (CESPE)",
+      "site": "https://www.cebraspe.org.br/concursos/",
+      "estilo": "Itens de certo/errado, penaliza erro. Enunciados longos, pegadinhas de literalidade.",
+      "provas": "https://www.cebraspe.org.br/concursos/encerrado"
+    },
+    {
+      "id": "fgv",
+      "nome": "FGV",
+      "site": "https://conhecimento.fgv.br/concursos",
+      "estilo": "Multipla escolha (5 alternativas). Provas analiticas, textos densos, muita interpretacao.",
+      "provas": "https://conhecimento.fgv.br/concursos/encerrados"
+    },
+    {
+      "id": "fcc",
+      "nome": "FCC (Fundacao Carlos Chagas)",
+      "site": "https://www.concursosfcc.com.br/",
+      "estilo": "Multipla escolha (5 alternativas). Cobranca literal de lei, questoes objetivas e diretas.",
+      "provas": "https://www.concursosfcc.com.br/concursos/"
+    },
+    {
+      "id": "cesgranrio",
+      "nome": "Cesgranrio",
+      "site": "https://www.cesgranrio.org.br/",
+      "estilo": "Multipla escolha (5 alternativas). Forte em raciocinio logico, matematica e informatica.",
+      "provas": "https://www.cesgranrio.org.br/concursos/encerrados/"
+    },
+    {
+      "id": "ibfc",
+      "nome": "IBFC",
+      "site": "https://www.ibfc.org.br/",
+      "estilo": "Multipla escolha (4 ou 5 alternativas). Bastante usada em concursos de nivel medio e saude.",
+      "provas": "https://www.ibfc.org.br/"
+    },
+    {
+      "id": "vunesp",
+      "nome": "VUNESP",
+      "site": "https://www.vunesp.com.br/",
+      "estilo": "Multipla escolha (5 alternativas). Comum em concursos de SP (TJ, PC, prefeituras).",
+      "provas": "https://www.vunesp.com.br/"
+    },
+    {
+      "id": "quadrix",
+      "nome": "Quadrix",
+      "site": "https://www.quadrix.org.br/",
+      "estilo": "Itens de certo/errado e multipla escolha. Conselhos de classe (CRM, CRF, etc.).",
+      "provas": "https://www.quadrix.org.br/concursos-e-selecoes.aspx"
+    },
+    {
+      "id": "instituto-aocp",
+      "nome": "Instituto AOCP / Instituto Access",
+      "site": "https://www.institutoaocp.org.br/",
+      "estilo": "Multipla escolha. Concursos federais, IBGE, EBSERH.",
+      "provas": "https://www.institutoaocp.org.br/"
+    }
+  ]
+}

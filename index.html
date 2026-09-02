@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0f1424">
+<meta name="description" content="Concursos abertos, provas anteriores, banco de questões e trilhas de estudo — tudo num lugar só.">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Estuda Aí — Concursos</title>
+<style>
+:root{
+  --bg:#0f1424;--panel:#171f34;--panel2:#212c49;--line:#33405f;
+  --txt:#f4f2e9;--mut:#a6b0c8;--gold:#f1b54f;--goldsoft:#ffd680;
+  --green:#6ed39b;--red:#ff6d7b;--blue:#64c7ff;--purple:#b58bff;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%;background:var(--bg);color:var(--txt);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.5}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--blue)}
+.hidden{display:none!important}
+img{max-width:100%}
+.app{max-width:680px;margin:auto;min-height:100vh;
+  padding:calc(10px + env(safe-area-inset-top)) 14px calc(28px + env(safe-area-inset-bottom))}
+.top{display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:8;
+  background:rgba(15,20,36,.94);backdrop-filter:blur(6px);padding:10px 0;margin-bottom:6px}
+.brand{font-weight:900;font-size:20px;letter-spacing:.3px}
+.brand em{color:var(--gold);font-style:normal}
+.brand small{display:block;font-size:11px;color:var(--mut);font-weight:600;letter-spacing:0}
+.back{border:1px solid var(--line);background:var(--panel2);border-radius:13px;padding:8px 12px;font-weight:800}
+.spacer{flex:1}
+.card{background:linear-gradient(180deg,var(--panel),#131a2c);border:1px solid var(--line);
+  border-radius:20px;padding:15px;margin:11px 0}
+.card h2{margin:.1em 0 .3em;font-size:19px}
+.card h3{margin:.2em 0}
+.mut{color:var(--mut)}
+.small{font-size:13px}
+.row{display:flex;gap:8px;align-items:center}
+.wrap{flex-wrap:wrap}
+.grow{flex:1}
+.pill{display:inline-flex;align-items:center;gap:5px;background:var(--panel2);border:1px solid var(--line);
+  border-radius:999px;padding:4px 10px;font-size:12px;font-weight:800;white-space:nowrap}
+.pill.gold{color:var(--gold);border-color:#5a4a26}
+.pill.green{color:var(--green);border-color:#2e5a44}
+.pill.blue{color:var(--blue);border-color:#2a4d63}
+.pill.muted{color:var(--mut)}
+.btn{border:1px solid var(--line);background:var(--panel2);border-radius:14px;padding:11px 14px;font-weight:800}
+.btn.primary{border:0;background:linear-gradient(135deg,var(--gold),var(--goldsoft));color:#1a1c26;
+  box-shadow:0 4px 0 #8e6a2c}
+.btn.primary:active{transform:translateY(2px);box-shadow:0 2px 0 #8e6a2c}
+.btn.wide{width:100%}
+.btn.ghost{background:transparent}
+.btn:disabled{opacity:.45;pointer-events:none}
+.hero{text-align:center;padding:14px 6px 4px}
+.hero .e{font-size:56px}
+.hero h1{margin:4px 0;font-size:30px}
+.hero h1 em{color:var(--gold);font-style:normal}
+.modgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
+.mod{display:flex;flex-direction:column;gap:3px;align-items:flex-start;text-align:left;
+  border:1px solid var(--line);background:var(--panel2);border-radius:17px;padding:13px;min-height:104px}
+.mod .ico{font-size:26px}
+.mod b{font-size:14px}
+.mod small{color:var(--mut);font-size:11.5px}
+.stat{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+.field,select.field,textarea.field{width:100%;border:1px solid var(--line);background:#0b1020;
+  border-radius:12px;padding:10px 12px}
+.filters{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.list-item{border:1px solid var(--line);background:var(--panel2);border-radius:16px;padding:13px;margin:9px 0}
+.list-item h3{margin:0 0 5px;font-size:15px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0}
+.linkbtn{color:var(--blue);text-decoration:none;font-weight:800;font-size:13px}
+.star{border:0;background:none;font-size:20px;line-height:1;padding:2px 4px}
+.q-context{white-space:pre-wrap;background:#0b1020;border:1px solid var(--line);border-radius:12px;
+  padding:12px;margin:10px 0;font-size:14px;max-height:38vh;overflow:auto}
+.q-stem{font-size:17px;font-weight:650;margin:12px 0}
+.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--panel2);
+  border-radius:14px;padding:12px 14px;margin:7px 0;font-weight:600}
+.opt .lt{color:var(--gold);font-weight:900;margin-right:8px}
+.opt.ok{border-color:var(--green);background:rgba(110,211,155,.14)}
+.opt.bad{border-color:var(--red);background:rgba(255,109,123,.14)}
+.opt.pick{outline:2px solid var(--blue)}
+.ce{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.ce button{border:1px solid var(--line);background:var(--panel2);border-radius:16px;padding:16px;font-weight:900;font-size:16px}
+.ce button.ok{border-color:var(--green);background:rgba(110,211,155,.16)}
+.ce button.bad{border-color:var(--red);background:rgba(255,109,123,.16)}
+.explain{border-left:3px solid var(--gold);background:rgba(241,181,79,.08);
+  border-radius:0 12px 12px 0;padding:10px 12px;margin:12px 0;font-size:14px}
+.progressbar{height:9px;border:1px solid var(--line);background:#0b1020;border-radius:999px;overflow:hidden}
+.progressbar i{display:block;height:100%;background:linear-gradient(90deg,var(--green),var(--blue));width:0}
+.check{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid var(--line)}
+.check:last-child{border-bottom:0}
+.check input{width:20px;height:20px;margin-top:2px;flex:none}
+.result{text-align:center;padding-top:20px}
+.result .big{font-size:64px}
+.kv{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0}
+.kv div{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:10px}
+.kv b{display:block;font-size:20px;color:var(--gold)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:40;background:#fff;color:#151926;
+  border-radius:999px;padding:9px 15px;font-weight:800;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.loading{text-align:center;color:var(--mut);padding:26px}
+table.mini{width:100%;border-collapse:collapse;font-size:13px}
+table.mini th,table.mini td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+table.mini th{color:var(--mut);font-weight:700}
+@media(max-width:400px){.modgrid,.filters{grid-template-columns:1fr}.hero h1{font-size:25px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <button id="backBtn" class="back hidden">‹ Voltar</button>
+    <div class="brand">Estuda <em>Aí</em><small id="brandSub">preparação para concursos</small></div>
+    <div class="spacer"></div>
+  </div>
+  <div id="root"></div>
+</div>
+<div id="toast" class="toast hidden"></div>
+
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+const root = $("#root"), backBtn = $("#backBtn"), brandSub = $("#brandSub");
+const ENEM_BASE = "https://api.enem.dev/v1";
+const KEY = "estuda_ai_v1";
+
+/* ---------- estado local ---------- */
+function fresh(){ return { favoritos:[], respostas:{}, revisao:[], trilhaCheck:{}, simulados:[] }; }
+function load(){ try{ const d = JSON.parse(localStorage.getItem(KEY)); if(d && typeof d==="object") return Object.assign(fresh(), d); }catch(e){} return fresh(); }
+let S = load();
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
+
+/* ---------- dados ---------- */
+const DATA = { concursos:null, questoes:null, provas:null, trilhas:null, bancas:null, fontes:null };
+async function getJSON(path){ const r = await fetch(path, {cache:"no-cache"}); if(!r.ok) throw new Error(path+" "+r.status); return r.json(); }
+
+/* ---------- util ---------- */
+function esc(s){ const d=document.createElement("div"); d.textContent = s==null?"":String(s); return d.innerHTML; }
+function el(html){ const t=document.createElement("template"); t.innerHTML = html.trim(); return t.content.firstElementChild; }
+function toast(t){ const n=$("#toast"); n.textContent=t; n.classList.remove("hidden"); clearTimeout(toast._t); toast._t=setTimeout(()=>n.classList.add("hidden"),1800); }
+function shuffle(a){ a=[...a]; for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function norm(s){ return (s||"").toString().normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase(); }
+function fmtData(iso){ if(!iso) return ""; const d=new Date(iso); if(isNaN(d)) return ""; return d.toLocaleDateString("pt-BR"); }
+function daysAgo(iso){ const d=new Date(iso); if(isNaN(d)) return ""; const n=Math.floor((Date.now()-d)/864e5); return n<=0?"hoje":n===1?"ontem":`há ${n} dias`; }
+
+/* ---------- router ---------- */
+const SCREENS = {};
+let current = "home";
+const stack = [];
+function go(name, opts){
+  if(name !== current){ stack.push(current); current = name; }
+  render_(opts);
+}
+function back(){
+  current = stack.pop() || "home";
+  render_();
+}
+function render_(opts){
+  window.scrollTo(0, 0);
+  backBtn.classList.toggle("hidden", current === "home");
+  const scr = SCREENS[current] || SCREENS.home;
+  brandSub.textContent = scr.sub || "preparação para concursos";
+  root.innerHTML = "";
+  if(scr.render) scr.render(opts || {});
+}
+backBtn.onclick = back;
+
+/* ============================================================
+   HOME
+   ============================================================ */
+const MODULES = [
+  ["concursos","🗂️","Concursos abertos","vagas, salários e status"],
+  ["provas","📄","Provas & gabaritos","provas anteriores por banca"],
+  ["questoes","✍️","Banco de questões","resolva e veja o gabarito"],
+  ["simulado","⏱️","Simulado","cronômetro e placar"],
+  ["trilhas","🧭","Trilhas de estudo","checklist por disciplina"],
+  ["editais","📰","Editais & notícias","o que saiu de novo"],
+  ["fontes","🔌","Fontes & APIs","de onde vêm os dados"],
+];
+SCREENS.home = {
+  sub:"preparação para concursos",
+  render(){
+    const nRev = S.revisao.length, nFav = S.favoritos.length;
+    const nQ = DATA.questoes?.questoes?.length || 0;
+    const upd = DATA.concursos?.atualizado_em;
+    root.append(el(`
+      <div>
+        <div class="hero">
+          <div class="e">📚</div>
+          <h1>Seu <em>quartel-general</em> de estudos</h1>
+          <p class="mut small">Concursos, provas, questões e trilhas — atualizados sozinhos.</p>
+          <div class="stat">
+            <span class="pill gold">✍️ ${nQ} questões</span>
+            <span class="pill green">🔖 ${nFav} salvos</span>
+            <span class="pill blue">🔁 ${nRev} p/ revisar</span>
+          </div>
+        </div>
+        <div class="modgrid" id="mods"></div>
+        ${upd?`<p class="mut small" style="text-align:center;margin-top:14px">Concursos atualizados ${daysAgo(upd)}.</p>`:""}
+      </div>`));
+    const g = $("#mods");
+    MODULES.forEach(m=>{
+      const b = el(`<button class="mod"><span class="ico">${m[1]}</span><b>${m[2]}</b><small>${m[3]}</small></button>`);
+      b.onclick = ()=>go(m[0]);
+      g.append(b);
+    });
+  }
+};
+
+/* ============================================================
+   CONCURSOS
+   ============================================================ */
+SCREENS.concursos = {
+  sub:"concursos abertos e previstos",
+  state:{ q:"", uf:"", status:"", nivel:"", favOnly:false },
+  render(){
+    const d = DATA.concursos;
+    if(!d){ root.append(el(`<div class="loading">Não consegui carregar a lista de concursos.</div>`)); return; }
+    const st = this.state;
+    const ufs = [...new Set(d.concursos.map(c=>c.uf).filter(Boolean))].sort();
+    root.append(el(`
+      <div>
+        <div class="card">
+          <h2>🗂️ Concursos</h2>
+          <p class="mut small">Fonte: ${d.fontes.map(f=>esc(f.nome)).join(" · ")} — atualizado ${daysAgo(d.atualizado_em)}.</p>
+          <input class="field" id="cSearch" placeholder="Buscar por órgão, cargo..." value="${esc(st.q)}">
+          <div class="filters" style="margin-top:8px">
+            <select class="field" id="cUf"><option value="">Todas as UFs</option>${ufs.map(u=>`<option ${st.uf===u?"selected":""}>${u}</option>`).join("")}</select>
+            <select class="field" id="cStatus">
+              <option value="">Qualquer status</option>
+              <option value="aberto" ${st.status==="aberto"?"selected":""}>Aberto</option>
+              <option value="previsto" ${st.status==="previsto"?"selected":""}>Previsto</option>
+            </select>
+            <select class="field" id="cNivel">
+              <option value="">Qualquer nível</option>
+              <option value="fundamental" ${st.nivel==="fundamental"?"selected":""}>Fundamental</option>
+              <option value="medio" ${st.nivel==="medio"?"selected":""}>Médio</option>
+              <option value="superior" ${st.nivel==="superior"?"selected":""}>Superior</option>
+            </select>
+            <label class="btn" style="display:flex;gap:8px;align-items:center;justify-content:center">
+              <input type="checkbox" id="cFav" ${st.favOnly?"checked":""}> só salvos
+            </label>
+          </div>
+        </div>
+        <div id="cList"></div>
+      </div>`));
+    $("#cSearch").oninput = e=>{ st.q=e.target.value; drawList(); };
+    $("#cUf").onchange = e=>{ st.uf=e.target.value; drawList(); };
+    $("#cStatus").onchange = e=>{ st.status=e.target.value; drawList(); };
+    $("#cNivel").onchange = e=>{ st.nivel=e.target.value; drawList(); };
+    $("#cFav").onchange = e=>{ st.favOnly=e.target.checked; drawList(); };
+    const listEl = $("#cList");
+    const drawList = ()=>{
+      const q = norm(st.q);
+      let items = d.concursos.filter(c=>{
+        if(st.uf && c.uf!==st.uf) return false;
+        if(st.status && c.status!==st.status) return false;
+        if(st.nivel && !(c.nivel===st.nivel || c.nivel==="todos")) return false;
+        if(st.favOnly && !S.favoritos.includes(c.id)) return false;
+        if(q && !norm(c.titulo+" "+c.orgao+" "+c.resumo).includes(q)) return false;
+        return true;
+      });
+      listEl.innerHTML = `<p class="mut small">${items.length} resultado(s)</p>`;
+      items.forEach(c=>{
+        const fav = S.favoritos.includes(c.id);
+        const it = el(`
+          <div class="list-item">
+            <div class="row"><h3 class="grow">${esc(c.orgao||c.titulo)}</h3>
+              <button class="star" title="salvar">${fav?"★":"☆"}</button></div>
+            <div class="tags">
+              ${c.uf?`<span class="pill blue">${c.uf}</span>`:""}
+              <span class="pill ${c.status==="aberto"?"green":"muted"}">${c.status}</span>
+              ${c.nivel?`<span class="pill muted">${c.nivel}</span>`:""}
+              ${c.vagas?`<span class="pill">${c.vagas} vagas</span>`:""}
+              ${c.salario?`<span class="pill gold">${esc(c.salario)}</span>`:""}
+              ${c.tem_edital?`<span class="pill gold">edital</span>`:""}
+            </div>
+            <p class="small mut">${esc(c.resumo||c.titulo)}</p>
+            <div class="row wrap" style="margin-top:6px">
+              <a class="linkbtn" href="${esc(c.link)}" target="_blank" rel="noopener">ver detalhes ↗</a>
+              <span class="spacer"></span>
+              <span class="mut small">${c.fonte} · ${fmtData(c.data)}</span>
+            </div>
+          </div>`);
+        it.querySelector(".star").onclick = ()=>{
+          const i = S.favoritos.indexOf(c.id);
+          if(i>=0) S.favoritos.splice(i,1); else S.favoritos.push(c.id);
+          save(); drawList();
+        };
+        listEl.append(it);
+      });
+    };
+    drawList();
+  }
+};
+
+/* ============================================================
+   PROVAS & GABARITOS
+   ============================================================ */
+SCREENS.provas = {
+  sub:"provas anteriores",
+  render(){
+    const d = DATA.provas, bancas = DATA.bancas?.bancas || [];
+    root.append(el(`
+      <div>
+        <div class="card">
+          <h2>📄 Provas & gabaritos</h2>
+          <p class="mut small">Links oficiais das bancas. O gabarito definitivo é sempre o do site da banca.</p>
+        </div>
+        <div class="card">
+          <h3>🎯 Resolver questões do ENEM agora</h3>
+          <p class="mut small">Provas reais de 2009 a 2023, direto da API pública enem.dev.</p>
+          <div class="filters" style="margin-top:8px">
+            <select class="field" id="enemYear"></select>
+            <select class="field" id="enemDisc">
+              <option value="">Todas as áreas</option>
+              <option value="linguagens">Linguagens</option>
+              <option value="ciencias-humanas">Ciências Humanas</option>
+              <option value="ciencias-natureza">Ciências da Natureza</option>
+              <option value="matematica">Matemática</option>
+            </select>
+          </div>
+          <button class="btn primary wide" id="enemGo" style="margin-top:10px">Começar (10 questões)</button>
+          <p class="mut small" id="enemMsg" style="margin-top:6px"></p>
+        </div>
+        <div class="card">
+          <h3>📚 Provas por banca / órgão</h3>
+          <table class="mini" id="provasTbl">
+            <tr><th>Órgão</th><th>Ano</th><th>Banca</th><th></th></tr>
+          </table>
+        </div>
+        <div class="card">
+          <h3>🏛️ Sites das bancas</h3>
+          <div id="bancasList"></div>
+        </div>
+      </div>`));
+
+    const yearSel = $("#enemYear");
+    for(let y=2023;y>=2009;y--) yearSel.append(el(`<option value="${y}">ENEM ${y}</option>`));
+    $("#enemGo").onclick = async ()=>{
+      const msg = $("#enemMsg"); const btn = $("#enemGo");
+      btn.disabled = true; msg.textContent = "Carregando questões do ENEM...";
+      try{
+        const qs = await loadEnemQuestions(+yearSel.value, $("#enemDisc").value, 10);
+        if(!qs.length){ msg.textContent = "Nenhuma questão encontrada para esse filtro. Tente outra área."; btn.disabled=false; return; }
+        startSession(qs, { mode:"enem", titulo:`ENEM ${yearSel.value}` });
+      }catch(e){
+        msg.textContent = "A API do ENEM não respondeu agora (limite de requisições). Tente de novo em 1 minuto.";
+        btn.disabled = false;
+      }
+    };
+
+    const tbl = $("#provasTbl");
+    (d?.provas||[]).forEach(p=>{
+      if(p.prova==="enem-api") return;
+      tbl.append(el(`<tr>
+        <td>${esc(p.orgao)}<br><span class="mut">${esc(p.cargo)}</span></td>
+        <td>${p.ano}</td><td>${esc(p.banca)}</td>
+        <td><a class="linkbtn" href="${esc(p.prova)}" target="_blank" rel="noopener">abrir ↗</a></td></tr>`));
+    });
+    const bl = $("#bancasList");
+    bancas.forEach(b=>{
+      bl.append(el(`<div class="list-item">
+        <div class="row"><h3 class="grow">${esc(b.nome)}</h3>
+        <a class="linkbtn" href="${esc(b.site)}" target="_blank" rel="noopener">site ↗</a></div>
+        <p class="small mut">${esc(b.estilo)}</p></div>`));
+    });
+  }
+};
+
+/* ---------- ENEM API ---------- */
+let _enemCache = {};
+async function loadEnemQuestions(year, discipline, n){
+  const cacheKey = year+"|"+discipline;
+  let pool = _enemCache[cacheKey];
+  if(!pool){
+    const offset = Math.floor(Math.random()*90);
+    const r = await getJSON(`${ENEM_BASE}/exams/${year}/questions?limit=40&offset=${offset}`);
+    pool = (r.questions||[]).filter(q=>!discipline || q.discipline===discipline);
+    _enemCache[cacheKey] = pool;
+  }
+  return shuffle(pool).slice(0, n).map(q=>({
+    tipo:"multipla",
+    disciplina: enemDiscLabel(q.discipline),
+    fonte:`ENEM ${q.year} · questão ${q.index}`,
+    context: q.context || "",
+    stem: q.alternativesIntroduction || q.title || "",
+    alternatives: (q.alternatives||[]).map(a=>({ letter:a.letter, text:a.text || "(imagem — veja o enunciado no caderno oficial)" })),
+    correct: q.correctAlternative,
+    _id: `enem-${q.year}-${q.index}`
+  }));
+}
+function enemDiscLabel(v){ return ({["linguagens"]:"Linguagens",["ciencias-humanas"]:"Ciências Humanas",["ciencias-natureza"]:"Ciências da Natureza",["matematica"]:"Matemática"})[v] || "ENEM"; }
+
+/* ============================================================
+   BANCO DE QUESTÕES
+   ============================================================ */
+SCREENS.questoes = {
+  sub:"banco de questões",
+  render(){
+    const doc = DATA.questoes;
+    if(!doc){ root.append(el(`<div class="loading">Banco de questões indisponível.</div>`)); return; }
+    const qs = doc.questoes;
+    const discs = [...new Set(qs.map(q=>q.disciplina))].sort();
+    const bancas = [...new Set(qs.map(q=>q.banca))].sort();
+    root.append(el(`
+      <div>
+        <div class="card">
+          <h2>✍️ Banco de questões</h2>
+          <p class="mut small">${qs.length} questões de certo/errado. Filtre e monte uma sessão.</p>
+          <div class="filters">
+            <select class="field" id="qDisc"><option value="">Todas as disciplinas</option>${discs.map(x=>`<option>${esc(x)}</option>`).join("")}</select>
+            <select class="field" id="qBanca"><option value="">Todas as bancas</option>${bancas.map(x=>`<option>${esc(x)}</option>`).join("")}</select>
+          </div>
+          <label class="row small mut" style="margin:8px 0"><input type="checkbox" id="qUnseen" style="margin-right:8px"> só as que ainda não respondi</label>
+          <div class="row wrap">
+            <button class="btn primary grow" id="qStart">Começar sessão</button>
+            <button class="btn grow" id="qRev">🔁 Revisar erros (${S.revisao.length})</button>
+          </div>
+          <p class="mut small" id="qMsg" style="margin-top:6px"></p>
+        </div>
+        <div class="card">
+          <h3>Seu desempenho</h3>
+          <div id="qPerf"></div>
+        </div>
+      </div>`));
+
+    const perf = $("#qPerf");
+    const answered = Object.values(S.respostas);
+    const acertos = answered.filter(a=>a===true).length;
+    perf.append(el(`<div class="kv">
+      <div><b>${answered.length}</b><span class="mut small">respondidas</span></div>
+      <div><b>${answered.length?Math.round(acertos/answered.length*100):0}%</b><span class="mut small">de acerto</span></div>
+    </div>`));
+
+    const pick = ()=>{
+      const dv=$("#qDisc").value, bv=$("#qBanca").value, unseen=$("#qUnseen").checked;
+      return qs.filter(q=>{
+        if(dv && q.disciplina!==dv) return false;
+        if(bv && q.banca!==bv) return false;
+        if(unseen && (q.id in S.respostas)) return false;
+        return true;
+      });
+    };
+    $("#qStart").onclick = ()=>{
+      const sel = shuffle(pick()).slice(0,15);
+      if(!sel.length){ $("#qMsg").textContent = "Nenhuma questão com esse filtro."; return; }
+      startSession(sel.map(toSessionCE), { mode:"treino", titulo:"Banco de questões" });
+    };
+    $("#qRev").onclick = ()=>{
+      const map = Object.fromEntries(qs.map(q=>[q.id,q]));
+      const sel = S.revisao.map(id=>map[id]).filter(Boolean);
+      if(!sel.length){ $("#qMsg").textContent = "Sem erros para revisar. 👏"; return; }
+      startSession(shuffle(sel).map(toSessionCE), { mode:"revisao", titulo:"Revisão de erros" });
+    };
+  }
+};
+function toSessionCE(q){
+  return {
+    tipo:"certo_errado", disciplina:q.disciplina,
+    fonte: q.fonte || `${q.banca} ${q.ano} ${q.concurso||""}`.trim(),
+    context:"", stem:q.questao, correct:q.gabarito,
+    explicacao:q.explicacao || "", _id:q.id
+  };
+}
+
+/* ============================================================
+   MOTOR DE QUESTÕES (quiz)  — usado por questoes / provas / simulado / trilhas
+   ============================================================ */
+let Q = null;
+function startSession(items, opts){
+  Q = { items, i:0, answers:[], startedAt:Date.now(), opts:opts||{} };
+  go("quiz");
+}
+SCREENS.quiz = {
+  sub:"sessão de questões",
+  render(){
+    if(!Q){ go("home"); return; }
+    const it = Q.items[Q.i];
+    const done = Q.i>=Q.items.length;
+    if(done){ return renderQuizResult(); }
+    brandSub.textContent = `${Q.opts.titulo||"questões"} · ${Q.i+1}/${Q.items.length}`;
+    const answeredThis = Q.answers[Q.i];
+    const box = el(`
+      <div>
+        <div class="progressbar" style="margin:4px 0 12px"><i style="width:${Q.i/Q.items.length*100}%"></i></div>
+        <div class="row wrap small mut">
+          <span class="pill muted">${esc(it.disciplina||"")}</span>
+          <span class="pill muted">${esc(it.fonte||"")}</span>
+        </div>
+        ${it.context?`<div class="q-context">${esc(it.context)}</div>`:""}
+        <div class="q-stem">${esc(it.stem)}</div>
+        <div id="qArea"></div>
+        <div id="qFeed"></div>
+      </div>`);
+    root.append(box);
+    const area = $("#qArea"), feed = $("#qFeed");
+
+    if(it.tipo==="certo_errado"){
+      const wrap = el(`<div class="ce"><button data-v="CERTO">CERTO</button><button data-v="ERRADO">ERRADO</button></div>`);
+      area.append(wrap);
+      wrap.querySelectorAll("button").forEach(b=> b.onclick = ()=> answerQuiz(b.dataset.v, wrap, feed, it));
+      if(answeredThis) lockCE(wrap, feed, it, answeredThis);
+    } else {
+      it.alternatives.forEach(a=>{
+        const b = el(`<button class="opt"><span class="lt">${a.letter}</span>${esc(a.text)}</button>`);
+        b.onclick = ()=> answerQuiz(a.letter, area, feed, it);
+        area.append(b);
+      });
+      if(answeredThis) lockMC(area, feed, it, answeredThis);
+    }
+  }
+};
+function verdict(feed, it, chosen){
+  const ok = chosen===it.correct;
+  feed.innerHTML = `
+    <div class="explain">
+      <b style="color:${ok?"var(--green)":"var(--red)"}">${ok?"✓ Você acertou":"✗ Resposta: "+it.correct}</b>
+      ${it.explicacao?`<p style="margin:6px 0 0">${esc(it.explicacao)}</p>`:`<p class="mut" style="margin:6px 0 0">Gabarito oficial: <b>${it.correct}</b>.</p>`}
+    </div>
+    <button class="btn primary wide" id="qNext">${Q.i+1>=Q.items.length?"Ver resultado":"Próxima →"}</button>`;
+  $("#qNext").onclick = ()=>{ Q.i++; go("quiz"); };
+}
+function lockCE(wrap, feed, it, chosen){
+  wrap.querySelectorAll("button").forEach(b=>{
+    b.disabled = true;
+    if(b.dataset.v===it.correct) b.classList.add("ok");
+    else if(b.dataset.v===chosen) b.classList.add("bad");
+  });
+  verdict(feed, it, chosen);
+}
+function lockMC(area, feed, it, chosen){
+  area.querySelectorAll(".opt").forEach(b=>{
+    b.disabled = true;
+    const lt = b.querySelector(".lt").textContent;
+    if(lt===it.correct) b.classList.add("ok");
+    else if(lt===chosen) b.classList.add("bad");
+  });
+  verdict(feed, it, chosen);
+}
+function answerQuiz(chosen, area, feed, it){
+  if(Q.answers[Q.i]) return;
+  Q.answers[Q.i] = chosen;
+  const ok = chosen===it.correct;
+  if(it.tipo==="certo_errado") lockCE(area, feed, it, chosen); else lockMC(area, feed, it, chosen);
+  // persistência: só questões do banco local (id sem prefixo enem-)
+  if(it._id && !String(it._id).startsWith("enem-")){
+    S.respostas[it._id] = ok;
+    const ri = S.revisao.indexOf(it._id);
+    if(!ok && ri<0) S.revisao.push(it._id);
+    if(ok && ri>=0) S.revisao.splice(ri,1);
+    save();
+  }
+}
+function renderQuizResult(){
+  const total = Q.items.length;
+  const acertos = Q.answers.filter((a,i)=>a===Q.items[i].correct).length;
+  const pct = Math.round(acertos/total*100);
+  const secs = Math.round((Date.now()-Q.startedAt)/1000);
+  const byDisc = {};
+  Q.items.forEach((it,i)=>{
+    const d = it.disciplina||"Geral";
+    byDisc[d] = byDisc[d]||{t:0,c:0};
+    byDisc[d].t++; if(Q.answers[i]===it.correct) byDisc[d].c++;
+  });
+  if(Q.opts.mode==="simulado"){
+    S.simulados.push({ data:new Date().toISOString(), total, acertos, pct, secs });
+    S.simulados = S.simulados.slice(-30); save();
+  }
+  brandSub.textContent = "resultado";
+  root.innerHTML = "";
+  root.append(el(`
+    <div class="result">
+      <div class="big">${pct>=70?"🏅":pct>=50?"💪":"📌"}</div>
+      <h2>${acertos} de ${total} — ${pct}%</h2>
+      <p class="mut">Tempo: ${Math.floor(secs/60)}min ${secs%60}s</p>
+      <div class="kv">
+        ${Object.entries(byDisc).map(([d,o])=>`<div><b>${o.c}/${o.t}</b><span class="mut small">${esc(d)}</span></div>`).join("")}
+      </div>
+      <button class="btn primary wide" id="rHome" style="margin-top:8px">Voltar ao início</button>
+      <button class="btn wide ghost" id="rAgain" style="margin-top:8px">Nova sessão</button>
+    </div>`));
+  $("#rHome").onclick = ()=>{ Q=null; go("home"); };
+  $("#rAgain").onclick = ()=>{ Q=null; back(); };
+}
+
+/* ============================================================
+   SIMULADO
+   ============================================================ */
+SCREENS.simulado = {
+  sub:"simulado cronometrado",
+  render(){
+    const doc = DATA.questoes;
+    const discs = doc? [...new Set(doc.questoes.map(q=>q.disciplina))].sort() : [];
+    root.append(el(`
+      <div>
+        <div class="card">
+          <h2>⏱️ Simulado</h2>
+          <p class="mut small">Mistura questões do banco (certo/errado) com questões do ENEM. Cronometrado, com placar por disciplina.</p>
+          <label class="small mut">Quantidade</label>
+          <select class="field" id="sQtd"><option>10</option><option selected>20</option><option>30</option></select>
+          <label class="small mut" style="display:block;margin-top:8px">Incluir ENEM</label>
+          <select class="field" id="sEnem">
+            <option value="0">Só banco local</option>
+            <option value="2023" selected>+ ENEM 2023</option>
+            <option value="2022">+ ENEM 2022</option>
+            <option value="2021">+ ENEM 2021</option>
+          </select>
+          <button class="btn primary wide" id="sGo" style="margin-top:12px">Iniciar simulado</button>
+          <p class="mut small" id="sMsg" style="margin-top:6px"></p>
+        </div>
+        <div class="card">
+          <h3>Histórico</h3>
+          <div id="sHist"></div>
+        </div>
+      </div>`));
+    const hist = $("#sHist");
+    if(!S.simulados.length) hist.innerHTML = `<p class="mut small">Nenhum simulado ainda.</p>`;
+    S.simulados.slice().reverse().forEach(s=>{
+      hist.append(el(`<div class="list-item"><div class="row"><b class="grow">${s.acertos}/${s.total} — ${s.pct}%</b>
+        <span class="mut small">${fmtData(s.data)}</span></div></div>`));
+    });
+    $("#sGo").onclick = async ()=>{
+      const btn=$("#sGo"), msg=$("#sMsg"); btn.disabled=true; msg.textContent="Montando o simulado...";
+      const qtd = +$("#sQtd").value, enemY = $("#sEnem").value;
+      let items = [];
+      if(doc) items = shuffle(doc.questoes).slice(0, enemY==="0"?qtd:Math.ceil(qtd*0.6)).map(toSessionCE);
+      if(enemY!=="0"){
+        try{ items = items.concat(await loadEnemQuestions(+enemY, "", qtd-items.length)); }
+        catch(e){ msg.textContent="ENEM indisponível agora — seguindo só com o banco local."; }
+      }
+      items = shuffle(items).slice(0,qtd);
+      if(!items.length){ msg.textContent="Não consegui montar o simulado."; btn.disabled=false; return; }
+      startSession(items, { mode:"simulado", titulo:"Simulado" });
+    };
+  }
+};
+
+/* ============================================================
+   TRILHAS
+   ============================================================ */
+SCREENS.trilhas = {
+  sub:"trilhas de estudo",
+  render(){
+    const d = DATA.trilhas;
+    if(!d){ root.append(el(`<div class="loading">Trilhas indisponíveis.</div>`)); return; }
+    root.append(el(`<div><div class="card"><h2>🧭 Trilhas de estudo</h2>
+      <p class="mut small">Marque o que já domina. O progresso fica salvo neste aparelho.</p></div>
+      <div id="trList"></div></div>`));
+    const wrap = $("#trList");
+    d.trilhas.forEach(t=>{
+      const checks = S.trilhaCheck[t.id] || {};
+      const doneN = t.topicos.filter((_,i)=>checks[i]).length;
+      const card = el(`<div class="card">
+        <div class="row"><h3 class="grow">${t.icone} ${esc(t.disciplina)}</h3>
+          <span class="pill ${doneN===t.topicos.length?"green":"muted"}">${doneN}/${t.topicos.length}</span></div>
+        <p class="small mut">${esc(t.resumo)}</p>
+        <div class="progressbar" style="margin:8px 0"><i style="width:${doneN/t.topicos.length*100}%"></i></div>
+        <div class="topics"></div>
+        <button class="btn wide" style="margin-top:10px">✍️ Praticar questões de ${esc(t.disciplina)}</button>
+      </div>`);
+      const tEl = card.querySelector(".topics");
+      t.topicos.forEach((top,i)=>{
+        const row = el(`<label class="check"><input type="checkbox" ${checks[i]?"checked":""}><span>${esc(top)}</span></label>`);
+        row.querySelector("input").onchange = e=>{
+          S.trilhaCheck[t.id] = S.trilhaCheck[t.id] || {};
+          S.trilhaCheck[t.id][i] = e.target.checked; save();
+          SCREENS.trilhas.render();
+        };
+        tEl.append(row);
+      });
+      card.querySelector("button").onclick = ()=>{
+        const doc = DATA.questoes;
+        const sel = doc ? shuffle(doc.questoes.filter(q=>q.disciplina===t.disciplina)).slice(0,15) : [];
+        if(!sel.length){ toast("Ainda não há questões dessa disciplina no banco."); return; }
+        startSession(sel.map(toSessionCE), { mode:"treino", titulo:t.disciplina });
+      };
+      wrap.append(card);
+    });
+  }
+};
+
+/* ============================================================
+   EDITAIS & NOTÍCIAS
+   ============================================================ */
+SCREENS.editais = {
+  sub:"editais e notícias",
+  render(){
+    const d = DATA.concursos;
+    root.append(el(`<div><div class="card"><h2>📰 Editais & notícias</h2>
+      <p class="mut small">Itens recentes marcados como “edital” nas fontes monitoradas.</p></div>
+      <div id="edList"></div></div>`));
+    const wrap = $("#edList");
+    const items = (d?.concursos||[]).filter(c=>c.tem_edital).slice(0,40);
+    if(!items.length) wrap.innerHTML = `<p class="mut small">Nada com edital no momento.</p>`;
+    items.forEach(c=>{
+      wrap.append(el(`<div class="list-item">
+        <h3>${esc(c.titulo)}</h3>
+        <div class="tags">${c.uf?`<span class="pill blue">${c.uf}</span>`:""}<span class="pill gold">edital</span>
+          <span class="pill muted">${c.fonte}</span></div>
+        <p class="small mut">${esc(c.resumo)}</p>
+        <a class="linkbtn" href="${esc(c.link)}" target="_blank" rel="noopener">abrir matéria ↗</a>
+      </div>`));
+    });
+  }
+};
+
+/* ============================================================
+   FONTES & APIS
+   ============================================================ */
+SCREENS.fontes = {
+  sub:"fontes e APIs",
+  render(){
+    const d = DATA.fontes;
+    root.append(el(`<div><div class="card"><h2>🔌 Fontes & APIs</h2>
+      <p class="mut small">De onde o Estuda Aí puxa os dados — e o que dá pra usar numa próxima versão.</p></div>
+      <div id="foList"></div></div>`));
+    const wrap = $("#foList");
+    (d?.fontes||[]).forEach(f=>{
+      wrap.append(el(`<div class="card">
+        <div class="row"><h3 class="grow">${esc(f.nome)}</h3>
+          <span class="pill ${/USADA/.test(f.status)?"green":"muted"}">${/USADA/.test(f.status)?"em uso":"futuro"}</span></div>
+        <p class="small">${esc(f.fornece)}</p>
+        <table class="mini" style="margin-top:6px">
+          <tr><th>Tipo</th><td>${esc(f.tipo)}</td></tr>
+          <tr><th>Base</th><td>${esc(f.base)}</td></tr>
+          <tr><th>Auth</th><td>${esc(f.auth)}</td></tr>
+          ${f.limite?`<tr><th>Limite</th><td>${esc(f.limite)}</td></tr>`:""}
+          ${f.cors?`<tr><th>CORS</th><td>${esc(f.cors)}</td></tr>`:""}
+        </table>
+        ${Array.isArray(f.endpoints)?`<ul class="small mut">${f.endpoints.map(e=>`<li>${esc(e)}</li>`).join("")}</ul>`:""}
+        <p class="small mut">${esc(f.status)}</p>
+        ${f.docs?`<a class="linkbtn" href="${esc(f.docs)}" target="_blank" rel="noopener">documentação ↗</a>`:""}
+      </div>`));
+    });
+  }
+};
+
+/* ============================================================
+   BOOT
+   ============================================================ */
+async function boot(){
+  root.append(el(`<div class="loading">Carregando dados…</div>`));
+  const jobs = {
+    concursos:"data/concursos.json", questoes:"data/questoes.json", provas:"data/provas.json",
+    trilhas:"data/trilhas.json", bancas:"data/bancas.json", fontes:"data/fontes-apis.json"
+  };
+  await Promise.all(Object.entries(jobs).map(async ([k,p])=>{
+    try{ DATA[k] = await getJSON(p); }catch(e){ console.warn("falhou",p,e); DATA[k]=null; }
+  }));
+  go("home");
+}
+boot();
+</script>
+</body>
+</html>

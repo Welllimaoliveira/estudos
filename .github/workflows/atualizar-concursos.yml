@@ -1,0 +1,39 @@
+name: Atualizar concursos
+
+on:
+  schedule:
+    # 06:10 e 18:10 horário de Brasília
+    - cron: "10 9,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-concursos
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r scripts/requirements.txt
+
+      - name: Ler feeds e gerar data/concursos.json
+        run: python scripts/atualizar_concursos.py
+
+      - name: Commitar
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualiza lista de concursos"
+          file_pattern: "data/concursos.json"

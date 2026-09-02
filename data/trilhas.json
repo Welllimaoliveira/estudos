@@ -1,0 +1,147 @@
+{
+  "_comentario": "Trilhas de estudo por disciplina. 'topicos' viram checklist com progresso no site. 'disciplina' bate com o campo disciplina do questoes.json para o atalho 'praticar'.",
+  "trilhas": [
+    {
+      "id": "portugues",
+      "disciplina": "Português",
+      "icone": "📖",
+      "resumo": "Base de quase todo concurso. Foque em interpretação, crase, concordância e redação oficial.",
+      "topicos": [
+        "Interpretação e compreensão de texto",
+        "Ortografia e acentuação (nova regra)",
+        "Classes de palavras e morfologia",
+        "Sintaxe: termos da oração e período composto",
+        "Concordância verbal e nominal",
+        "Regência verbal e nominal / crase",
+        "Pontuação",
+        "Coesão e coerência textual",
+        "Semântica: sinonímia, antonímia, ambiguidade",
+        "Redação oficial (Manual da Presidência)"
+      ]
+    },
+    {
+      "id": "raciocinio-logico",
+      "disciplina": "Raciocínio lógico",
+      "icone": "🧮",
+      "resumo": "Muito cai de forma repetida. Treine proposições, tabelas-verdade e sequências até virar automático.",
+      "topicos": [
+        "Proposições, conectivos e tabelas-verdade",
+        "Equivalências e negações (De Morgan)",
+        "Argumentos válidos e falácias",
+        "Diagramas lógicos (todo, algum, nenhum)",
+        "Sequências e progressões (PA e PG)",
+        "Análise combinatória e probabilidade",
+        "Porcentagem, razão e proporção",
+        "Problemas com conjuntos",
+        "Raciocínio sequencial e associação lógica"
+      ]
+    },
+    {
+      "id": "informatica",
+      "disciplina": "Informática",
+      "icone": "💻",
+      "resumo": "Alto custo-benefício em concursos de nível médio. Segurança e nuvem são campeões de cobrança.",
+      "topicos": [
+        "Hardware e software: conceitos básicos",
+        "Sistemas operacionais (Windows 10/11 e Linux)",
+        "Pacote Office e BrOffice/LibreOffice",
+        "Navegadores, e-mail e ferramentas de busca",
+        "Redes de computadores e internet/intranet",
+        "Segurança da informação: malware, backup, criptografia",
+        "Computação em nuvem (IaaS, PaaS, SaaS)",
+        "Conceitos de big data e IoT",
+        "LGPD - noções gerais"
+      ]
+    },
+    {
+      "id": "direito-constitucional",
+      "disciplina": "Direito Constitucional",
+      "icone": "⚖️",
+      "resumo": "Presente em quase todo edital de nível superior. Direitos fundamentais e organização do Estado dominam.",
+      "topicos": [
+        "Constituição: conceito, classificação, poder constituinte",
+        "Princípios fundamentais (arts. 1º ao 4º)",
+        "Direitos e deveres individuais e coletivos (art. 5º)",
+        "Direitos sociais, nacionalidade e direitos políticos",
+        "Organização do Estado: União, Estados, Municípios",
+        "Administração pública na Constituição (art. 37)",
+        "Organização dos Poderes: Legislativo, Executivo, Judiciário",
+        "Funções essenciais à Justiça (MP, Advocacia Pública, Defensoria)",
+        "Controle de constitucionalidade",
+        "Defesa do Estado e das instituições democráticas"
+      ]
+    },
+    {
+      "id": "direito-administrativo",
+      "disciplina": "Direito Administrativo",
+      "icone": "🏛️",
+      "resumo": "Campeão de peso nos editais. Atos, licitações (Lei 14.133) e improbidade caem sempre.",
+      "topicos": [
+        "Regime jurídico-administrativo e princípios",
+        "Organização administrativa: administração direta e indireta",
+        "Poderes da administração",
+        "Atos administrativos: atributos, elementos, extinção",
+        "Licitações e contratos (Lei 14.133/2021)",
+        "Serviços públicos",
+        "Agentes públicos: regime, deveres, responsabilidade",
+        "Responsabilidade civil do Estado",
+        "Controle da administração pública",
+        "Improbidade administrativa (Lei 8.429/92 atualizada)",
+        "Processo administrativo (Lei 9.784/99)",
+        "Lei de Acesso à Informação (Lei 12.527/2011)"
+      ]
+    },
+    {
+      "id": "direito-penal",
+      "disciplina": "Direito Penal",
+      "icone": "🚔",
+      "resumo": "Forte em concursos policiais. Teoria do crime e crimes contra a administração pública.",
+      "topicos": [
+        "Princípios do Direito Penal e aplicação da lei penal",
+        "Teoria do crime: fato típico, ilicitude, culpabilidade",
+        "Consumação, tentativa e desistência voluntária",
+        "Concurso de pessoas",
+        "Penas: espécies, aplicação, concurso de crimes",
+        "Crimes contra a pessoa",
+        "Crimes contra o patrimônio",
+        "Crimes contra a fé pública",
+        "Crimes contra a administração pública",
+        "Legislação especial: drogas, armas, tortura, abuso de autoridade"
+      ]
+    },
+    {
+      "id": "legislacao-transito",
+      "disciplina": "Trânsito",
+      "icone": "🛣️",
+      "resumo": "Específico de PRF, DETRAN e guardas municipais. Cobrança bem literal do CTB.",
+      "topicos": [
+        "Sistema Nacional de Trânsito: composição e competências",
+        "Normas gerais de circulação e conduta",
+        "Pedestres e condutores de veículos não motorizados",
+        "Sinalização de trânsito",
+        "Velocidade e limites",
+        "Infrações e penalidades",
+        "Medidas administrativas",
+        "Habilitação (CNH) e processo de formação de condutores",
+        "Registro e licenciamento de veículos",
+        "Crimes de trânsito (arts. 302 a 312 do CTB)"
+      ]
+    },
+    {
+      "id": "atualidades",
+      "disciplina": "Atualidades",
+      "icone": "🌍",
+      "resumo": "Leia jornal com regularidade. Foque nos últimos 12 meses e em temas ligados ao órgão do concurso.",
+      "topicos": [
+        "Política nacional e reformas em tramitação",
+        "Economia: inflação, juros, câmbio, mercado de trabalho",
+        "Meio ambiente e clima (COP, Amazônia, energia)",
+        "Tecnologia: inteligência artificial, regulação, segurança digital",
+        "Geopolítica e conflitos internacionais",
+        "Direitos humanos e questões sociais",
+        "Saúde pública",
+        "Temas específicos do órgão / área do concurso"
+      ]
+    }
+  ]
+}
