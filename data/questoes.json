@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-09-02T01:17:37.798543+00:00",
+  "atualizado_em": "2026-09-02T01:24:26.504054+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Penal",
@@ -190,7 +190,7 @@
       "item_original": 29,
       "questao": "No modelo de espalhamento dado por p vezes (1 - p), com p entre zero e um, é possível que a taxa de espalhamento de uma notícia ultrapasse 50% por unidade de tempo.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão aborda a função quadrática f(p) = p(1 - p) = -p² + p, que modela a taxa de espalhamento em função da proporção p de indivíduos cientes da notícia. Trata-se de uma parábola com concavidade voltada para baixo, cujo valor máximo ocorre no vértice, em p = -b / (2a) = -1 / (2 * (-1)) = 0,5. Substituindo esse valor na função, obtém-se f(0,5) = 0,5 * (1 - 0,5) = 0,25, ou seja, a taxa máxima de espalhamento é de 25% por unidade de tempo. A pegadinha está em supor intuitivamente que a taxa poderia alcançar valores mais altos, como 50% ou 100%. O candidato deveria calcular o ponto de máximo da função quadrática e constatar que a taxa jamais ultrapassará 25%, tornando a afirmativa incorreta.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 29 - gabarito oficial definitivo"
     },
     {
@@ -204,7 +204,7 @@
       "item_original": 30,
       "questao": "No mesmo modelo, quanto maior for o número de pessoas que já conhecem uma notícia, maior será necessariamente sua taxa de espalhamento.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão avalia o comportamento da função de espalhamento f(p) = p(1 - p), em que p representa a proporção de pessoas que conhecem a notícia. Por ser uma parábola com vértice em p = 0,5, a função é estritamente crescente no intervalo de 0 a 0,5 e estritamente decrescente no intervalo de 0,5 a 1. Isso significa que, quando mais da metade da população já conhece a notícia (p > 0,5), aumentos adicionais em p reduzem a taxa de espalhamento, pois restam poucas pessoas para serem informadas. A pegadinha consiste no termo 'necessariamente', que induz o candidato a crer em um crescimento linear direto. O candidato deveria lembrar que a taxa cresce até o ponto médio e depois decresce, invalidando a proposição.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 30 - gabarito oficial definitivo"
     },
     {
@@ -218,7 +218,7 @@
       "item_original": 31,
       "questao": "Em uma operação, os totais acumulados de veículos fiscalizados ao fim das cinco primeiras horas foram 20, 60, 120, 200 e 300, mantendo-se o padrão. Nesse caso, ao final da sétima hora o total acumulado será superior a 550 veículos.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão analisa a evolução de uma sequência de totais acumulados: 20, 60, 120, 200 e 300. Para encontrar o padrão de fiscalização por hora, subtraem-se os termos consecutivos: 1ª hora = 20; 2ª hora = 40 (60 - 20); 3ª hora = 60 (120 - 60); 4ª hora = 80 (200 - 120); 5ª hora = 100 (300 - 200). A produção horária cresce 20 veículos a cada hora. Seguindo o padrão, na 6ª hora serão fiscalizados 120 veículos, elevando o acumulado para 420 (300 + 120). Na 7ª hora, serão fiscalizados 140 veículos, totalizando 560 veículos acumulados (420 + 140). Como 560 é estritamente superior a 550, o item está correto. A pegadinha reside em errar a soma acumulada das horas subsequentes.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 31 - gabarito oficial definitivo"
     },
     {
@@ -232,7 +232,7 @@
       "item_original": 32,
       "questao": "Com os totais acumulados 20, 60, 120, 200 e 300 veículos ao fim das cinco primeiras horas e manutenção do padrão, a quantidade fiscalizada apenas em cada hora forma uma progressão aritmética.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O item requer a identificação da natureza da sequência formada pela quantidade de veículos fiscalizados individualmente em cada hora. Conforme os totais acumulados de 20, 60, 120, 200 e 300, obtém-se o valor isolado de cada período pela diferença entre termos sucessivos: 1ª hora = 20, 2ª hora = 40, 3ª hora = 60, 4ª hora = 80 e 5ª hora = 100. A sequência resultante é (20, 40, 60, 80, 100). Observa-se que a diferença entre qualquer termo e seu antecessor é constante e igual a 20. Por definição, uma sequência numérica em que a diferença entre termos consecutivos é constante configura uma Progressão Aritmética (PA) de razão 20. O raciocínio correto confirmava a definição de PA, validando o item.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 32 - gabarito oficial definitivo"
     },
     {
@@ -246,7 +246,7 @@
       "item_original": 33,
       "questao": "O salvamento e a sincronização de senhas em navegadores como Firefox e Chrome só podem funcionar quando os sites estiverem em uma intranet e utilizarem HTTPS.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão aborda os recursos de gerenciamento e sincronização de senhas em navegadores web modernos, como Google Chrome e Mozilla Firefox. Tais navegadores permitem salvar e sincronizar credenciais em qualquer ambiente web comum na Internet pública, bastando que o usuário esteja autenticado em seu perfil de sincronização. Não existe restrição técnica que limite o salvamento exclusivamente a redes corporativas internas (intranets), tampouco a restrição opera apenas sob tais condições. A pegadinha reside no uso da palavra restritiva 'só podem funcionar', tentando convencer o candidato de que exigências de segurança corporativa limitariam o recurso básico dos navegadores. O candidato deveria reconhecer a ampla disponibilidade da sincronização na Internet cotidiana para julgar o item como errado.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 33 - gabarito oficial definitivo"
     },
     {
@@ -260,7 +260,7 @@
       "item_original": 34,
       "questao": "No Windows 10, uma mesma conta pode sincronizar algumas configurações entre computadores, mas, por motivo de segurança, senhas não podem ser sincronizadas entre essas máquinas.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A assertiva trata dos recursos de sincronização de configurações do sistema operacional Windows 10 por meio de uma Conta Microsoft vinculada. No Windows 10, o usuário pode sincronizar temas, preferências de idioma, configurações de facilidade de acesso e também senhas salvas de redes Wi-Fi e de determinados aplicativos e sites. A transmissão e o armazenamento desses dados são protegidos por criptografia para garantir a segurança entre os dispositivos autorizados. A pegadinha está na justificativa plausível de 'motivo de segurança' para afirmar que senhas seriam proibidas de sincronizar. O candidato atento às opções de contas e backup do Windows saberia que a sincronização de senhas é uma funcionalidade nativa e plenamente suportada pelo sistema.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 34 - gabarito oficial definitivo"
     },
     {
@@ -274,7 +274,7 @@
       "item_original": 35,
       "questao": "Em uma busca do Google, o uso conjunto dos termos campanha PRF e do operador associado ao Twitter pode ser empregado para procurar publicações da rede social relacionadas a esses termos.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O item avalia o conhecimento sobre operadores avançados de pesquisa no mecanismo de busca Google. O Google disponibiliza símbolos e comandos especiais para refinar resultados, como o uso do caractere '@' seguido do nome de uma rede social (por exemplo, '@twitter') ou do operador 'site:twitter.com' para restringir as buscas a publicações daquela plataforma específica. Ao combinar as palavras-chave 'campanha PRF' com o operador direcionado ao Twitter, o buscador filtra exatamente as postagens e páginas da rede social que contenham os termos requisitados. A pegadinha seria duvidar da integração de buscas sociais no Google. O candidato deveria confirmar a existência desses operadores de pesquisa para classificar o item como certo.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 35 - gabarito oficial definitivo"
     },
     {
@@ -288,7 +288,7 @@
       "item_original": 36,
       "questao": "A Internet das Coisas pode aumentar volume, velocidade e variedade dos dados, influenciando características típicas de big data.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão relaciona a expansão da Internet das Coisas (IoT) com os fundamentos conceituais de Big Data. Os dispositivos de IoT (sensores, câmeras, atuadores e eletrodomésticos inteligentes) operam continuamente coletando e transmitindo dados em tempo real, gerando uma quantidade massiva de novos registros (volume), gerados em fluxos velozes e contínuos (velocidade) e em diversos formatos estruturados e não estruturados (variedade). Esses três elementos correspondem exatamente aos clássicos '3 Vs' que definem o ecossistema de Big Data. A pegadinha seria tentar dissociar o hardware de IoT da camada analítica de dados. O candidato deveria perceber a correlação direta de causa e efeito entre a proliferação de sensores e o aumento das dimensões de Big Data.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 36 - gabarito oficial definitivo"
     },
     {
@@ -302,7 +302,7 @@
       "item_original": 37,
       "questao": "Ransomware é definido como malware cuja forma característica de propagação consiste em inserir cópias de si próprio dentro de arquivos criptografados.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão cobra a definição técnica de ransomware. Ransomware é um software malicioso projetado para restringir o acesso ao sistema ou aos dados da vítima — comumente por meio da criptografia de arquivos do usuário —, exigindo o pagamento de um resgate (normalmente em criptomoedas) para o restabelecimento do acesso. O comportamento de 'inserir cópias de si próprio dentro de outros arquivos' descreve a propagação típica de um vírus de computador, e não o método definidor do ransomware. A pegadinha está em misturar o conceito de criptografia (usada pelo ransomware para bloquear arquivos) com a técnica de infecção parasitária própria dos vírus. O candidato deveria distinguir os modos de ação dos diferentes malwares para assinalar a incorreção.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 37 - gabarito oficial definitivo"
     },
     {
@@ -316,7 +316,7 @@
       "item_original": 38,
       "questao": "Quando o provedor oferece um ambiente de nuvem no qual o usuário constrói e publica seus próprios aplicativos, esse serviço é classificado como Software como Serviço, SaaS.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item aborda os modelos de serviço da computação em nuvem: IaaS (Infraestrutura como Serviço), PaaS (Plataforma como Serviço) e SaaS (Software como Serviço). Quando o provedor disponibiliza um ambiente completo de desenvolvimento, execução e gerenciamento para que o usuário construa, teste e publique seus próprios sistemas e aplicações, o modelo é classificado como PaaS (Plataforma como Serviço). No SaaS, por outro lado, o usuário final consome um aplicativo já pronto e funcional (como Gmail ou Microsoft 365), sem desenvolver nada sobre a infraestrutura. A pegadinha reside na troca direta do conceito de PaaS pelo conceito de SaaS. O candidato deveria correlacionar 'construir e publicar aplicativos' a 'Plataforma' para marcar a afirmativa como errada.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 38 - gabarito oficial definitivo"
     },
     {
@@ -330,7 +330,7 @@
       "item_original": 46,
       "questao": "Segundo o Código de Ética do Servidor Público Civil do Poder Executivo Federal, a ausência injustificada do servidor de seu local de trabalho pode desmoralizar o serviço público por provocar desordem nas relações humanas.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão exige o conhecimento do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (Decreto nº 1.171/1994). De acordo com a Seção I, Capítulo I (Das Regras Deontológicas), a ausência injustificada do servidor de seu local de trabalho é fator de desmoralização do serviço público, o que quase sempre conduz à desordem nas relações humanas. O texto da questão reproduz fielmente esse mandamento ético normativo, ressaltando o impacto comportamental da conduta do agente perante os colegas e a sociedade. A pegadinha seria julgar que a ausência geraria apenas sanções administrativas funcionais, sem reflexo ético tipificado expressamente na norma. O candidato atento ao texto literal do Decreto identifica a assertiva como correta.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 46 - gabarito oficial definitivo"
     },
     {
@@ -344,7 +344,7 @@
       "item_original": 47,
       "questao": "No contexto da governança pública, estratégia compreende a definição de diretrizes, objetivos, planos e ações voltados ao alcance dos resultados pretendidos pela organização.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O item explora os conceitos fundamentais de governança pública e planejamento governamental. No âmbito da governança no setor público, a estratégia constitui o mecanismo de liderança e direcionamento pelo qual a alta administração define a visão de futuro, as diretrizes mestras, as metas, os planos de ação e as políticas institucionais necessárias para alcançar resultados eficazes em benefício da sociedade e cumprir sua missão institucional. A definição apresentada é precisa e alinhada às melhores práticas e referenciais de governança pública (como os do TCU). A pegadinha seria confundir governança com mera gestão operacional diária. O candidato deveria validar que a formulação de diretrizes e planos voltados a resultados compõe o núcleo da estratégia pública.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 47 - gabarito oficial definitivo"
     },
     {
@@ -850,6 +850,70 @@
       "gabarito": "ERRADO",
       "explicacao": "",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 8 - gabarito oficial definitivo"
+    },
+    {
+      "id": "TREINO-2026-0001",
+      "concurso": "Treino",
+      "orgao": "",
+      "ano": 2026,
+      "banca": "Autoral (IA)",
+      "disciplina": "Direito Administrativo",
+      "tipo": "certo_errado",
+      "topico": "Atos Administrativos",
+      "item_original": "",
+      "questao": "A autoexecutoriedade e um atributo presente em todos os atos administrativos, autorizando a administracao publica a compelir materialmente o administrado ao cumprimento da obrigacao sem a necessidade de previa intervencao do Poder Judiciario.",
+      "gabarito": "ERRADO",
+      "explicacao": "O item esta incorreto porque a autoexecutoriedade nao e um atributo presente em absolutamente todos os atos administrativos. Ela se manifesta apenas quando expressamente prevista em lei ou em situacoes de urgencia que demandem acao imediata do Estado. Alem disso, certos atos, como a cobranca de multas pecuniarias, exigem ajuizamento de cobranca judicial, nao podendo a Administracao compeli-los diretamente pela via executoria material. A pegadinha reside no uso do termo generalista 'em todos os atos', desconsiderando as excecoes classicas da doutrina.",
+      "origem": "treino-ia",
+      "fonte": "Questao autoral gerada por IA para treino conceitual."
+    },
+    {
+      "id": "TREINO-2026-0002",
+      "concurso": "Treino",
+      "orgao": "",
+      "ano": 2026,
+      "banca": "Autoral (IA)",
+      "disciplina": "Direito Administrativo",
+      "tipo": "certo_errado",
+      "topico": "Poderes Administrativos",
+      "item_original": "",
+      "questao": "No ciclo de policia administrativa, as fases de ordem e de sancao de policia possuem carater coercitivo indelegavel a pessoas juridicas de direito privado integrantes da administracao indireta, admitindo-se a delegacao apenas dos atos de consentimento e fiscalizacao.",
+      "gabarito": "ERRADO",
+      "explicacao": "O item esta incorreto. Embora a fase de ordenamento legislativo seja indelegavel, a jurisprudencia consolidada reconhece que a aplicacao de sancoes decorrentes do poder de policia pode ser delegada a pessoas juridicas de direito privado da Administracao Indireta, desde que prestadoras de servicos publicos em regime nao concorrencial e criadas por lei. A pegadinha reside em restringir a delegabilidade exclusivamente as fases de fiscalizacao e consentimento, ignorando a possibilidade de delegacao da fase sancionatoria.",
+      "origem": "treino-ia",
+      "fonte": "Questao autoral gerada por IA para treino conceitual."
+    },
+    {
+      "id": "TREINO-2026-0003",
+      "concurso": "Treino",
+      "orgao": "",
+      "ano": 2026,
+      "banca": "Autoral (IA)",
+      "disciplina": "Direito Administrativo",
+      "tipo": "certo_errado",
+      "topico": "Organizacao Administrativa",
+      "item_original": "",
+      "questao": "A desconcentracao administrativa caracteriza-se pela distribuicao interna de competencias no ambito de uma mesma pessoa juridica, o que mantem o vinculo de hierarquia e subordinacao entre os orgaos publicos envolvidos.",
+      "gabarito": "CERTO",
+      "explicacao": "O item esta correto. A desconcentracao e a tecnica de distribuicao interna de competencias dentro da estrutura de uma unica pessoa juridica, com a criacao de orgaos despersonalizados. Esse arranjo preserva a relacao hierarquica, subordinacao e controle vertical entre os niveis da estrutura administrativa. A pegadinha comum nesse tema e tentar confundir desconcentracao (orgaos internos, mesma entidade, com hierarquia) com descentralizacao (novas entidades juridicas, sem hierarquia, havendo apenas supervisao ministerial).",
+      "origem": "treino-ia",
+      "fonte": "Questao autoral gerada por IA para treino conceitual."
+    },
+    {
+      "id": "TREINO-2026-0004",
+      "concurso": "Treino",
+      "orgao": "",
+      "ano": 2026,
+      "banca": "Autoral (IA)",
+      "disciplina": "Direito Administrativo",
+      "tipo": "certo_errado",
+      "topico": "Responsabilidade Civil do Estado",
+      "item_original": "",
+      "questao": "Em situacoes de omissao estatal generica, a responsabilidade civil da Administracao Publica e de natureza subjetiva, exigindo-se a comprovacao do dano, da inercia culposa do servico perante um dever legal de agir e do nexo de causalidade entre eles.",
+      "gabarito": "CERTO",
+      "explicacao": "O item esta correto. Na omissao generica do Estado, em que nao ha uma relacao de custodia ou dever juridico especifico de impedir o resultado lesivo, vigora a teoria da culpa administrativa (falta do servico), de matriz subjetiva. Assim, e indispensavel demonstrar negligencia, imprudencia ou impericia do aparato estatal. A pegadinha consiste em induzir o candidato a generalizar a regra da responsabilidade objetiva da administracao para toda e qualquer situacao, inclusive omissoes genericas.",
+      "origem": "treino-ia",
+      "fonte": "Questao autoral gerada por IA para treino conceitual."
     }
   ]
 }
