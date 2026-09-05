@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-04T23:02:16.293420+00:00",
+  "atualizado_em": "2026-09-05T12:40:02.352995+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "fc125cb70ed1",
+      "titulo": "Seletivo da Secretaria de Esportes SP está com inscrições abertas",
+      "orgao": "Seletivo da Secretaria de Esportes SP está",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "O processo seletivo da Secretaria de Esportes SP consistirá em aplicação de prova on-line. Veja os requisitos e detalhes da seleção",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/seletivo-da-secretaria-de-esportes-sp-esta-com-inscricoes-abertas-145255",
+      "fonte": "JC Concursos",
+      "data": "2026-09-05T08:20:13+00:00",
+      "tem_edital": false
+    },
     {
       "id": "2ac008f1b866",
       "titulo": "Prefeitura de Cajamar (SP) promove seletivo para a área educacional",
@@ -186,7 +201,7 @@
       "nivel": "",
       "vagas": null,
       "salario": "R$ 5",
-      "resumo": "Processo seletivo Prefeitura de São João do Oeste, no estado de Santa Catarina, abre inscrições online Professores em diversas áreas e Auxiliar de Ensino.",
+      "resumo": "Processo seletivo Prefeitura de São João do Oeste, no estado de Santa Catarina, abre inscrições online para Professores em diversas áreas e Auxiliar de Ensino.",
       "link": "https://concursosnobrasil.com/concursos/sc/2026/09/04/prefeitura-de-sao-joao-do-oeste-sc-abre-edital-na-area-da-educacao-de-ate-r-55-mil/",
       "fonte": "Concursos no Brasil",
       "data": "2026-09-04T18:29:11+00:00",
@@ -1795,21 +1810,6 @@
       "link": "https://jcconcursos.uol.com.br/noticia/concursos/oportunidade-na-educacao-prefeitura-de-birigui-sp-abre-concurso-publico-para-professor-auxiliar-145157",
       "fonte": "JC Concursos",
       "data": "2026-09-02T20:05:07+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "90ffcfd28fe0",
-      "titulo": "Câmara de Ponte Alta (SC) abre concurso público com salários de até R$ 5,9 mil",
-      "orgao": "Câmara de Ponte Alta (SC)",
-      "uf": "SC",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "R$ 5",
-      "resumo": "A Câmara de Ponte Alta (SC) oferece vagas imediatas e cadastro de reserva para cargos de nível superior, com jornada de 20 horas semanais e auxílio-alimentação de R$ 900",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/camara-de-ponte-alta-sc-abre-concurso-publico-com-salarios-de-ate-r-59-mil-145156",
-      "fonte": "JC Concursos",
-      "data": "2026-09-02T19:49:37+00:00",
       "tem_edital": false
     }
   ]
