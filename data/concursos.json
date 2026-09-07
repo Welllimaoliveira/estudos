@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-07T15:01:59.696913+00:00",
+  "atualizado_em": "2026-09-07T23:28:43.670887+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "58a199c1cf62",
+      "titulo": "Concurso Receita Federal: avança processo de escolha da banca para 146 vagas",
+      "orgao": "Receita Federal",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 146,
+      "salario": "R$ 23",
+      "resumo": "Concurso Receita Federal é destinado a quem possui formação de nível superior, com remunerações iniciais de até R$ 23,8 mil",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-receita-federal-avanca-processo-de-escolha-da-banca-para-146-vagas-145262",
+      "fonte": "JC Concursos",
+      "data": "2026-09-07T15:00:06+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "b0db13a5481f",
+      "titulo": "Concurso AGU deve contar com novos critérios para seleção, edital em breve para 170 vagas",
+      "orgao": "AGU deve contar com novos critérios para seleção, edital em breve para 170 vagas",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 170,
+      "salario": "R$ 24",
+      "resumo": "Concurso AGU (Advocacia Geral da União) contará com oportunidades para cargos de nível superior em direito, com iniciais até R$ 24,9 mil",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-agu-deve-contar-com-novos-criterios-para-selecao-edital-em-breve-para-170-vagas-145261",
+      "fonte": "JC Concursos",
+      "data": "2026-09-07T14:37:41+00:00",
+      "tem_edital": true
+    },
     {
       "id": "fc125cb70ed1",
       "titulo": "Seletivo da Secretaria de Esportes SP está com inscrições abertas",
@@ -1780,36 +1810,6 @@
       "link": "https://concursosnobrasil.com/concursos/mg/2026/09/02/concurso-camara-de-natercia-mg-tem-vagas-de-niveis-fundamental-e-medio/",
       "fonte": "Concursos no Brasil",
       "data": "2026-09-02T21:07:19+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "62de0b78f5e4",
-      "titulo": "Prefeitura de Vila Pavão (ES) abre edital de seletivo e paga até R$ 4,5 mil",
-      "orgao": "Prefeitura de Vila Pavão (ES)",
-      "uf": "ES",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 4",
-      "resumo": "Processo seletivo Prefeitura de Vila Pavão, no estado do Espírito Santo, prevê contratação temporária em diversas funções.",
-      "link": "https://concursosnobrasil.com/concursos/es/2026/09/02/prefeitura-de-vila-pavao-es-abre-edital-de-seletivo-e-paga-ate-r-45-mil/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-09-02T20:05:55+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "241c3001d68f",
-      "titulo": "Oportunidade na Educação: Prefeitura de Birigui (SP) abre concurso público para Professor Auxiliar",
-      "orgao": "Oportunidade na Educação: Prefeitura de Birigui (SP)",
-      "uf": "SP",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 1",
-      "resumo": "Prefeitura de Birigui (SP) abre concurso público na área da Educação com remuneração por hora-aula e benefícios de até R$ 1,2 mil",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/oportunidade-na-educacao-prefeitura-de-birigui-sp-abre-concurso-publico-para-professor-auxiliar-145157",
-      "fonte": "JC Concursos",
-      "data": "2026-09-02T20:05:07+00:00",
       "tem_edital": false
     }
   ]
