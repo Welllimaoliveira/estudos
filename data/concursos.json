@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-11T23:14:24.803695+00:00",
+  "atualizado_em": "2026-09-12T12:50:03.048160+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "7b6d3ada35d3",
+      "titulo": "Fundação Pró-Sangue SP: inscrições para seletivo vão até segunda (14)",
+      "orgao": "Fundação Pró-Sangue SP",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "O processo seletivo da Fundação Pró-Sangue SP consistirá em prova on-line, que será composta de 20 questões de múltipla escolha",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/fundacao-pro-sangue-sp-inscricoes-para-seletivo-vao-ate-segunda-14-145354",
+      "fonte": "JC Concursos",
+      "data": "2026-09-12T08:12:00+00:00",
+      "tem_edital": false
+    },
     {
       "id": "e3c0ee604922",
       "titulo": "Concurso Prefeitura de Mauá (SP) abre 100 vagas na Guarda Municipal",
@@ -1795,21 +1810,6 @@
       "link": "https://jcconcursos.uol.com.br/noticia/empregos/centro-paula-souza-veja-requisitos-exigidos-para-315-vagas-145318",
       "fonte": "JC Concursos",
       "data": "2026-09-09T18:28:00+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "7d89fa42ecde",
-      "titulo": "Concurso do SAAEB: vagas no interior de São Paulo pagam até R$ 6,1 mil",
-      "orgao": "SAAEB",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 6",
-      "resumo": "O concurso do SAAEB (Serviço Autônomo de Água e Esgoto de Brotas) é organizado pela IPELL Consultoria e reúne cargos de todos os níveis escolares",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-do-saaeb-vagas-no-interior-de-sao-paulo-pagam-ate-r-61-mil-145321",
-      "fonte": "JC Concursos",
-      "data": "2026-09-09T18:17:52+00:00",
       "tem_edital": false
     }
   ]
