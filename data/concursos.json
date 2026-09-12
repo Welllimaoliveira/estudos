@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-12T12:50:03.048160+00:00",
+  "atualizado_em": "2026-09-12T23:02:09.791111+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,51 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "91e49d4c12b7",
+      "titulo": "Prefeitura de Roseira (SP) promove seletivo com 17 vagas para diferentes níveis de ensino",
+      "orgao": "Prefeitura de Roseira (SP) promove seletivo com 17 vagas para diferentes níveis de ensino",
+      "uf": "SP",
+      "status": "aberto",
+      "nivel": "todos",
+      "vagas": 17,
+      "salario": "",
+      "resumo": "Processo seletivo da Prefeitura de Roseira, no estado de São Paulo, abre oportunidades para o nível fundamental, médio, técnico e superior.",
+      "link": "https://concursosnobrasil.com/concursos/sp/2026/09/12/prefeitura-de-roseira-sp-promove-seletivo-com-17-vagas-para-diferentes-niveis-de-ensino/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-09-12T19:16:41+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "94a2c9aa4f7a",
+      "titulo": "Prefeitura de Patos de Minas (MG) conta com três vagas e iniciais de R$ 5,8 mil",
+      "orgao": "Prefeitura de Patos de Minas (MG) conta com três vagas e iniciais de R$ 5,8 mil",
+      "uf": "MG",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 5",
+      "resumo": "Processo seletivo Prefeitura de Patos de Minas, em Minas Gerais, oportuniza vagas imediatas para a função TNS I/ Médico - Clínica Médica.",
+      "link": "https://concursosnobrasil.com/concursos/mg/2026/09/12/prefeitura-de-patos-de-minas-mg-conta-com-tres-vagas-e-iniciais-de-r-58-mil/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-09-12T17:55:50+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "20ca2343529f",
+      "titulo": "Concurso Prefeitura de Contagem (MG): edital publicado com 272 vagas e salários de até R$ 10,2 mil",
+      "orgao": "Prefeitura de Contagem (MG): edital",
+      "uf": "MG",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 272,
+      "salario": "R$ 10",
+      "resumo": "certame oferece oportunidades para cargos de níveis médio, técnico e superior sob regime estatutário, além de formação de cadastro de reserva",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-prefeitura-de-contagem-mg-145379",
+      "fonte": "JC Concursos",
+      "data": "2026-09-12T15:07:17+00:00",
+      "tem_edital": true
+    },
     {
       "id": "7b6d3ada35d3",
       "titulo": "Fundação Pró-Sangue SP: inscrições para seletivo vão até segunda (14)",
@@ -1765,51 +1810,6 @@
       "link": "https://jcconcursos.uol.com.br/noticia/concursos/processo-seletivo-conderg-145298",
       "fonte": "JC Concursos",
       "data": "2026-09-09T18:46:50+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "9b754e8782be",
-      "titulo": "Edital Prefeitura de Brasilândia (MS) oferta salários de até R$ 17,7 mil",
-      "orgao": "Prefeitura de Brasilândia (MS) oferta salários de até R$ 17,7 mil",
-      "uf": "MS",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 17",
-      "resumo": "Processo seletivo Prefeitura de Brasilândia, no estado do Mato Grosso do Sul, abre inscrições presenciais para cadastro de reserva em diferentes ocupações.",
-      "link": "https://concursosnobrasil.com/concursos/ms/2026/09/09/edital-prefeitura-de-brasilandia-ms-oferta-salarios-de-ate-r-177-mil/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-09-09T18:44:22+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "c39cb1837eb0",
-      "titulo": "PM MT abre edital de seleção para credenciamento de Docentes e Monitor",
-      "orgao": "PM MT",
-      "uf": "MT",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "",
-      "resumo": "PM MT anuncia processo seletivo para a atuação eventual nas ações de educação acadêmica, Curso de Adaptação de Oficiais de Saúde (CAOS).",
-      "link": "https://concursosnobrasil.com/concursos/mt/2026/09/09/pm-mt-abre-edital-de-selecao-para-credenciamento-de-docentes-e-monitor/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-09-09T18:28:41+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "e3ef4368a07e",
-      "titulo": "Centro Paula Souza: veja requisitos exigidos para 315 vagas",
-      "orgao": "Centro Paula Souza",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": 315,
-      "salario": "",
-      "resumo": "Confira a lista de requisitos exigidos pelo Centro Paula Souza para participar do processo seletivo com 315 vagas em divesas áreas",
-      "link": "https://jcconcursos.uol.com.br/noticia/empregos/centro-paula-souza-veja-requisitos-exigidos-para-315-vagas-145318",
-      "fonte": "JC Concursos",
-      "data": "2026-09-09T18:28:00+00:00",
       "tem_edital": false
     }
   ]
