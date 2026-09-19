@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-18T23:16:35.355080+00:00",
+  "atualizado_em": "2026-09-19T13:07:35.890959+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "60279019c114",
+      "titulo": "Inscrições para seletivo da Prefeitura de Cubatão vão até domingo (20)",
+      "orgao": "Inscrições para seletivo da Prefeitura de Cubatão vão até domingo (20)",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Estão abertas as inscrições da Prefeitura de Cubatão (SP) pra seu processo seletivo com vagas para candidatos do nível superior de diferentes áreas",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/inscricoes-para-seletivo-da-prefeitura-de-cubatao-vao-ate-domingo-20-145509",
+      "fonte": "JC Concursos",
+      "data": "2026-09-19T08:12:00+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "f5f722b8fb87",
+      "titulo": "Prefeitura de São João das Duas Pontes (SP) lança edital de processo seletivo",
+      "orgao": "Prefeitura de São João das Duas Pontes (SP) lança edital de processo seletivo",
+      "uf": "SP",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Processo seletivo da Prefeitura de São João das Duas Pontes, em São Paulo, abre vagas para diversas funções de níveis médio e superior.",
+      "link": "https://concursosnobrasil.com/concursos/sp/2026/09/18/prefeitura-de-sao-joao-das-duas-pontes-sp-lanca-edital-de-processo-seletivo/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-09-19T01:43:55+00:00",
+      "tem_edital": true
+    },
     {
       "id": "11398800d442",
       "titulo": "CONCURSO Prefeitura de Caldas Novas (GO): edital publicado com 60 vagas para Guarda Civil Municipal",
@@ -1781,36 +1811,6 @@
       "fonte": "JC Concursos",
       "data": "2026-09-16T19:00:00+00:00",
       "tem_edital": true
-    },
-    {
-      "id": "3b373e5bcdb3",
-      "titulo": "Concurso Câmara de Rio Branco (AC) oferece mensais de até R$ 19,4 mil",
-      "orgao": "Câmara de Rio Branco (AC)",
-      "uf": "AC",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 19",
-      "resumo": "Concurso Câmara de Rio Branco (AC) abre três vagas para os cargos de Procurador e Agente Legislativo - Polícia Legislativa.",
-      "link": "https://concursosnobrasil.com/concursos/ac/2026/09/16/concurso-camara-de-rio-branco-ac-oferece-mensais-de-ate-r-194-mil/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-09-16T18:40:32+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "18492167469d",
-      "titulo": "Concurso do CRA RJ: inscrições prorrogadas para 84 vagas na capital",
-      "orgao": "CRA RJ: inscrições",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": 84,
-      "salario": "R$ 6 mil",
-      "resumo": "Com salários acima de R$ 6 mil, concurso do CRA RJ (Conselho Regional de Administração do Rio de Janeiro) abre chances para níveis técnico e superior",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-do-cra-rj-inscricoes-prorrogadas-para-84-vagas-na-capital-145469",
-      "fonte": "JC Concursos",
-      "data": "2026-09-16T18:05:19+00:00",
-      "tem_edital": false
     }
   ]
 }
