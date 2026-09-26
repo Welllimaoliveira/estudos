@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-25T23:56:09.595661+00:00",
+  "atualizado_em": "2026-09-26T13:43:55.908173+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "a9c2f389c2e3",
+      "titulo": "COHAB SP tem processo seletivo aberto com diversas vagas",
+      "orgao": "COHAB SP",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "A iniciativa da Companhia Metropolitana de Habitação de São Paulo visa preencher oportunidades que possam surgir na empresa estatal",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/cohab-sp-tem-processo-seletivo-aberto-com-diversas-vagas-145672",
+      "fonte": "JC Concursos",
+      "data": "2026-09-26T08:21:36+00:00",
+      "tem_edital": false
+    },
     {
       "id": "af2406569f98",
       "titulo": "Concurso de Aparecida (SP) tem mais de 20 vagas e salário até R$ 6,9 mil",
@@ -1795,21 +1810,6 @@
       "link": "https://concursosnobrasil.com/concursos/ma/2026/09/23/seap-ma-publica-dois-editais-de-selecao-com-salarios-de-ate-r-39-mil/",
       "fonte": "Concursos no Brasil",
       "data": "2026-09-23T18:33:48+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "568040bd2536",
-      "titulo": "Processo seletivo da Prefeitura de Caçador SC: salários de até R$ 5,3 mil na educação",
-      "orgao": "Prefeitura de Caçador SC",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "R$ 5",
-      "resumo": "Novo processo seletivo da Prefeitura de Caçador abre oportunidades para cargos de níveis médio (magistério) e superior habilitados e não habilitados",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/processo-seletivo-da-prefeitura-de-cacador-sc-salarios-de-ate-r-53-mil-na-educacao-145617",
-      "fonte": "JC Concursos",
-      "data": "2026-09-23T18:14:00+00:00",
       "tem_edital": false
     }
   ]
