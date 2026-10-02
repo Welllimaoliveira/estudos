@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-09-02T22:44:06.579718+00:00",
+  "atualizado_em": "2026-10-02T18:22:08.353168+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Constitucional",
@@ -359,7 +359,7 @@
       "item_original": 48,
       "questao": "Em procedimento investigatório perante comissão de ética, o investigado pode ter acesso aos autos e obter cópia mesmo antes de ser notificado da existência do procedimento.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questao aborda as garantias do investigado no procedimento instaurado perante a Comissao de Etica. De acordo com as normas de processo etico no Poder Executivo Federal, a garantia da ampla defesa e do contraditorio abrange o direito de vista e a obtencao de copias dos autos a qualquer momento pelo investigado ou por seu procurador legalmente constituido, inclusive antes de formalizada sua notificacao oficial. A pegadinha consiste em induzir o candidato a supor que o sigilo inicial impediria o acesso precoce do investigado ou que este so teria direitos apos a notificacao formal. O candidato deveria raciocinar que a finalidade da apuracao etica nao exclui o acesso do proprio investigado a procedimentos dirigidos contra ele, sendo legitimo consultar os elementos existentes para organizar sua defesa previa, o que justifica o gabarito CERTO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 48 - gabarito oficial definitivo"
     },
     {
@@ -373,7 +373,7 @@
       "item_original": 49,
       "questao": "Se um terceiro solicitar por telefone informação pública sobre aquisições de um órgão, o servidor está obrigado a exigir o preenchimento de formulário padrão com todos os dados previstos em lei antes de prestar a informação.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item trata das regras de acesso a informacao publica regidas pela Lei de Acesso a Informacao. Pela legislacao de regencia, os orgaos publicos devem facilitar o acesso a informacao ao cidadao, sendo vedadas exigencias que dificultem desnecessariamente a solicitacao. Se a informacao solicitada por telefone for simples, geral ou estiver disponivel, o servidor pode e deve presta-la de pronto, ou indicar o local onde se encontra, sem a imposicao burocratica de preenchimento obrigatorio de formulario complexo. A pegadinha reside em afirmar que o servidor 'esta obrigado' a barrar a resposta caso nao haja preenchimento de formulario padrao. O candidato deveria raciocinar com base no principio da publicidade e na diretriz de simplificacao dos servicos publicos, concluindo acertadamente que a hipotese nao gera essa obrigacao rigida, justificando o gabarito ERRADO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 49 - gabarito oficial definitivo"
     },
     {
@@ -387,7 +387,7 @@
       "item_original": 50,
       "questao": "Atendidos os requisitos legais, o diretor-geral da PRF pode realizar contratação direta de empresa da qual um primo seja sócio.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questao analisa as hipoteses de impedimento e vedacao ao nepotismo no ambito da administracao publica federal. As restricoes legais e jurisprudenciais que vedam a contratacao de parentes alcancam o conjuje, companheiro e parentes em linha reta ou colateral ate o terceiro grau. Os primos sao parentes colaterais em quarto grau, razao pela qual nao estao abrangidos na proibicao objetiva classica de nepotismo que atinge ate o terceiro grau. A pegadinha esta no senso comum que rotula qualquer relacao de parentesco como situacao de nepotismo ilegal. O candidato deveria verificar a contagem de graus de parentesco no direito civil e administrativo, notando que parentes de quarto grau nao sofrem a vedacao automatica. Portanto, atendidos todos os pressupostos legais e demonstrada a lisura da contratacao direta, nao ha vedacao expressa, confirmando o gabarito CERTO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 50 - gabarito oficial definitivo"
     },
     {
@@ -401,7 +401,7 @@
       "item_original": 86,
       "questao": "O ajuizamento de mandado de segurança contra multa aplicada pela administração em contrato administrativo constitui controle judicial do mérito administrativo.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A assertiva versa sobre a extensao do controle jurisdicional sobre os atos administrativos. O merito administrativo compreende os criterios de conveniencia e oportunidade privativos do administrador no exercicio de sua competencia discricionaria. Por outro lado, a aplicacao de penalidades em contratos administrativos decorre do exercicio do poder disciplinar sancionatorio, subordinado estritamente a estrita legalidade, proporcionalidade e ao devido processo legal. A pegadinha tenta confundir o controle da legalidade da sancao com intervencao indevida no merito administrativo. O candidato deveria atentar para a consolidada doutrina de que a impetracao de mandado de seguranca para coibir ato ilegal ou abusivo decorrente de penalidade contratual constitui controle de legalidade e legitimidade, jamais de merito, o que fundamenta com clareza o gabarito ERRADO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 86 - gabarito oficial definitivo"
     },
     {
@@ -415,7 +415,7 @@
       "item_original": 87,
       "questao": "Órgão público é entidade descentralizada da administração indireta e possui personalidade jurídica própria de direito público.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item examina o conceito basico de orgao publico e a diferenca entre concentracao, desconcentracao e descentralizacao administrativa. Os orgaos publicos sao centros de competencias instituidos por meio da tecnica da desconcentracao dentro de uma mesma pessoa juridica, integrando a estrutura da administracao direta ou indireta, porem sem possuir personalidade juridica propria. A pegadinha consiste em misturar desconcentracao com descentralizacao e afirmar falsamente que orgaos possuem personalidade juridica propria de direito publico. O candidato deveria lembrar que sao as entidades da administracao indireta, como autarquias e fundacoes, que possuem personalidade juridica propria decorrente da descentralizacao. Como os orgaos sao entes despersonalizados resultantes de desconcentracao, a assertiva esta frontalmente incorreta, o que conduz diretamente ao gabarito ERRADO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 87 - gabarito oficial definitivo"
     },
     {
@@ -429,7 +429,7 @@
       "item_original": 88,
       "questao": "A contratação direta de empresa de reconhecida especialização para serviço técnico singular de treinamento caracteriza hipótese de dispensa de licitação.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questao trata das modalidades de contratacao direta na legislacao de licitacoes. A hipotese de contratacao de servicos tecnicos de natureza predominantemente intelectual com profissionais ou empresas de notoria especializacao, como o treinamento e aperfeicoamento de pessoal, constitui caso tipico de inexigibilidade de licitacao, em razao da inviabilidade juridica de competicao objetiva. A pegadinha reside em trocar o instituto juridico, qualificando a situacao como hipotese de dispensa de licitacao em vez de inexigibilidade. O candidato deveria lembrar que a dispensa pressupoe a possibilidade de competicao que a lei autoriza suprimir, enquanto servicos singulares prestados por notorio especialista inviabilizam a propria disputa licitatoria por carecerem de padronizacao formal comparavel. Dessa distincao decorre a certeza de que a afirmacao e falsa, resultando no gabarito ERRADO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 88 - gabarito oficial definitivo"
     },
     {
@@ -443,7 +443,7 @@
       "item_original": 90,
       "questao": "O uso de ação judicial para conter eventual abuso praticado pela administração pública concretiza o princípio da sindicabilidade.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O foco desta questao e o conceito do principio da sindicabilidade no regime juridico-administrativo. A sindicabilidade traduz a prerrogativa juridica de submeter os atos da Administracao Publica a controle, seja pelas vias do autocontrole administrativo interno, seja por provocacao perante o Poder Judiciario, com amparo no principio constitucional da inafastabilidade da jurisdicao. A pegadinha decorre do desconhecimento do termo teorico sindicabilidade, que o estudante desavisado poderia confundir com sindicancia disciplinar interna restrita. O candidato deveria compreender que a sindicabilidade expressa a ideia ampla de submissao do agir estatal ao escrutinio da legalidade por orgaos de controle e pelos tribunais judiciais. Logo, a utilizacao de via judicial contra abusos administrativos e a maxima expressao da sindicabilidade, justificando plenamente o gabarito CERTO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 90 - gabarito oficial definitivo"
     },
     {
@@ -457,7 +457,7 @@
       "item_original": 56,
       "questao": "Em rodovia rural de pista dupla sem sinalização regulamentadora, automóveis, camionetas e motocicletas submetem-se ao mesmo limite máximo de velocidade.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questao aborda a regulamentacao legal dos limites maximos de velocidade nas vias rurais segundo o Codigo de Transito Brasileiro. Nas rodovias de pista dupla onde nao existir sinalizacao regulamentadora especifica, a velocidade maxima permitida por lei e unificada em cento e dez quilometros por hora para automoveis, camionetas, caminhonetes e motocicletas. A pegadinha apoia-se na antiga redacao legal ou na intuicao equivocada de que motocicletas teriam limite diferenciado ou inferior ao estabelecido para os veiculos de passeio. O candidato deveria recordar a tabela legal atualizada de velocidades das rodovias sem placas de sinalizacao, na qual automoveis, camionetas e motocicletas figuram exatamente no mesmo patamar de velocidade maxima nas pistas duplas, o que corrobora a veracidade da declaracao e o gabarito CERTO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 56 - gabarito oficial definitivo"
     },
     {
@@ -471,7 +471,7 @@
       "item_original": 57,
       "questao": "Veículo em movimento que possua espelhos retrovisores em ambos os lados pode utilizar cortinas nas áreas envidraçadas, observadas as regras aplicáveis.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O item trata do uso de cortinas, persianas ou acessorios similares nas areas envidracadas dos veiculos em circulacao. De acordo com as resolucoes normativas de transito, e admitido o uso de cortinas ou paineis escurecedores nos vidros laterais e traseiros de veiculos automotores com o veiculo em movimento, desde que este disponha de espelhos retrovisores externos instalados em ambos os lados e respeite as demais exigencias de seguranca. A pegadinha consiste em achar que qualquer obstrucao nas areas envidracadas e estritamente proibida enquanto o veiculo trafega. O candidato deveria resgatar a regra especifica de equipamentos obrigatorios, que autoriza expressamente esse uso acessorio desde que garantida a visibilidade indireta bilateral atraves dos espelhos retrovisores direito e esquerdo, assegurando a correcao da questao e o gabarito CERTO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 57 - gabarito oficial definitivo"
     },
     {
@@ -485,7 +485,7 @@
       "item_original": 58,
       "questao": "Em acidente sem vítimas, com apenas danos materiais, o causador é obrigado a manter os veículos no local para facilitar os trabalhos policiais e periciais, sob pena de cometer infração administrativa grave.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O comando da questao analisa a conduta legal exigida do condutor em caso de acidente de transito que resulta unicamente em danos materiais. Segundo o Codigo de Transito Brasileiro, ocorrendo acidente sem vitimas, o condutor e expressamente obrigado a adotar providencias para remover o veiculo do local imediatamente, visando a desobstruir a via e preservar a seguranca e a fluidez do tráfego. Manter o veiculo indevidamente na pista para esperar a pericia e que configura infracao de transito de natureza media. A pegadinha apoia-se no senso comum erroneo de que se deve aguardar a pericia mesmo em simples batidas patrimoniais, alem de classificar a infracao como grave. O candidato deveria lembrar que a prioridade e a fluidez da via publica, configurando o gabarito ERRADO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 58 - gabarito oficial definitivo"
     },
     {
@@ -499,7 +499,7 @@
       "item_original": 59,
       "questao": "Em acidente com vítimas, a autoridade ou o agente policial somente pode autorizar a remoção dos veículos da via depois de prestado socorro e concluída a perícia no local.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item analisa a remocao de veiculos em acidentes com vitimas nas vias terrestres. Muito embora a preservacao do local do crime para fins de pericia seja a regra geral processual, as normas de transito e a legislacao penal processual preveem excecoes expressas em caso de urgencia. A autoridade ou agente policial pode e deve determinar a remocao imediata dos veiculos caso eles estejam gerando perigo manifesto a seguranca publica ou bloqueando a fluidez do transito, prescindindo de pericia previa no local exato quando isso prejudicar o socorro ou a integridade coletiva. A pegadinha reside no uso do termo restritivo 'somente pode autorizar apos concluida a pericia'. O candidato deveria identificar que o imperativo de seguranca afasta essa exigencia rigida temporal, consolidando o gabarito ERRADO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 59 - gabarito oficial definitivo"
     },
     {
@@ -513,7 +513,7 @@
       "item_original": 60,
       "questao": "Pessoa penalmente inimputável não pode obter habilitação para conduzir veículo automotor e elétrico.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A assertiva versa sobre as condicoes e requisitos legais indispensaveis para que o cidadao obtenha a Carteira Nacional de Habilitacao. O Codigo de Transito Brasileiro dispoe taxativamente em seus requisitos que o candidato a habilitacao deve ser penalmente imputavel, saber ler e escrever e possuir documento de identificacao e cadastro de pessoa fisica. Pessoas penalmente inimputaveis, como os menores de dezoito anos de idade ou aqueles declarados juridicamente incapazes de responder por ilicitos penais, nao preenchem essa condicao elementar. A pegadinha tenta confundir maioridade civil com capacidade penal ou suscitar excecoes inexistentes. O candidato deveria verificar que a imputabilidade penal e condicao sine qua non para a concessao do direito de dirigir, o que torna a proposicao inteiramente verdadeira, fundamentando o gabarito CERTO.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 60 - gabarito oficial definitivo"
     },
     {
