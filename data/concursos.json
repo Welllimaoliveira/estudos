@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-03T14:18:04.455111+00:00",
+  "atualizado_em": "2026-10-03T23:46:15.537339+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "d2d9f9bcd95a",
+      "titulo": "Concurso São Joaquim da Barra (SP) tem 22 vagas com salário até R$ 10.171",
+      "orgao": "São Joaquim da Barra (SP)",
+      "uf": "SP",
+      "status": "aberto",
+      "nivel": "todos",
+      "vagas": 22,
+      "salario": "R$ 10.171",
+      "resumo": "Concurso público da Prefeitura de São Joaquim da Barra, São Paulo, visa à contratação de servidores de níveis fundamental, médio e superior.",
+      "link": "https://concursosnobrasil.com/concursos/sp/2026/10/03/concurso-sao-joaquim-da-barra-sp-tem-22-vagas-com-salario-ate-r-10-171/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-03T17:10:34+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "009eed488ea6",
+      "titulo": "Concurso Câmara de Colniza (MT) oferece vencimento de até R$ 9,5 mil",
+      "orgao": "Câmara de Colniza (MT)",
+      "uf": "MT",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 9",
+      "resumo": "Câmara de Colniza, no estado de Mato Grosso, abre novas vagas para empregos de níveis médio e superio para duas carreiras técnico-administrativas.",
+      "link": "https://concursosnobrasil.com/concursos/sp/2026/10/03/concurso-camara-de-colniza-sp-oferece-vencimento-de-ate-r-95-mil/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-03T16:30:16+00:00",
+      "tem_edital": false
+    },
     {
       "id": "63430c3a4a02",
       "titulo": "Prefeitura de Cubatão SP abre novo processo seletivo com muitas vagas",
@@ -1781,36 +1811,6 @@
       "fonte": "JC Concursos",
       "data": "2026-09-30T18:03:41+00:00",
       "tem_edital": false
-    },
-    {
-      "id": "95e43715df62",
-      "titulo": "Prefeitura de São Roque (SP) oferta bolsas de R$ 1,1 mil em seleção de estágio",
-      "orgao": "Prefeitura de São Roque (SP) oferta bolsas de R$ 1,1 mil em seleção de estágio",
-      "uf": "SP",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 1",
-      "resumo": "Processo seletivo Prefeitura de São Roque, no estado de São Paulo, está sendo organizado pelo Centro de Integração Empresa-Escola – CIEE.",
-      "link": "https://concursosnobrasil.com/concursos/sp/2026/09/30/prefeitura-de-sao-roque-sp-oferta-bolsas-de-r-11-mil-em-selecao-de-estagio/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-09-30T17:52:33+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "e2154ecdd9ee",
-      "titulo": "Estágio Prefeitura de Cachoeira Paulista (SP) tem edital publicado",
-      "orgao": "Estágio Prefeitura de Cachoeira Paulista (SP) tem edital",
-      "uf": "SP",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Estágio Prefeitura de Cachoeira Paulista, no estado de São Paulo, é destinado a profissionais em andamento com cursos de nível superior.",
-      "link": "https://concursosnobrasil.com/concursos/sp/2026/09/30/estagio-prefeitura-de-cachoeira-paulista-sp-tem-edital-publicado/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-09-30T17:16:46+00:00",
-      "tem_edital": true
     }
   ]
 }
