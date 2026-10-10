@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-10T00:47:02.980415+00:00",
+  "atualizado_em": "2026-10-10T15:20:18.893960+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,51 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "35a72eae6a1c",
+      "titulo": "Concurso CGU abre inscrição para 60 vagas de auditor; inicial de R$ 20 mil",
+      "orgao": "CGU",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 60,
+      "salario": "R$ 20 mil",
+      "resumo": "Candidatos com nível superior podem se inscrever no concurso CGU (Controladoria-Geral da União) até 4 de novembro, no site do Cebraspe",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-cgu-abre-inscricao-para-60-vagas-de-auditor-inicial-de-r-20-mil-145961",
+      "fonte": "JC Concursos",
+      "data": "2026-10-10T10:12:00+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "93af50d0e09d",
+      "titulo": "Inscrições para processo seletivo 2027 da Sabesp vão até terça-feira (13)",
+      "orgao": "Inscrições para processo seletivo 2027 da Sabesp vão até terça-feira (13)",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 2.200",
+      "resumo": "A Sabesp oferece remuneração de R$ 2.200 por mês, mais diversos benefícios. O prazo de inscrições está perto do fim, veja os detalhes",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/inscricoes-para-processo-seletivo-2027-da-sabesp-vao-ate-terca-feira-13-145943",
+      "fonte": "JC Concursos",
+      "data": "2026-10-10T08:04:15+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "2406e028305d",
+      "titulo": "Concurso DPU: formada comissão para escolha da banca para defensor",
+      "orgao": "DPU",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Concurso DPU (Defensoria Pública da União) será para carreira de defensor público federal, de nível superior em direito",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-dpu-formada-comissao-para-escolha-da-banca-para-defensor-145963",
+      "fonte": "JC Concursos",
+      "data": "2026-10-10T00:44:13+00:00",
+      "tem_edital": false
+    },
     {
       "id": "ee017124ab90",
       "titulo": "Concurso TRT 4 RS: assinado contrato com banca e edital já pode sair",
@@ -366,7 +411,7 @@
       "nivel": "",
       "vagas": null,
       "salario": "R$ 6",
-      "resumo": "Município catarinense divulga dez editais para contratações temporárias e bolsas de trabalho para diversas áreas de atuação, distribuídas em diferentes secretarias.",
+      "resumo": "Município catarinense divulga 11 editais para contratações temporárias e bolsas de trabalho para diversas áreas de atuação, distribuídas em diferentes secretarias.",
       "link": "https://concursosnobrasil.com/concursos/sc/2026/10/09/prefeitura-de-sao-joao-batista-sc-lanca-editais-com-ganhos-de-ate-r-68-mil/",
       "fonte": "Concursos no Brasil",
       "data": "2026-10-09T14:53:59+00:00",
@@ -1766,51 +1811,6 @@
       "fonte": "Concursos no Brasil",
       "data": "2026-10-07T14:57:28+00:00",
       "tem_edital": false
-    },
-    {
-      "id": "48e0283c0997",
-      "titulo": "Prefeitura de Fraiburgo (SC) anuncia seletivo na área da Educação",
-      "orgao": "Prefeitura de Fraiburgo (SC) anuncia seletivo na área da Educação",
-      "uf": "SC",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Processo seletivo Prefeitura ded Fraiburgo será aplicado por meio de provas objetiva e de títulos. As inscrições serão realizadas apenas pela Internet.",
-      "link": "https://concursosnobrasil.com/concursos/sc/2026/10/07/prefeitura-de-fraiburgo-sc-anuncia-seletivo-na-area-da-educacao/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-10-07T14:56:26+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "f42a8c4a6e37",
-      "titulo": "Prefeitura de Santa Bárbara d'Oeste SP tem inscrições abertas para 390 vagas",
-      "orgao": "Prefeitura de Santa Bárbara d'Oeste SP",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": 390,
-      "salario": "",
-      "resumo": "O processo seletivo será realizado por meio do Programa Desenvolve Santa Bárbara, com requisitos que variam de acordo com o cargo",
-      "link": "https://jcconcursos.uol.com.br/noticia/empregos/prefeitura-de-santa-barbara-doeste-sp-tem-inscricoes-abertas-para-390-vagas-145894",
-      "fonte": "JC Concursos",
-      "data": "2026-10-07T14:42:46+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "08cb42faee8d",
-      "titulo": "Prefeitura de Osório (RS) oferta salários de até 5,7 mil em editais de seletivo",
-      "orgao": "Prefeitura de Osório (RS) oferta salários de até 5,7 mil em editais de seletivo",
-      "uf": "RS",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Processo seletivo Prefeitura de Osório, no estado do Rio Grande do Sul, abriu edital de níveis médio e superior por análise de títulos e experiência profissional.",
-      "link": "https://concursosnobrasil.com/concursos/rs/2026/10/07/prefeitura-de-osorio-rs-oferta-salarios-de-ate-57-mil-em-editais-de-seletivo/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-10-07T14:35:14+00:00",
-      "tem_edital": true
     }
   ]
 }
