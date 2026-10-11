@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-10T15:20:18.893960+00:00",
+  "atualizado_em": "2026-10-11T00:13:31.506283+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "0144a40b66d6",
+      "titulo": "Prefeitura de Sobral (CE) abre seletivo para professores temporários",
+      "orgao": "Prefeitura de Sobral (CE)",
+      "uf": "CE",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Seleção pública de Sobral, no Ceará, terá prova objetiva e avaliação de títulos, com vagas para 17 áreas de atuação.",
+      "link": "https://concursosnobrasil.com/concursos/ce/2026/10/10/prefeitura-de-sobral-ce-abre-seletivo-para-professores-temporarios/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-10T21:57:34+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "9f13c753a68c",
+      "titulo": "Câmara de Ituporanga (SC) abre seletivo com remuneração de R$ 11.580",
+      "orgao": "Câmara de Ituporanga (SC)",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 11.580",
+      "resumo": "Processo seletivo iniciado pela Câmara de Ituporanga oferta remuneração de R$ 11,5 mil e é organizado pelo Instituto Dom.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/10/10/camara-de-ituporanga-sc-abre-seletivo-com-remuneracao-de-r-11-580/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-10T21:18:00+00:00",
+      "tem_edital": false
+    },
     {
       "id": "35a72eae6a1c",
       "titulo": "Concurso CGU abre inscrição para 60 vagas de auditor; inicial de R$ 20 mil",
@@ -1781,36 +1811,6 @@
       "fonte": "Concursos no Brasil",
       "data": "2026-10-07T15:55:42+00:00",
       "tem_edital": true
-    },
-    {
-      "id": "ec915b1d6e96",
-      "titulo": "Concurso de Lençóis Paulista SP: inscrições abertas para área da educação",
-      "orgao": "Lençóis Paulista SP",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "R$ 8",
-      "resumo": "O terceiro edital de concurso de Lençóis Paulista reúne cargos de níveis médio (magistério) e superior, com salários de até R$ 8,6 mil",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-de-lencois-paulista-sp-inscricoes-abertas-para-area-da-educacao-145897",
-      "fonte": "JC Concursos",
-      "data": "2026-10-07T15:18:00+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "7ae0a921f98a",
-      "titulo": "Concurso Câmara de Fraiburgo (SC) oferta iniciais de até R$ 6,7 mil",
-      "orgao": "Câmara de Fraiburgo (SC) oferta iniciais de até R$ 6,7 mil",
-      "uf": "SC",
-      "status": "aberto",
-      "nivel": "todos",
-      "vagas": null,
-      "salario": "R$ 6",
-      "resumo": "Concurso Câmara de Fraiburgo, no estado de Santa Catarina, com oportunidades de níveis fundamental, médio e superior.",
-      "link": "https://concursosnobrasil.com/concursos/sc/2026/10/07/concurso-camara-de-fraiburgo-sc-oferta-iniciais-de-ate-r-67-mil/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-10-07T14:57:28+00:00",
-      "tem_edital": false
     }
   ]
 }
