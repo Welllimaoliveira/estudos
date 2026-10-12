@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-10-02T18:22:08.353168+00:00",
+  "atualizado_em": "2026-10-12T21:43:43.098025+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Constitucional",
@@ -527,7 +527,7 @@
       "item_original": 61,
       "questao": "Na fiscalização de trânsito por videomonitoramento, a constatação da infração independe de sinalização específica na via, devendo o agente registrar no auto informações sobre a forma de constatação.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A fiscalização por videomonitoramento depende expressamente da existência de sinalização prévia e clara na via informando ao condutor que o trecho está sob monitoramento remoto. A pegadinha consistiu em inverter essa exigência legal ao afirmar que a autuação independeria de placas ou avisos específicos. O candidato deveria recordar as diretrizes do Conselho Nacional de Trânsito para a operação de câmeras de vigilância, as quais exigem a publicidade da fiscalização para resguardar a transparência e a finalidade educativa do trânsito. Portanto, sem a sinalização obrigatória no local, o auto de infração lavrado com base nesse método torna-se irregular, o que torna a assertiva incorreta.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 61 - gabarito oficial definitivo"
     },
     {
@@ -541,7 +541,7 @@
       "item_original": 62,
       "questao": "A emissão do CRLV-e é obrigatória quando há transferência de propriedade, mas seria dispensável quando o proprietário muda de município de residência.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O Código de Trânsito Brasileiro determina expressamente a obrigatoriedade de emissão de novo documento de registro do veículo quando ocorrer a mudança de município de domicílio ou de residência do proprietário, assim como nos casos de transferência de propriedade. A pegadinha da banca foi classificar essa hipótese como dispensável, tentando induzir o candidato a pensar que a alteração de endereço exigiria mera atualização cadastral interna sem expedição documental. O candidato deveria aplicar a regra basilar de registro veicular: a circunscrição municipal vincula os órgãos de trânsito e o recolhimento de tributos, tornando a emissão do documento indispensável, o que justifica o gabarito errado.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 62 - gabarito oficial definitivo"
     },
     {
@@ -555,7 +555,7 @@
       "item_original": 63,
       "questao": "A campanha educativa de trânsito de 2021 previa temas mensais que incluíam reflexões sobre impactos físicos, psicológicos e sociais dos sinistros de trânsito na vida das vítimas e de seus familiares.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A resolução que fixou as diretrizes e o cronograma para a Campanha Educativa de Trânsito de 2021 contemplou temas mensais voltados à humanização do tráfego, destacando reflexões sobre as consequências físicas, psicológicas e sociais que os sinistros acarretam para as vítimas e seus familiares. A pegadinha comum em itens desse gênero é questionar a abrangência das campanhas ou sugerir que elas se limitam a infrações materiais e fiscalização. O candidato deveria lembrar que a política nacional de educação para o trânsito enfatizou a empatia e a valorização da vida, alinhando-se integralmente à descrição trazida pela banca, motivo pelo qual a proposição está correta.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 63 - gabarito oficial definitivo"
     },
     {
@@ -569,7 +569,7 @@
       "item_original": 64,
       "questao": "Entre os medidores fixos de velocidade, o equipamento do tipo redutor é o que deve obrigatoriamente possuir display, conforme a regulamentação considerada na prova.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "As normas técnicas de fiscalização de velocidade diferenciam os equipamentos fixos entre controladores e redutores. O redutor de velocidade é instalado em pontos críticos e com limites mais restritos, sendo o único que possui a exigência regulamentar obrigatória de display luminoso informando a velocidade aferida ao motorista no momento da passagem. A pegadinha residia em confundir o redutor com o medidor controlador, que dispensa esse mostrador eletrônico. O candidato deveria associar a figura do redutor à tradicional lombada eletrônica, cuja principal característica visual e legal exigida pelas normas do Contran é a presença do display informativo, confirmando o acerto do item.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 64 - gabarito oficial definitivo"
     },
     {
@@ -583,7 +583,7 @@
       "item_original": 65,
       "questao": "Quando necessário, veículos com engate para reboque ou carroceria intercambiável devem utilizar segunda placa de identificação veicular traseira, porque reboques e semirreboques possuem identificação traseira.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "Veículos que utilizam engate de reboque, suporte de carga ou carroceria intercambiável precisam de uma segunda placa de identificação traseira sempre que o acessório encobrir, parcial ou totalmente, a placa principal. Isso ocorre porque reboques e semirreboques contam com sua própria placa, enquanto suportes ou cargas em balanço não dispõem de registro autônomo, bloqueando a visão da identificação original do automóvel. A banca exigiu a compreensão dessa finalidade prática para garantir a plena visibilidade dos caracteres do veículo pela fiscalização. O raciocínio correto confirmava que a exigência da segunda placa visa sanar essa obstrução visual, estando o item correto.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 65 - gabarito oficial definitivo"
     },
     {
@@ -597,7 +597,7 @@
       "item_original": 66,
       "questao": "Infração de trânsito concomitante é aquela em que a prática de uma infração tem como pressuposto necessário o cometimento de outra.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O conceito apresentado pelo enunciado refere-se às infrações sucessivas ou dependentes, nas quais uma conduta ilícita constitui etapa obrigatória ou pressuposto para outra. No jargão da fiscalização e do Manual Brasileiro de Fiscalização de Trânsito, as infrações concomitantes são aquelas cometidas de maneira independente e simultânea, sem que uma seja requisito causal ou lógico para a existência da outra. A pegadinha foi trocar deliberadamente as definições técnicas de infração concomitante e sucessiva. O candidato deveria perceber que a concomitância traduz independência fática das condutas infracionais, o que desqualifica a definição proposta no enunciado e confirma o gabarito errado.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 66 - gabarito oficial definitivo"
     },
     {
@@ -611,7 +611,7 @@
       "item_original": 100,
       "questao": "A remarcação de novo número no chassi de um veículo e a falsificação de seu certificado de registro configuram, em conjunto, um único crime de falsificação de documento público.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A conduta de remarcar chassi amolda-se ao crime autônomo de adulteração de sinal identificador de veículo automotor, previsto no Código Penal, enquanto a contrafação do documento veicular constitui delito distinto de falsificação de documento público. Não ocorre a absorção de um pelo outro nem a caracterização de crime único, incidindo concurso formal ou material de delitos conforme a execução. A pegadinha da banca foi afirmar a subsunção de ambas as condutas em uma só figura penal. O candidato deveria verificar que os bens jurídicos e os tipos penais são autônomos, existindo duas ações delituosas distintas contra a fé pública, resultando no gabarito errado.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 100 - gabarito oficial definitivo"
     },
     {
@@ -625,7 +625,7 @@
       "item_original": 101,
       "questao": "A remarcação do chassi com o mesmo número original do veículo configura simultaneamente crime contra a fé pública e infração administrativa de trânsito.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A remarcação do chassi mantendo rigorosamente a numeração original não possui potencialidade lesiva de fraudar o registro automotivo nem altera a identidade do bem perante o poder público. Para a configuração do delito contra a fé pública, exige-se dolo de adulteração capaz de burlar o cadastro veicular; da mesma forma, a restauração da gravação em si não constitui automaticamente infração penal se não houver modificação fraudulenta. A pegadinha buscou induzir o candidato a presumir que qualquer intervenção física sobre a superfície do chassi caracterizaria crime e infração de trânsito. Sem alteração da numeração identificadora genuína, o fato é atípico penalmente, tornando o item incorreto.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 101 - gabarito oficial definitivo"
     },
     {
@@ -639,7 +639,7 @@
       "item_original": 102,
       "questao": "Durante uma blitz, o motorista que oferece dinheiro ao policial para ser irregularmente liberado pratica corrupção ativa.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O delito de corrupção ativa tipifica as condutas de oferecer ou prometer vantagem indevida a funcionário público com o objetivo de determiná-lo a praticar, omitir ou retardar ato de ofício. Quando o motorista abordado em blitz oferece dinheiro ao policial para evitar a fiscalização ou ser liberado sem as sanções cabíveis, sua conduta preenche integralmente todos os elementos objetivos e subjetivos do tipo penal. A pegadinha usual é indagar se haveria necessidade de concordância do agente público. O candidato deveria atentar que a simples oferta já basta para a adequação típica direta ao crime de corrupção ativa, validando o gabarito certo.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 102 - gabarito oficial definitivo"
     },
     {
@@ -653,7 +653,7 @@
       "item_original": 103,
       "questao": "Se o policial recusar a quantia oferecida pelo motorista para liberá-lo irregularmente de uma blitz, o crime de corrupção ativa permanece apenas na forma tentada.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A corrupção ativa é classificada doutrinariamente como crime formal e de mera conduta, consumando-se no momento exato em que a vantagem indevida chega ao conhecimento do funcionário público. A efetiva aceitação ou a recusa do agente público consiste em mero exaurimento irrelevante para a consumação do delito. A pegadinha clássica da banca tentou convencer o examinando de que a recusa do policial impediria o alcance do resultado consumativo, degradando o fato para a forma tentada. O candidato deveria aplicar a teoria dos crimes formais e reconhecer que a consumação se aperfeiçoa com a oferta ilícita, demonstrando que a assertiva é errada.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 103 - gabarito oficial definitivo"
     },
     {
@@ -667,7 +667,7 @@
       "item_original": 104,
       "questao": "Uma adulteração grosseira no chassi de veículo, por si só, não transforma necessariamente a conduta em crime impossível.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "No direito penal, a configuração do crime impossível reclama a ineficácia absoluta do meio ou a impropriedade absoluta do objeto. Em matéria de adulteração de sinal identificador, a modificação visível a olho nu ou grosseira para um perito especializado pode ser plenamente apta a enganar terceiros, compradores leigos ou agentes em situações cotidianas, subsistindo potencial lesivo à fé pública. A pegadinha estava em tentar equiparar a imperfeição da fraude à ineficácia absoluta da conduta. O candidato deveria utilizar o raciocínio de que a inaptidão relativa não elide a tipicidade, de modo que a adulteração grosseira não gera automaticamente crime impossível, legitimando o gabarito certo.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 104 - gabarito oficial definitivo"
     },
     {
@@ -681,7 +681,7 @@
       "item_original": 110,
       "questao": "Se três pessoas associadas e com divisão de tarefas subtraírem substância explosiva, estará configurado crime hediondo.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A Lei dos Crimes Hediondos incluiu em seu rol taxativo a qualificadora do furto praticado com emprego de substância explosiva ou artefato análogo que cause perigo comum. Todavia, a subtração de substâncias explosivas em si é hipótese de qualificadora distinta no Código Penal e não integra a relação de crimes hediondos. A sutil pegadinha da banca explorou a semelhança entre furtar utilizando explosivos como ferramenta e furtar o próprio material explosivo como objeto da subtração. O candidato deveria lembrar da taxatividade estrita da legislação penal: apenas o furto mediante explosão é hediondo, e não a subtração do explosivo, tornando a proposição errada.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 110 - gabarito oficial definitivo"
     },
     {
