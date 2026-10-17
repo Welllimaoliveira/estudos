@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-16T23:33:03.854667+00:00",
+  "atualizado_em": "2026-10-17T12:56:37.719508+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "46c1c9057e8c",
+      "titulo": "Prefeitura de Vinhedo SP: inscrições abertas para 40 vagas em diversas áreas",
+      "orgao": "Prefeitura de Vinhedo SP",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 40,
+      "salario": "",
+      "resumo": "De acordo com o edital da Prefeitura de Vinhedo (SP), as vagas são para candidatos do nível superior de diferentes áreas",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/prefeitura-de-vinhedo-sp-inscricoes-abertas-para-40-vagas-em-diversas-areas-146070",
+      "fonte": "JC Concursos",
+      "data": "2026-10-17T08:40:28+00:00",
+      "tem_edital": true
+    },
+    {
+      "id": "39c9dce42d8c",
+      "titulo": "Concurso Rio Negrinho (SC) tem 4 editais e salário de até R$ 18.538",
+      "orgao": "Rio Negrinho (SC)",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 18.538",
+      "resumo": "Legalle Concursos realiza os concursos públicos da Prefeitura de Rio Negrinho e de órgãos a ela vinculados (FMC, IPRERIO e SAMAE).",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/10/16/concurso-rio-negrinho-sc-tem-4-editais-e-salario-de-ate-r-18-538/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-17T00:28:01+00:00",
+      "tem_edital": false
+    },
     {
       "id": "b207c4e630b0",
       "titulo": "Concurso Prefeitura de Votorantim (SP) abre 37 vagas e tem mensais até R$ 8.377",
@@ -1781,36 +1811,6 @@
       "fonte": "JC Concursos",
       "data": "2026-10-14T14:57:56+00:00",
       "tem_edital": true
-    },
-    {
-      "id": "bb82391ed0d3",
-      "titulo": "Concurso Receita Federal: processo para 146 vagas avança internamente",
-      "orgao": "Receita Federal",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": 146,
-      "salario": "R$ 23",
-      "resumo": "Concurso Receita Federal é destinado a quem possui formação de nível superior, com remunerações iniciais de até R$ 23,8 mil",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-receita-federal-processo-avanca-internamente-para-146-vagas-146006",
-      "fonte": "JC Concursos",
-      "data": "2026-10-14T14:39:38+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "a750055d09a8",
-      "titulo": "Concurso TJ SC oferece 15 vagas para juiz substituto com subsídio de R$ 35,8 mil",
-      "orgao": "TJ SC",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": 15,
-      "salario": "R$ 35",
-      "resumo": "Podem participar do concurso TJ SC (Tribunal de Justiça de Santa Catarina) candidatos com nível superior em direito e três anos de atividade jurídica",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-tj-sc-oferece-15-vagas-para-juiz-substituto-com-subsidio-de-r-358-mil-146003",
-      "fonte": "JC Concursos",
-      "data": "2026-10-14T14:12:11+00:00",
-      "tem_edital": false
     }
   ]
 }
