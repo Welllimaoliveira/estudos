@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-18T13:14:05.971379+00:00",
+  "atualizado_em": "2026-10-18T23:07:43.626911+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "dbf8da97f1f7",
+      "titulo": "Prefeitura de Novo Horizonte (SC) lança edital com salários de até R$ 6,2 mil",
+      "orgao": "Prefeitura de Novo Horizonte (SC) lança edital com salários de até R$ 6,2 mil",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 6",
+      "resumo": "Processo seletivo Prefeitura de Novo Horizonte, em Santa Catarina, divulga oportunidades para todos os níveis de escolaridade com inscrições gratuitas.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/10/18/prefeitura-de-novo-horizonte-sc-lanca-edital-com-salarios-de-ate-r-62-mil/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-18T19:43:25+00:00",
+      "tem_edital": true
+    },
     {
       "id": "46c1c9057e8c",
       "titulo": "Prefeitura de Vinhedo SP: inscrições abertas para 40 vagas em diversas áreas",
@@ -1796,21 +1811,6 @@
       "fonte": "Concursos no Brasil",
       "data": "2026-10-14T15:02:06+00:00",
       "tem_edital": false
-    },
-    {
-      "id": "b3c2e27de07e",
-      "titulo": "Concurso Prefeitura de Bauru SP: edital em breve para vagas de procurador jurídico",
-      "orgao": "Prefeitura de Bauru SP",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Concurso Prefeitura de Bauru SP (Prefeitura de Bauru) será destinado a quem possui formação de nível superior em direito",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-prefeitura-de-bauru-sp-edital-em-breve-para-vagas-de-procurador-juridico-146007",
-      "fonte": "JC Concursos",
-      "data": "2026-10-14T14:57:56+00:00",
-      "tem_edital": true
     }
   ]
 }
