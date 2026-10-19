@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-10-12T21:43:43.098025+00:00",
+  "atualizado_em": "2026-10-19T19:16:48.087312+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Constitucional",
@@ -695,7 +695,7 @@
       "item_original": 111,
       "questao": "Para fins de abuso de autoridade, pode ser sujeito ativo agente público que não seja servidor efetivo e que atue mesmo sem receber remuneração.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O item aborda o conceito de sujeito ativo nos crimes de abuso de autoridade segundo a legislação de regência. A lei adota um conceito amplo de agente público, abrangendo todo aquele que exerce cargo, emprego ou função pública, ainda que de forma transitória ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura. A pegadinha consiste na crença comum de que apenas servidores públicos estatutários ou concursados podem responder por abuso de autoridade. O raciocínio correto exige lembrar que mesários, jurados e estagiários, por exemplo, enquadram-se na definição legal, tornando a afirmação plenamente correta.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 111 - gabarito oficial definitivo"
     },
     {
@@ -709,7 +709,7 @@
       "item_original": 112,
       "questao": "Mesmo quando a pessoa apresenta documento de identificação civil, a identificação criminal pode ser realizada se houver registros policiais indicando uso de outros nomes ou qualificações.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão aborda a identificação criminal, regulada pela Lei nº 12.037/2009. Embora a regra constitucional determine que o civilmente identificado não será submetido à identificação criminal, a legislação infraconstitucional estabelece exceções expressas. Entre essas hipóteses autorizadoras está a existência de registros policiais que apontem o uso de outros nomes ou qualificações pelo suspeito. A pegadinha reside na ideia de que a posse de documento civil válido impede a identificação criminal de modo absoluto em qualquer circunstância. O raciocínio do candidato deve focar na literalidade das ressalvas legais que protegem a segurança jurídica e a correta identificação processual, tornando o item correto.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 112 - gabarito oficial definitivo"
     },
     {
@@ -723,7 +723,7 @@
       "item_original": 113,
       "questao": "Entre as atividades de prevenção ao uso indevido de drogas está o fortalecimento da autonomia e da responsabilidade individual em relação ao uso dessas substâncias.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O item cobra diretrizes da política pública sobre drogas dispostas na Lei nº 11.343/2006 (SISNAD). No âmbito das atividades de prevenção ao uso indevido de drogas, a lei expressamente estabelece como diretriz o fortalecimento da autonomia e da responsabilidade individual em relação ao uso de tais substâncias, promovendo o protagonismo e a conscientização do indivíduo. A pegadinha decorre da visão estritamente punitiva ou paternalista que alguns candidatos possuem sobre a legislação de drogas, supondo que o foco recaia exclusivamente na repressão ou tutela estatal. O candidato deve compreender que a legislação adota princípios preventivos modernos e emancipatórios, confirmando o gabarito certo.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 113 - gabarito oficial definitivo"
     },
     {
@@ -737,7 +737,7 @@
       "item_original": 114,
       "questao": "Transportar ou conduzir arma de fogo sem autorização, no exercício de atividade comercial, pode configurar comércio ilegal de arma de fogo.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O cerne da questão reside no crime de comércio ilegal de arma de fogo previsto no Estatuto do Desarmamento (Lei nº 10.826/2003). A lei equipara à atividade comercial ou industrial qualquer forma de comércio clandestino ou irregular praticado em residência ou transporte. Assim, transportar ou conduzir arma de fogo sem autorização legal, quando vinculado ao exercício de atividade comercial, amolda-se à figura equiparada do delito de comércio ilegal. A pegadinha consiste em supor que transportar arma seria sempre porte ilegal de arma de fogo. O raciocínio correto do candidato deve considerar a finalidade mercantil que qualifica o transporte como crime de comércio ilegal, validando o item.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 114 - gabarito oficial definitivo"
     },
     {
@@ -751,7 +751,7 @@
       "item_original": 115,
       "questao": "Policiais que submetam autor de crime a sofrimento físico dentro de um posto policial praticam necessariamente tortura, independentemente da intensidade do sofrimento e das demais circunstâncias exigidas pelo tipo penal.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A assertiva versa sobre o crime de tortura regulado pela Lei nº 9.455/1997. Para a configuração típica da tortura, não basta submeter alguém a sofrimento físico; a lei exige finalidade específica (como obter informação, confessar ou provocar ação/omissão) ou que a vítima esteja sob guarda/custódia para aplicação de castigo pessoal mediante intenso sofrimento físico ou mental. A pegadinha reside no uso de termos absolutistas como 'necessariamente' e 'independentemente da intensidade e circunstâncias exigidas pelo tipo'. Se não houver os elementos subjetivos e a intensidade exigida pela lei, a conduta pode configurar lesão corporal ou abuso de autoridade, mas não tortura. Gabarito errado.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 115 - gabarito oficial definitivo"
     },
     {
@@ -765,7 +765,7 @@
       "item_original": 2,
       "questao": "In the text about the Texas energy crisis, the pronoun 'That' in the final paragraph refers to Texas's decision to isolate its electric grid from the rest of the country.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão avalia a coesão referencial em língua inglesa com base no texto da prova sobre a crise energética no Texas. No parágrafo final, o pronome demonstrativo 'That' atua como anáfora, resgatando a ideia imediatamente anterior expressa no texto: a decisão histórica das autoridades texanas de manter sua rede elétrica isolada das redes federais para evitar regulação nacional. A pegadinha estaria em associar o pronome a fatores meteorológicos ou à falha das turbinas eólicas. O raciocínio a ser empregado é o rastreamento sintático e semântico do antecedente discursivo, que confirma que 'That' se refere especificamente ao isolamento proposital do grid elétrico texano, justificando o gabarito certo.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 2 - gabarito oficial definitivo"
     },
     {
@@ -779,7 +779,7 @@
       "item_original": 3,
       "questao": "According to the text, despite the extremely cold weather, energy production in Texas continued without significant disruption.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item testa a compreensão de texto sobre a crise provocada pela nevasca histórica no Texas em 2021. O texto relata que a tempestade de inverno causou um colapso maciço na infraestrutura de energia, resultando em apagões generalizados, congelamento de equipamentos e corte no fornecimento para milhões de residentes. A pegadinha consiste em desviar da mensagem central do texto pela afirmação de que a produção continuou 'without significant disruption' (sem interrupções significativas). O raciocínio do candidato deve confrontar a realidade exposta na passagem com a expressão restritiva da questão, concluindo que houve perturbação extrema no sistema, o que torna a assertiva incorreta.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 3 - gabarito oficial definitivo"
     },
     {
@@ -793,7 +793,7 @@
       "item_original": 4,
       "questao": "The text states that problems affecting energy production in Texas were producing consequences in other parts of the United States.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão cobra a interpretação de informações explícitas e implícitas do texto. O texto pontua que, embora a rede elétrica do Texas fosse predominantemente isolada, as falhas na produção de gás e de energia acabaram afetando estados vizinhos e refinarias com impacto em outras partes do território norte-americano. A pegadinha reside na premissa anterior de que o sistema elétrico texano é independente, o que induziria a crer que nenhum efeito externo foi registrado. O raciocínio correto exige atentar para os trechos que descrevem o impacto na cadeia de suprimentos e nas regiões adjacentes, confirmando a veracidade do enunciado.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 4 - gabarito oficial definitivo"
     },
     {
@@ -807,7 +807,7 @@
       "item_original": 5,
       "questao": "According to the text, Florida produces electricity at a level approximately equal to that of Texas.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A assertiva examina a capacidade de interpretação de dados comparativos apresentados no texto. A passagem informa que o Texas é, com ampla margem, o maior produtor de energia dos Estados Unidos, gerando quase o dobro da eletricidade do segundo colocado, que é a Flórida. A pegadinha consiste em interpretar a menção à Flórida como equivalente em produção ('approximately equal'), quando o texto demonstra uma disparidade de quase cem por cento entre ambos os estados. O raciocínio do candidato consiste em ler os quantitativos com rigor, identificando a distância estatística entre os dois estados, o que torna a afirmativa flagrantemente incorreta.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 5 - gabarito oficial definitivo"
     },
     {
@@ -821,7 +821,7 @@
       "item_original": 6,
       "questao": "The text indicates that some colder places successfully rely on wind power, showing that wind generation can work in freezing climates.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "O item requer a identificação de argumentos utilizados pelo autor no texto para desmistificar as causas do apagão. O texto destaca que regiões com invernos muito mais severos, como estados do norte dos Estados Unidos e países nórdicos, operam parques eólicos de forma contínua e bem-sucedida, pois utilizam tecnologia de descongelamento. A pegadinha tenta induzir o candidato a achar que baixas temperaturas inviabilizam genericamente a energia eólica. O raciocínio adequado é notar o contraexemplo citado no texto para provar que o problema no Texas não foi a tecnologia eólica em si, mas a falta de preparação contra o frio, tornando o item certo.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 6 - gabarito oficial definitivo"
     },
     {
@@ -835,7 +835,7 @@
       "item_original": 7,
       "questao": "In the passage about water facilities freezing, replacing 'Yet' with 'Even so' would preserve the intended contrast in meaning.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão avalia o conhecimento de conectivos e relações semânticas em inglês. No trecho em análise, a conjunção adversativa 'Yet' introduz uma oração de oposição ou concessão em relação ao que foi dito antes. A expressão 'Even so' (mesmo assim, ainda assim) possui exatamente o mesmo valor concessivo-adversativo e preserva a correção gramatical e o sentido pretendido pelo autor. A pegadinha poderia surgir caso o candidato confundisse 'yet' em sua função temporal ('ainda') em vez de seu uso conectivo adversativo. O raciocínio correto identifica a equivalência semântica entre os conectivos de contraste, confirmando o gabarito oficial como certo.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 7 - gabarito oficial definitivo"
     },
     {
@@ -849,7 +849,7 @@
       "item_original": 8,
       "questao": "The text identifies a lack of wind as the main reason for the reduction in wind-energy production during the Texas cold spell.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão explora a causa do colapso das turbinas eólicas mencionado no texto. O texto esclarece que as turbinas pararam de funcionar não por falta de vento ('lack of wind'), mas sim pelo congelamento dos mecanismos das pás e pela falta de adaptação técnica contra o gelo extremo ('winterization'). A pegadinha consiste em atribuir a falha a uma variável climática comum em energia eólica (ausência de ventos), ignorando a causa real explicitada pelo autor. O candidato deveria focar na causa técnica real descrita no texto — o gelo paralisando equipamentos — para constatar que a afirmação contraria o texto, sendo, portanto, errada.",
       "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 8 - gabarito oficial definitivo"
     },
     {
