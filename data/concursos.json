@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-24T13:17:50.076548+00:00",
+  "atualizado_em": "2026-10-24T23:09:00.683841+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "3da7438662c0",
+      "titulo": "Seletivo de Pontes e Lacerda (MT) tem 47 vagas e iniciais de até R$ 11.308",
+      "orgao": "Seletivo de Pontes e Lacerda (MT)",
+      "uf": "MT",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 47,
+      "salario": "R$ 11.308",
+      "resumo": "Processo seletivo Prefeitura de Pontes e Lacerda, no estado de Mato Grosso, abre vagas de níveis médio/técnico e superior.",
+      "link": "https://concursosnobrasil.com/concursos/mt/2026/10/24/seletivo-de-pontes-e-lacerda-mt-tem-47-vagas-e-iniciais-de-ate-r-11-308/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-24T18:04:36+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "b6b16abfc1c5",
+      "titulo": "Seleções em Navegantes (SC) abrem vagas com salário de até R$ 19,2 mil",
+      "orgao": "Seleções em Navegantes (SC)",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 19",
+      "resumo": "Editais de processo seletivo da Prefeitura e Fundação Cultural de Navegantes, organizados pela FURB, abrem cadastro para diversos cargos públicos.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/10/24/selecoes-em-navegantes-sc-abrem-vagas-com-salario-de-ate-r-192-mil/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-10-24T17:14:31+00:00",
+      "tem_edital": false
+    },
     {
       "id": "17e1fc5c4914",
       "titulo": "Processo seletivo da CPTM SP: inscrições para 22 vagas serão abertas em breve",
@@ -1780,36 +1810,6 @@
       "link": "https://concursosnobrasil.com/concursos/sc/2026/10/21/prefeitura-de-lages-sc-oferta-iniciais-de-ate-r-58-mil-em-selecao/",
       "fonte": "Concursos no Brasil",
       "data": "2026-10-21T13:40:50+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "7ce8c1265545",
-      "titulo": "Processo seletivo do IFSP: novo edital oferece 79 vagas em 35 cidades paulistas",
-      "orgao": "IFSP: novo edital",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": 79,
-      "salario": "",
-      "resumo": "O processo seletivo do IFSP (Instituto Federal de Educação, Ciência e Tecnologia de São Paulo) abre chances para professor substituto, para atuação no ano letivo de 2027",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/processo-seletivo-do-ifsp-novo-edital-oferece-79-vagas-em-35-cidades-paulistas-146142",
-      "fonte": "JC Concursos",
-      "data": "2026-10-21T13:17:14+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "4e53972be21d",
-      "titulo": "Prefeitura de Santa Bárbara d'Oeste SP: inscrições abertas para 325 vagas",
-      "orgao": "Prefeitura de Santa Bárbara d'Oeste SP",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": 325,
-      "salario": "",
-      "resumo": "A Prefeitura de Santa Bárbara d'Oeste (SP) tem diversos processos seletivos abertos com vagas para candidatos de diferentes áreas",
-      "link": "https://jcconcursos.uol.com.br/noticia/empregos/prefeitura-de-santa-barbara-doeste-sp-inscricoes-abertas-para-325-vagas-146143",
-      "fonte": "JC Concursos",
-      "data": "2026-10-21T13:15:00+00:00",
       "tem_edital": false
     }
   ]
