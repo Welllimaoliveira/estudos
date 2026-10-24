@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-23T23:51:01.804406+00:00",
+  "atualizado_em": "2026-10-24T13:17:50.076548+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "17e1fc5c4914",
+      "titulo": "Processo seletivo da CPTM SP: inscrições para 22 vagas serão abertas em breve",
+      "orgao": "CPTM SP",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 22,
+      "salario": "",
+      "resumo": "Na próxima semana, a CPTM SP abrirá o prazo de inscrições para 22 novas vagas destinadas aos candidatos do ensino superior",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/processo-seletivo-da-cptm-sp-inscricoes-para-22-vagas-serao-abertas-em-breve-146207",
+      "fonte": "JC Concursos",
+      "data": "2026-10-24T08:38:22+00:00",
+      "tem_edital": false
+    },
     {
       "id": "d3c0e56b7c3d",
       "titulo": "Prefeitura de Elisiário (SP) realiza um novo processo seletivo",
@@ -1795,21 +1810,6 @@
       "link": "https://jcconcursos.uol.com.br/noticia/empregos/prefeitura-de-santa-barbara-doeste-sp-inscricoes-abertas-para-325-vagas-146143",
       "fonte": "JC Concursos",
       "data": "2026-10-21T13:15:00+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "fa14b11f1c11",
-      "titulo": "Concurso UNESP (SP) abre inscrições para docentes na área de Mecânica em Bauru",
-      "orgao": "UNESP (SP)",
-      "uf": "SP",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 31,04",
-      "resumo": "Universidade Estadual Paulista seleciona professores para cadastro reserva, com remuneração de R$ 31,04 por hora-aula e benefícios.",
-      "link": "https://concursosnobrasil.com/concursos/sp/2026/10/21/concurso-unesp-sp-abre-inscricoes-para-docentes-na-area-de-mecanica-em-bauru/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-10-21T13:06:44+00:00",
       "tem_edital": false
     }
   ]
