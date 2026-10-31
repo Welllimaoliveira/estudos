@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-31T00:44:18.018453+00:00",
+  "atualizado_em": "2026-10-31T15:17:29.666248+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "d9e1d1108f41",
+      "titulo": "Banco do Brasil está com 600 vagas abertas em agências físicas",
+      "orgao": "Banco do Brasil está com 600 vagas abertas em agências físicas",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": 600,
+      "salario": "",
+      "resumo": "É grande o número de candidatos interessados em participar do processo seletivo do Banco do Brasil, com aproximadamente 600 vagas abertas",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/banco-do-brasil-esta-com-600-vagas-abertas-em-agencias-fisicas-146333",
+      "fonte": "JC Concursos",
+      "data": "2026-10-31T08:12:55+00:00",
+      "tem_edital": false
+    },
     {
       "id": "08330dbb8e5c",
       "titulo": "Concurso IBGE: edital para 27.279 vagas de recenseador previsto para quarta (4)",
@@ -1795,21 +1810,6 @@
       "link": "https://jcconcursos.uol.com.br/noticia/concursos/governo-federal-pl-visa-isentar-taxa-para-candidatos-de-baixa-renda-com-ensino-medio-146276",
       "fonte": "JC Concursos",
       "data": "2026-10-28T16:30:47+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "8d9aef2fe228",
-      "titulo": "Concurso Fundação Educacional Guaçuana (SP) oferece até R$ 3,7 mil",
-      "orgao": "Fundação Educacional Guaçuana (SP)",
-      "uf": "SP",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": 11,
-      "salario": "R$ 3",
-      "resumo": "Fundação Educacional Guaçuana divulga dois editais com 11 vagas para professores, bibliotecário e técnico em informática.",
-      "link": "https://concursosnobrasil.com/concursos/sp/2026/10/28/concurso-fundacao-educacional-guacuana-sp-oferece-ate-r-37-mil/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-10-28T15:53:56+00:00",
       "tem_edital": false
     }
   ]
