@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-07T00:53:09.969066+00:00",
+  "atualizado_em": "2026-11-07T15:38:21.641134+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,51 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "9fd9b44c9322",
+      "titulo": "Itaú tem vários processos seletivos abertos para preencher 114 vagas",
+      "orgao": "Itaú",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": 114,
+      "salario": "",
+      "resumo": "Atualmente, o Itaú oferece vagas para especialistas, analistas, estagiários, consultores, líderes, desenvolvedores, entre outros cargos",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/itau-tem-varios-processos-seletivos-abertos-para-preencher-114-vagas-146441",
+      "fonte": "JC Concursos",
+      "data": "2026-11-07T08:09:23+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "aed33cc88d35",
+      "titulo": "Concurso Polícia Civil AC tem 139 vagas e salário de até R$ 19,5 mil",
+      "orgao": "Polícia Civil AC",
+      "uf": "AC",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 139,
+      "salario": "R$ 19",
+      "resumo": "Concurso Polícia Civil do Acre abre 139 vagas para seis cargos de nível superior, com remunerações de até R$ 19.505,66. IDECAN é a banca.",
+      "link": "https://concursosnobrasil.com/concursos/ac/2026/11/06/concurso-policia-civil-ac-tem-139-vagas-e-salario-de-ate-r-195-mil/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-06T23:36:35+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "fb41d40c1689",
+      "titulo": "Concurso Prefeitura de Ibirama (SC) abre vagas com até R$ 20.364 de salário",
+      "orgao": "Prefeitura de Ibirama (SC)",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 10,
+      "salario": "R$ 20.364",
+      "resumo": "Concurso Prefeitura de Ibirama (SC) disponibiliza 10 vagas para futuros servidores de níveis médio e superior.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/11/06/concurso-prefeitura-de-ibirama-sc-abre-vagas-com-ate-r-20-364-de-salario/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-06T20:34:04+00:00",
+      "tem_edital": false
+    },
     {
       "id": "b15c0104e982",
       "titulo": "Concurso DAAE Araraquara SP: novo edital deve ser publicado somente após redução de despesas",
@@ -26,6 +71,21 @@
       "fonte": "JC Concursos",
       "data": "2026-11-06T20:00:00+00:00",
       "tem_edital": true
+    },
+    {
+      "id": "f62c231141ed",
+      "titulo": "Concurso Prefeitura de Jandira (SP) abre 893 vagas para todos os níveis",
+      "orgao": "Prefeitura de Jandira (SP)",
+      "uf": "SP",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": 893,
+      "salario": "R$ 12.213,03",
+      "resumo": "Prefeitura de Jandira (SP) abre concursos públicos com um total de 893 vagas para diversos cargos com remuneração de até R$ 12.213,03.",
+      "link": "https://concursosnobrasil.com/concursos/sp/2026/11/06/concurso-prefeitura-de-jandira-sp-abre-308-vagas-para-todos-os-niveis/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-06T19:29:45+00:00",
+      "tem_edital": false
     },
     {
       "id": "5cf8349d4c83",
@@ -76,7 +136,7 @@
       "id": "898038c5871e",
       "titulo": "Concurso Câmara de Petrolina (PE) oferece salários de até R$ 8,5 mil",
       "orgao": "Câmara de Petrolina (PE)",
-      "uf": "SC",
+      "uf": "PE",
       "status": "aberto",
       "nivel": "superior",
       "vagas": 17,
@@ -1751,66 +1811,6 @@
       "fonte": "Concursos no Brasil",
       "data": "2026-11-04T12:57:25+00:00",
       "tem_edital": true
-    },
-    {
-      "id": "af7add00d12f",
-      "titulo": "Prefeitura de Manaus AM publica edital com vagas para níveis médio e superior",
-      "orgao": "Prefeitura de Manaus AM",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Boa notícia! A Prefeitura de Manaus (AM) publicou edital com vagas para candidatos dos níveis médio e superior de diversas áreas",
-      "link": "https://jcconcursos.uol.com.br/noticia/empregos/prefeitura-de-manaus-am-publica-edital-com-vagas-para-niveis-medio-e-superior-146373",
-      "fonte": "JC Concursos",
-      "data": "2026-11-04T12:46:00+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "586c64f90c81",
-      "titulo": "Concurso FSA publica edital para Analista Administrativo em São Paulo",
-      "orgao": "FSA",
-      "uf": "SP",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Fundação Santo André (FSA) recebe inscrições para Analista Administrativo-Acadêmico. Seleção terá provas objetiva e prática.",
-      "link": "https://concursosnobrasil.com/concursos/sp/2026/11/04/concurso-fsa-publica-edital-para-analista-administrativo-em-sao-paulo/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-11-04T12:38:09+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "b6a2258b7324",
-      "titulo": "Prefeitura de Paracatu (MG) oferta iniciais de até R$ 7,2 mil em seletivo",
-      "orgao": "Prefeitura de Paracatu (MG) oferta iniciais de até R$ 7,2 mil em seletivo",
-      "uf": "MG",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "R$ 7",
-      "resumo": "Processo seletivo Prefeitura de Paracatu, no estado de Minas Gerais, tem oportunidades de nível superior.",
-      "link": "https://concursosnobrasil.com/concursos/mg/2026/11/04/prefeitura-de-paracatu-mg-oferta-iniciais-de-ate-r-72-mil-em-seletivo/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-11-04T12:31:24+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "a3ed3a4448f7",
-      "titulo": "Concurso Prefeitura de São Bernardo do Campo SP: contratada banca para até 2.500 vagas",
-      "orgao": "Prefeitura de São Bernardo do Campo SP",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": 2500,
-      "salario": "",
-      "resumo": "Concurso Prefeitura de São Bernardo do Campo SP (Prefeitura de São Bernardo do Campo) deverá ser organizado pelo Instituto Mais",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-prefeitura-de-sao-bernardo-do-campo-sp-contratada-banca-para-ate-2500-vagas-146375",
-      "fonte": "JC Concursos",
-      "data": "2026-11-04T12:21:39+00:00",
-      "tem_edital": false
     }
   ]
 }
