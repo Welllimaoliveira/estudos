@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-11-02T22:20:55.648955+00:00",
+  "atualizado_em": "2026-11-09T22:59:06.217914+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Constitucional",
@@ -1274,7 +1274,7 @@
       "enunciado": "Uma equipe de manutenção é composta por 8 pintores e 10 soldadores.",
       "questao": "A quantidade de maneiras de se escolher um grupo com 2 pintores e 2 soldadores é inferior a 1.200.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão aborda o princípio fundamental da contagem por meio de combinações simples. A partir dos dados do enunciado da prova (em que havia um grupo disponível de profissionais, sendo 8 pintores e 10 soldadores), a quantidade de duplas de pintores possíveis é dada por C(8,2) = 28, enquanto a quantidade de duplas de soldadores é calculada por C(10,2) = 45. Multiplicando-se as possibilidades de escolha de cada função pelo princípio multiplicativo, obtém-se o total de 28 × 45 = 1.260 maneiras distintas de formar a equipe. Como o resultado obtido de 1.260 é estritamente superior ao valor de 1.200 estipulado pelo item, a afirmação está incorreta. A pegadinha consiste em fazer contas aproximadas de cabeça sem calcular precisamente o produto das combinações. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1291,7 +1291,7 @@
       "enunciado": "",
       "questao": "Para três conjuntos não vazios A, B e C, se A está contido em B e C não contém B, então C também não contém A.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item exige a análise lógica das relações de pertinência e inclusão entre conjuntos. A hipótese informa que A é subconjunto de B e que C não contém a totalidade de B. Contudo, essa premissa não impede de modo algum que C contenha A. O candidato pode facilmente refutar a proposição por meio de um contraexemplo: sejam A = {1}, B = {1, 2} e C = {1, 3}. Note que A está contido em B, pois 1 pertence a B. Além disso, C não contém B, pois o elemento 2 não pertence a C. Mesmo assim, A está perfeitamente contido em C. A pegadinha reside em assumir equivocadamente uma relação de transitividade negativa que não é válida na teoria dos conjuntos. Portanto, a conclusão apresentada é falsa. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1308,7 +1308,7 @@
       "enunciado": "",
       "questao": "Seja C(t) = 5 · e^(0,05t) a quantidade de combustível, em milhões de litros, demandada em uma cidade t anos após um instante inicial. Nesse caso, para t = 10, a quantidade demandada será igual ao dobro da quantidade no instante inicial.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão trata da aplicação de funções exponenciais em modelagem matemática. No instante inicial t = 0, a quantidade demandada é C(0) = 5 · e^0 = 5 milhões de litros. Para que a demanda dobrasse, o valor final deveria alcançar exatamente 10 milhões de litros. Substituindo t = 10 na lei da função dada, obtém-se C(10) = 5 · e^(0,05 · 10) = 5 · e^(0,5) = 5 · √e. Sabendo que o número de Euler é aproximadamente 2,718, sua raiz quadrada é de cerca de 1,65, resultando em C(10) ≈ 8,24 milhões de litros, valor nitidamente inferior ao dobro pretendido. A pegadinha é confundir a multiplicação no expoente com a duplicação direta do valor da imagem. O candidato deveria calcular C(10) e constatar que é diferente de 10. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1325,7 +1325,7 @@
       "enunciado": "",
       "questao": "A profundidade p, em metros, na qual um equipamento deve ser posicionado a cada hora x do dia é dada por p(x) = 0,2x² − 4x + 25. Nessa situação, o equipamento deve ser posicionado a 5 metros de profundidade duas vezes a cada dia.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O problema aborda a resolução e interpretação das raízes de uma função quadrática no domínio real. Para determinar em quais horários x o equipamento atinge 5 metros de profundidade, deve-se igualar a função p(x) a 5: 0,2x² − 4x + 25 = 5, o que resulta na equação 0,2x² − 4x + 20 = 0. Ao multiplicar toda a expressão por 5 para simplificar os coeficientes, obtém-se x² − 20x + 100 = 0. Fatorando o trinômio quadrado perfeito, encontra-se (x − 10)² = 0, cuja única raiz real é x = 10. Portanto, o posicionamento a 5 metros de profundidade ocorre em um único momento do dia (às 10 horas). A pegadinha é presumir que toda equação de segundo grau gera dois momentos distintos sem verificar se o discriminante é nulo. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1342,7 +1342,7 @@
       "enunciado": "Considere uma matriz A de ordem 2×3, uma matriz B de ordem 3×3 e uma matriz C de ordem 3×2.",
       "questao": "É possível calcular os determinantes das matrizes A e C, porém não o da matriz B.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão cobra os conceitos estruturais de matrizes e a condição essencial para o cálculo de determinantes. De acordo com a teoria matricial, o determinante é uma operação definida exclusivamente para matrizes quadradas, isto é, aquelas cujo número de linhas é rigorosamente igual ao número de colunas. Ao avaliar as ordens das matrizes apresentadas no texto de apoio da prova da Petrobras, o candidato constata que a afirmação da banca inverte as propriedades de existência dos determinantes associados a A, B e C, tornando a sentença incorreta. A pegadinha da banca visa confundir o candidato desatento quanto às dimensões de cada matriz referenciada no enunciado-base. Assim, a impossibilidade ou possibilidade apontada no texto do item destoa da real classificação dimensional das matrizes fornecidas. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1359,7 +1359,7 @@
       "enunciado": "Considere uma matriz A de ordem 2×3, uma matriz B de ordem 3×3 e uma matriz C de ordem 3×2.",
       "questao": "É possível calcular o produto A × B, mas não o produto C × A.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item avalia a condição de existência da multiplicação matricial. Para que o produto entre duas matrizes M × N seja possível, o número de colunas da primeira matriz deve ser necessariamente igual ao número de linhas da segunda. Analisando as dimensões das matrizes A, B e C fornecidas no texto de apoio da prova original, verifica-se que a afirmação que restringe o cálculo do produto C × A ao mesmo tempo em que autoriza A × B não condiz com as respectivas ordens apresentadas. O candidato atento deveria conferir a compatibilidade dimensional linha por coluna em ambas as multiplicações citadas. Dessa forma, a assertiva erra ao afirmar a impossibilidade da multiplicação viável ou a viabilidade da operação incompatível segundo as dimensões dadas no suporte. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1376,7 +1376,7 @@
       "enunciado": "Considere um cilindro reto cuja base tem raio de 4 cm e cuja altura mede 8 cm.",
       "questao": "O volume do cilindro é igual a 128π cm³.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão aborda o cálculo do volume de um cilindro circular reto por meio da fórmula V = π · r² · h, onde r representa o raio da base e h corresponde à altura do sólido geométrico. Com base nas dimensões fornecidas no enunciado-base da prova associada a esse bloco (em que o raio da base mede 4 cm e a altura equivale a 8 cm), substitui-se diretamente na expressão do volume: V = π · (4)² · 8 = π · 16 · 8 = 128π cm³. O cálculo é direto e confirma com exatidão a sentença proposta pelo examinador. Não há artifícios ocultos: o candidato precisava apenas identificar o raio e a altura a partir do texto de apoio e efetuar as potenciações e produtos básicos da geometria espacial. Gabarito oficial: CERTO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1393,7 +1393,7 @@
       "enunciado": "Considere um cilindro reto cuja base tem raio de 4 cm e cuja altura mede 8 cm.",
       "questao": "A área da base do cilindro é duas vezes maior que a sua área lateral.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "O item requer a comparação entre a área da base e a área lateral do cilindro circular reto com as dimensões fornecidas no contexto da prova (raio r = 4 cm e altura h = 8 cm). A área da base é calculada pela fórmula do círculo Ab = π · r² = π · 4² = 16π cm². Por sua vez, a área lateral é dada pela fórmula Al = 2 · π · r · h = 2 · π · 4 · 8 = 64π cm². Nota-se que a área lateral (64π) é quatro vezes maior do que a área da base (16π), e não o contrário. A assertiva inverteu a relação de grandeza e a proporção numérica existente entre as superfícies ao dizer que a base superava a lateral. Portanto, o item está incorreto. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1410,7 +1410,7 @@
       "enunciado": "",
       "questao": "A soma dos ângulos internos de um triângulo é igual a 180°.",
       "gabarito": "CERTO",
-      "explicacao": "",
+      "explicacao": "A questão aborda um dos teoremas basilares da geometria euclidiana plana: o teorema da soma dos ângulos internos de um triângulo. Em qualquer triângulo inserido no plano euclidiano, a soma das medidas dos seus três ângulos internos independe do formato ou da classificação do polígono (seja ele equilátero, isósceles, escaleno, acutângulo ou retângulo) e é sempre constante e igual a 180° (ou π radianos). Essa propriedade deriva diretamente do postulado das paralelas de Euclides, bastando traçar uma reta paralela a um dos lados passando pelo vértice oposto para demonstrar a congruência de ângulos alternos internos. Como o enunciado traz a afirmação clássica de forma direta e sem exceções descabidas no plano, o julgamento é positivo. Gabarito oficial: CERTO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1427,7 +1427,7 @@
       "enunciado": "",
       "questao": "Um investidor aplicou R$ 1.000,00 em um fundo que rende 10% ao mês, com carência de um ano; se o recurso for sacado antes do fim da carência, os juros são simples. Sacando exatamente 15 dias após a aplicação (mês comercial), o investidor recebeu um montante de R$ 1.150,00.",
       "gabarito": "ERRADO",
-      "explicacao": "",
+      "explicacao": "A questão exige o cálculo do montante sob o regime de juros simples conforme a cláusula de resgate antecipado. O capital aplicado é C = R$ 1.000,00, à taxa de 10% ao mês. O resgate ocorreu em 15 dias, o que corresponde exatamente a 0,5 mês no padrão do mês comercial de 30 dias. Aplicando a fórmula dos juros simples: J = C · i · t = 1.000 · 0,10 · 0,5 = R$ 50,00. O montante final resulta em M = C + J = 1.000 + 50 = R$ 1.050,00. A proposição afirma incorretamente que o montante foi de R$ 1.150,00, valor que equivaleria a um rendimento de 1,5 mês (45 dias), e não de 15 dias. A pegadinha tenta induzir o candidato a somar 15% em vez de 5%. Gabarito oficial: ERRADO.",
       "fonte": "Caderno oficial 822_PETROBRAS_23_CB1_01 + gabarito oficial definitivo GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01 (Cebraspe). Enunciados reformulados para estudo, preservando o conteúdo cobrado, o número do item e o gabarito oficial. Item 28 (anulado) excluído."
     },
     {
@@ -1444,7 +1444,7 @@
       "enunciado": "",
       "questao": "Assinale a alternativa em que o uso da vírgula se justifica pelo mesmo motivo que em \"as soluções para a crise são de longo prazo e seus caminhos, complexos\".",
       "gabarito": "B",
-      "explicacao": "",
+      "explicacao": "A questão analisa o emprego estilístico e sintático da vírgula para marcar zeugma (omissão de um termo já mencionado anteriormente). No trecho-base 'as soluções para a crise são de longo prazo e seus caminhos, complexos', a vírgula assinala a elipse do verbo de ligação 'são' ('seus caminhos [são] complexos'). O candidato deveria buscar a alternativa que reproduz exatamente a mesma função sintática de zeugma/elipse verbal, a qual se encontra indicada no gabarito oficial como alternativa B. A pegadinha comum em provas da FGV consiste em apresentar alternativas com vírgulas que isolam adjuntos adverbiais deslocados, apostos ou orações coordenadas assindéticas, exigindo do aluno a identificação pontual da supressão do verbo em oração coordenada aditiva. Gabarito oficial: B.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "A vida não é um problema a ser resolvido, mas uma realidade a ser experimentada.",
@@ -1468,7 +1468,7 @@
       "enunciado": "",
       "questao": "Assinale a opção em que o \"lhe\" é adjunto adnominal.",
       "gabarito": "E",
-      "explicacao": "",
+      "explicacao": "A questão cobra o papel sintático do pronome oblíquo átono 'lhe' exercendo a função de adjunto adnominal, e não de objeto indireto. Essa função adnominal ocorre quando o pronome possui valor semântico de posse (equivalendo a 'dele', 'dela', 'seus'), associando-se a um substantivo que designa posse inalienável, tais como partes do corpo ou objetos pessoais de posse estreita. Na alternativa E, o termo 'lhe' pode ser semanticamente substituído por um pronome possessivo ligado ao núcleo substantivo da oração. A pegadinha frequente da banca é apoiar a análise puramente na regência verbal transitiva indireta, levando o candidato a marcar o pronome como complemento do verbo em vez de perceber sua vinculação possessiva ao substantivo. Gabarito oficial: E.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Disse-lhe, senhor, mostra-nos o Pai.",
