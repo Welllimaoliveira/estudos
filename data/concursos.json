@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T19:45:06.218910+00:00",
+  "atualizado_em": "2026-11-10T03:31:40.819857+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,51 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "015d5f54cd7d",
+      "titulo": "Concurso Câmara de Boa Vista do Incra (RS) abre vagas e cadastros de reserva",
+      "orgao": "Câmara de Boa Vista do Incra (RS)",
+      "uf": "RS",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Câmara de Boa Vista do Incra, Rio Grande do Sul, preencherá duas vagas imediatas e ainda formará cadastro de reserva pela Fundatec.",
+      "link": "https://concursosnobrasil.com/concursos/rs/2026/11/09/concurso-camara-de-boa-vista-do-incra-rs-abre-vagas-e-cadastros-de-reserva/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-09T22:12:18+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "6a71e8aa26f3",
+      "titulo": "Concurso CAU SC abre cadastro de reserva com salários até R$ 12,3 mil",
+      "orgao": "CAU SC",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 12",
+      "resumo": "Concurso Conselho de Arquitetura e Urbanismo do Estado de Santa Catarina (CAU SC) oferece salários de até 12,3 mil mensais. Instituto Quadrix é a banca.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/11/09/concurso-cau-sc-abre-cadastro-de-reserva-com-salarios-ate-r-123-mil/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-09T20:06:39+00:00",
+      "tem_edital": false
+    },
+    {
+      "id": "33339b752851",
+      "titulo": "Concurso TJ AM: seleção para 400 vagas prevista no orçamento 2027",
+      "orgao": "TJ AM",
+      "uf": "",
+      "status": "previsto",
+      "nivel": "",
+      "vagas": 400,
+      "salario": "",
+      "resumo": "Concurso TJ AM (Tribunal de Justiça do Estado do Amazonas) deve ser realizado até o próximo ano, com previsão de diversos cargos",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-tj-am-selecao-para-400-vagas-prevista-no-orcamento-2027-146454",
+      "fonte": "JC Concursos",
+      "data": "2026-11-09T20:00:00+00:00",
+      "tem_edital": false
+    },
     {
       "id": "920a2123fd2a",
       "titulo": "Processo seletivo Prefeitura de São Martinho (RS) abre cadastro reserva",
@@ -216,7 +261,7 @@
       "nivel": "todos",
       "vagas": null,
       "salario": "",
-      "resumo": "Concurso Prefeitura de Cristais Paulista tem vagas de níveis fundamental, médio e superior disponíveis. A seleção pode acontecer em até duas etapas.",
+      "resumo": "Concurso Prefeitura de Cristais Paulista tem oportunidades de níveis fundamental, médio e superior. A seleção pode acontecer em até duas etapas.",
       "link": "https://concursosnobrasil.com/concursos/sp/2026/11/09/concurso-prefeitura-de-cristais-paulista-sp-tem-edital-publicado/",
       "fonte": "Concursos no Brasil",
       "data": "2026-11-09T16:03:28+00:00",
@@ -1765,51 +1810,6 @@
       "link": "https://concursosnobrasil.com/concursos/sp/2026/11/05/prefeitura-de-araraquara-sp-lanca-edital-de-processo-seletivo/",
       "fonte": "Concursos no Brasil",
       "data": "2026-11-05T11:37:50+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "1fc3d5894be9",
-      "titulo": "Concurso TRT-8 encerra hoje inscrição para cargos de analista e técnico judiciários",
-      "orgao": "TRT-8 encerra hoje inscrição para cargos de analista e técnico judiciários",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Chances no concurso TRT-8 (Tribunal Regional do Trabalho da 8ª Região) são para candidatos com nível superior, para trabalhar nos Estados do Amapá e Pará",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-trt-8-encerra-hoje-inscricao-para-cargos-de-analista-e-tecnico-judiciarios-146392",
-      "fonte": "JC Concursos",
-      "data": "2026-11-05T11:26:19+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "4cd1282b0489",
-      "titulo": "Concurso PGE RJ é oficialmente autorizado para 30 vagas e cadastros de níveis médio e superior",
-      "orgao": "PGE RJ é oficialmente",
-      "uf": "",
-      "status": "previsto",
-      "nivel": "superior",
-      "vagas": 30,
-      "salario": "",
-      "resumo": "Concurso PGE RJ (Procuradoria Geral do Rio de Janeiro) deve contar com oportunidades para técnicos e analistas, de níveis médio e superior",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-pge-rj-e-oficialmente-autorizado-para-30-vagas-e-cadastros-146393",
-      "fonte": "JC Concursos",
-      "data": "2026-11-05T11:25:23+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "905e48749468",
-      "titulo": "Concurso PM SP: Urgente! Publicado edital para 2 mil vagas de aluno soldado",
-      "orgao": "PM SP: Urgente!",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "medio",
-      "vagas": null,
-      "salario": "R$ 5",
-      "resumo": "Concurso PM SP (Polícia Militar do Estado de São Paulo) para soldados conta com exigência de ensino médio, com inicial de R$ 5,4 mil",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-pm-sp-urgente-publicado-edital-para-2-mil-vagas-de-aluno-soldado-146391",
-      "fonte": "JC Concursos",
-      "data": "2026-11-05T09:08:21+00:00",
       "tem_edital": true
     }
   ]
