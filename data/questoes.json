@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-11-09T22:59:06.217914+00:00",
+  "atualizado_em": "2026-11-13T20:29:19.536486+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Constitucional",
@@ -1492,7 +1492,7 @@
       "enunciado": "",
       "questao": "O desvio-padrão mede a dispersão dos dados em relação à média: quanto maior o desvio-padrão, maior a dispersão. Considere os conjuntos A = {2, 4, 6, 8, 10}, B = {5, 5, 6, 7, 7}, C = {1, 3, 6, 9, 11} e D = {6, 6, 6, 6, 6}. É correto concluir que:",
       "gabarito": "B",
-      "explicacao": "",
+      "explicacao": "O desvio-padrão quantifica o grau de afastamento dos elementos em relação à média aritmética. Todos os quatro conjuntos possuem a mesma média aritmética igual a 6. No conjunto D, todos os valores são idênticos a 6, resultando em desvio nulo. Já os desvios absolutos em relação à média nos outros conjuntos são: em B valem 1 e 0; em A valem 4, 2 e 0; e em C valem 5, 3 e 0. Dessa forma, percebe-se claramente a ordenação crescente de dispersão: D possui a menor dispersão, seguido por B, depois A e, por fim, C apresenta a maior dispersão de todas. A pegadinha comum consiste em tentar calcular a fórmula completa da variância desnecessariamente, quando bastava observar visualmente o quão distantes os termos estão do valor central. Portanto, a análise comparativa confirma com exatidão a alternativa B.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "σA < σB",
@@ -1516,7 +1516,7 @@
       "enunciado": "",
       "questao": "Um artigo teve seu preço reajustado ficando 20% mais caro. Um comprador o adquire com 5% de desconto sobre o preço reajustado, pagando R$ 79,80. O preço do artigo antes do reajuste era um valor:",
       "gabarito": "B",
-      "explicacao": "",
+      "explicacao": "Para resolver este problema de porcentagens sucessivas, adota-se x como o preço inicial do produto. Após sofrer um aumento de 20%, o valor do artigo passou a ser 1,20x. Em seguida, ao aplicar um desconto de 5% sobre esse novo montante, o comprador paga 95% de 1,20x, o que resulta na equação 0,95 vezes 1,20x, totalizando 1,14x. Sabendo que o valor final desembolsado foi de R$ 79,80, monta-se a igualdade 1,14x = 79,80. Dividindo 79,80 por 1,14, obtém-se exatamente x = R$ 70,00. A pegadinha clássica deste tipo de questão reside em simplesmente subtrair as porcentagens (20% - 5% = 15%), o que induz a um cálculo errôneo. Identificando que R$ 70,00 se enquadra no intervalo proposto na assertiva, o candidato conclui corretamente que o gabarito oficial é a alternativa B.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "menor que R$ 65,00.",
@@ -1540,7 +1540,7 @@
       "enunciado": "",
       "questao": "Se a soma de 5 números inteiros positivos consecutivos dá resultado par, então, entre esses números:",
       "gabarito": "E",
-      "explicacao": "",
+      "explicacao": "Cinco números inteiros positivos consecutivos podem ser algebricamente representados por n, n+1, n+2, n+3 e n+4. A soma desses cinco termos equivale a 5n + 10. Para que o resultado dessa soma seja um número par, a expressão 5n + 10 obrigatoriamente deve resultar em número par. Como 10 já é par, a parcela 5n também tem de ser par, o que impõe que n seja um número par. Iniciando a sequência por um número par, os elementos alternam-se sucessivamente em: par, ímpar, par, ímpar e par. Nota-se que há exatamente 3 números pares e 2 números ímpares nessa sequência. A armadilha consiste em testar sequências aleatórias sem formalizar a paridade do termo inicial. Assim, a dedução lógica garante que há três números pares e dois ímpares, validando com precisão a alternativa E.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "a maioria é ímpar.",
@@ -1564,7 +1564,7 @@
       "enunciado": "",
       "questao": "Dois números serão escolhidos entre os elementos do conjunto {1, 2, 3, 4, 5, 6}. Se a soma desses dois números é 9, então:",
       "gabarito": "D",
-      "explicacao": "",
+      "explicacao": "Ao analisar os elementos disponíveis no conjunto {1, 2, 3, 4, 5, 6}, busca-se quais pares de números distintos somam 9. As únicas combinações possíveis são 3 e 6 (pois 3 + 6 = 9) ou 4 e 5 (pois 4 + 5 = 9). Em ambas as possibilidades factíveis, constata-se um fato invariável: um dos números escolhidos é obrigatoriamente ímpar (3 ou 5) e o outro é obrigatoriamente par (6 ou 4). Consequentemente, é impossível obter soma 9 somando dois números de mesma paridade, pois a soma de dois pares é sempre par e a soma de dois ímpares também é sempre par. A pegadinha está em supor pares que contenham elementos repetidos ou fora do conjunto dado. Assim, ao constatar as propriedades necessárias de qualquer uma das duplas, confirma-se o acerto do gabarito oficial na alternativa D.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "o menor deles pode ser 2.",
@@ -1588,7 +1588,7 @@
       "enunciado": "",
       "questao": "A proposição \"Todas as ruas da cidade de Vitória têm iluminação pública\" é logicamente equivalente à proposição:",
       "gabarito": "A",
-      "explicacao": "",
+      "explicacao": "A sentença 'Todas as ruas da cidade de Vitória têm iluminação pública' é uma proposição categórica universal afirmativa do tipo 'Todo A é B', em que A representa ser rua de Vitória e B representa ter iluminação pública. No raciocínio lógico, a proposição 'Todo A é B' equivale formalmente à condicional 'Se é rua da cidade de Vitória, então tem iluminação pública', bem como à sua respectiva contrapositiva 'Se não tem iluminação pública, então não é rua da cidade de Vitória', ou ainda à formulação de que não existe rua em Vitória desprovida de iluminação. A pegadinha frequente envolve confundir a equivalência lógica com a negação universal ('alguma rua não tem'), o que anularia a validade da dedução. Desse modo, reconhecendo a estrutura condicional e de inclusão de conjuntos correta, o candidato assinala com firmeza a alternativa A.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "\"Se uma rua não tem iluminação pública, então não é rua da cidade de Vitória\".",
@@ -1612,7 +1612,7 @@
       "enunciado": "",
       "questao": "Há 5 dias, foi véspera do meu aniversário. Se fiz aniversário no sábado, hoje é uma:",
       "gabarito": "C",
-      "explicacao": "",
+      "explicacao": "Para resolver este problema temporal de calendário, deve-se estruturar a linha do tempo com base no dia do aniversário. O enunciado pontua expressamente que a pessoa fez aniversário no sábado. A véspera do aniversário corresponde, por definição, ao dia imediatamente anterior, ou seja, à sexta-feira. A primeira premissa declara que há exatos 5 dias foi a véspera do aniversário. Logo, há 5 dias decorridos o dia da semana era sexta-feira. Para determinar o dia de hoje, basta avançar 5 dias no calendário a partir da sexta-feira: 1 dia depois é sábado, 2 dias domingo, 3 dias segunda-feira, 4 dias terça-feira e 5 dias quarta-feira. A armadilha usual reside em contar os dias a partir do sábado em vez de partir da véspera. Portanto, hoje é quarta-feira, conduzindo diretamente ao gabarito C.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "segunda-feira.",
@@ -1636,7 +1636,7 @@
       "enunciado": "",
       "questao": "Em uma urna há 12 bolas, algumas brancas e as demais pretas. A probabilidade de retirar uma bola branca é 1/3. Uma forma de fazer com que essa probabilidade aumente para 1/2 é:",
       "gabarito": "E",
-      "explicacao": "",
+      "explicacao": "Inicialmente, a urna contém 12 bolas. Como a probabilidade de retirar uma bola branca é de 1/3, calcula-se 1/3 de 12, obtendo-se exatamente 4 bolas brancas e, por exclusão, 8 bolas pretas. O objetivo é modificar essa composição para que a probabilidade de selecionar uma bola branca atinja 1/2, o que significa que o número de bolas brancas deve corresponder à metade do total da urna. Se retirarmos 4 bolas pretas, a urna passará a ter 8 bolas no total, sendo 4 brancas e 4 pretas. Nesse novo cenário, a probabilidade torna-se 4/8, que simplificada é igual a 1/2. A pegadinha está em tentar adicionar ou retirar bolas brancas sem recalcular o impacto conjunto no denominador do espaço amostral. Dessa forma, a remoção de 4 bolas pretas satisfaz o enunciado, confirmando a alternativa E.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "retirar da urna uma bola preta.",
@@ -1660,7 +1660,7 @@
       "enunciado": "",
       "questao": "Juros simples de 18% ao ano equivalem a juros simples trimestrais de:",
       "gabarito": "D",
-      "explicacao": "",
+      "explicacao": "O regime considerado pelo enunciado é expressamente o de juros simples, no qual vigora a proporcionalidade linear e direta das taxas em relação ao tempo, sem ocorrência de capitalização composta de juros sobre juros. Um ano civil é composto por exatamente 4 trimestres de 3 meses cada. Para converter uma taxa anual de juros simples em uma taxa trimestral equivalente, basta dividir a taxa anual pelo número de trimestres presentes em um ano. Realizando a operação: 18% ao ano dividido por 4 trimestres resulta em 4,5% ao trimestre. A pegadinha desta questão consiste em tentar aplicar a fórmula de equivalência de taxas de juros compostos com radiciação, o que geraria complexidade inadequada ao enunciado. Portanto, a proporcionalidade direta dos juros simples confirma com precisão matemática a taxa de 4,5%, corroborando o gabarito D.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "6,0%.",
@@ -1684,7 +1684,7 @@
       "enunciado": "",
       "questao": "Em um campeonato de tênis de mesa há somente 6 competidores. Cada um deles jogará uma única vez com os demais. A quantidade total de jogos a serem disputados nesse campeonato é igual a:",
       "gabarito": "C",
-      "explicacao": "",
+      "explicacao": "A questão aborda a quantidade de confrontos em um torneio onde cada competidor joga uma única vez contra todos os demais adversários. Como o confronto entre o jogador X e o jogador Y é rigorosamente o mesmo que entre Y e X, a ordem dos competidores em cada confronto não importa, caracterizando um problema clássico de análise combinatória por Combinação Simples de 6 elementos tomados 2 a 2. O cálculo é dado pela fórmula C(6, 2) = (6 × 5) / (2 × 1) = 30 / 2 = 15 jogos. A armadilha típica é aplicar arranjo simples (6 × 5 = 30) e esquecer de dividir por 2, duplicando indevidamente a contagem de cada partida, ou confundir o sistema com turno e returno. Logo, o raciocínio combinatório aponta 15 partidas, validando a alternativa C.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "11.",
@@ -1708,7 +1708,7 @@
       "enunciado": "",
       "questao": "Os dispositivos de entrada/saída permitem a interação do computador com o mundo exterior. São exemplos de dispositivos de entrada/saída:",
       "gabarito": "D",
-      "explicacao": "",
+      "explicacao": "Em arquitetura de computadores e periféricos, dispositivos são classificados conforme o fluxo de transmissão de dados: apenas de entrada (como teclado e mouse), apenas de saída (como monitor tradicional e caixa de som) ou de entrada e saída (híbridos ou mistos). Os dispositivos de entrada e saída são aqueles capazes tanto de enviar dados do usuário ou do meio externo para processamento no computador quanto de receber dados do sistema para exibição, armazenamento ou comunicação externa. Dispositivos como telas sensíveis ao toque (touchscreen) e equipamentos de rede desempenham concomitantemente essas duas funções. A pegadinha da banca costuma colocar periféricos estritamente de entrada em conjunto com periféricos estritamente de saída na mesma alternativa. Assim, a opção que reúne exclusivamente dispositivos mistos assegura a correção da alternativa D.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Mouse, memória RAM e processador.",
@@ -1732,7 +1732,7 @@
       "enunciado": "",
       "questao": "Um sistema operacional gerencia os recursos de hardware e fornece serviços comuns para os aplicativos. NÃO são exemplos das funcionalidades implementadas por um sistema operacional:",
       "gabarito": "C",
-      "explicacao": "",
+      "explicacao": "O sistema operacional atua como camada intermediária entre o hardware do computador e as aplicações do usuário, possuindo como atribuições precípuas o gerenciamento da memória principal, o controle dos processos em execução, a administração dos sistemas de arquivos e o gerenciamento dos dispositivos de entrada e saída. Tarefas direcionadas diretamente às necessidades finais do usuário comum, tais como edição de textos em planilhas ou processadores de texto e navegação web, pertencem estritamente à categoria de softwares aplicativos e não integram as funções nativas e essenciais do núcleo do sistema operacional. O candidato deve manter atenção ao termo 'NÃO' no enunciado para evitar assinalar funcionalidades essenciais do sistema operacional. Por conseguinte, a alternativa que elenca serviços típicos de aplicações finais valida o gabarito C.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Gerência de processos e gerência de memória.",
@@ -1756,7 +1756,7 @@
       "enunciado": "",
       "questao": "Assinale a opção que permite ao usuário abrir o painel de pesquisa no Windows 11, segundo a documentação de suporte oficial da Microsoft.",
       "gabarito": "C",
-      "explicacao": "",
+      "explicacao": "No sistema operacional Windows 11, a Microsoft padronizou recursos de pesquisa rápida para facilitar a localização de aplicativos, arquivos, configurações e buscas na web diretamente da área de trabalho. Conforme a documentação oficial de suporte técnico da empresa, o atalho de teclado nativo e universalmente documentado para abrir diretamente a caixa ou painel de pesquisa é a combinação de teclas de logotipo do Windows associada à tecla S (Win + S). A armadilha clássica consiste em confundir esse atalho com outros atalhos bastante difundidos, tais como Win + F (que abre o Hub de Comentários) ou Win + R (que aciona a caixa Executar). Sabendo que o atalho correto de busca é Windows + S, o candidato segue rigorosamente as diretrizes oficiais da Microsoft, confirmando a alternativa C.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Tecla do logotipo do Windows + V",
