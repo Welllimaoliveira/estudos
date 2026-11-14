@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-14T01:25:31.742486+00:00",
+  "atualizado_em": "2026-11-14T15:46:38.310442+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "2cf3052d4a22",
+      "titulo": "Prefeitura de Nova Odessa (SP) abre novo seletivo com várias vagas",
+      "orgao": "Prefeitura de Nova Odessa (SP)",
+      "uf": "SP",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Saiu novo edital da Prefeitura de Nova Odessa (SP) com vagas para candidatos do nível superior de diferentes áreas",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/prefeitura-de-nova-odessa-sp-abre-novo-seletivo-com-varias-vagas-146581",
+      "fonte": "JC Concursos",
+      "data": "2026-11-14T08:52:41+00:00",
+      "tem_edital": true
+    },
     {
       "id": "cd21f960e068",
       "titulo": "Concurso de Italva RJ abre 137 vagas e tem salário de até R$ 12,1 mil",
@@ -1795,21 +1810,6 @@
       "link": "https://concursosnobrasil.com/concursos/sp/2026/11/11/sao-paulo-concurso-em-tapirai-oferece-vencimento-de-ate-r-7-991/",
       "fonte": "Concursos no Brasil",
       "data": "2026-11-11T13:51:52+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "e3ed79eca834",
-      "titulo": "Prefeitura de Cubatão, em São Paulo, oferece salário de R$ 5,5 mil em concurso",
-      "orgao": "Prefeitura de Cubatão, em São Paulo,",
-      "uf": "SP",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "R$ 5",
-      "resumo": "Concurso Prefeitura de Cubatão visa contratação efetiva. A seleção recebe inscrições online e realiza prova objetiva.",
-      "link": "https://concursosnobrasil.com/concursos/sp/2026/11/11/prefeitura-de-cubatao-em-sao-paulo-oferece-salario-de-r-55-mil-em-concurso/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-11-11T13:51:14+00:00",
       "tem_edital": false
     }
   ]
