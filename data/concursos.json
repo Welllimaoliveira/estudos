@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-16T19:31:31.595435+00:00",
+  "atualizado_em": "2026-11-17T03:46:56.528603+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "fc5199485425",
+      "titulo": "Edital Prefeitura de Pouso Redondo SC oferece remuneração de até R$ 21.091",
+      "orgao": "Prefeitura de Pouso Redondo SC",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "R$ 21.091",
+      "resumo": "Prefeitura de Pouso Redondo, no estado de Santa Catarina, abre seleção e conta com a organização da empresa SC Treinamentos.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/11/16/edital-prefeitura-de-pouso-redondo-sc-oferece-remuneracao-de-ate-r-21-091/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-16T20:53:02+00:00",
+      "tem_edital": true
+    },
+    {
+      "id": "9751fb8f8316",
+      "titulo": "Concurso PM RN: definida banca organizadora para novo certame de oficial capelão",
+      "orgao": "PM RN",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Concurso PM RN (Polícia Militar do Estado do Rio Grande do Norte) deve ser realizado em breve, com oferta de três vagas imediatas",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-pm-rn-definida-banca-organizadora-para-nova-selecao-de-oficial-capelao-146588",
+      "fonte": "JC Concursos",
+      "data": "2026-11-16T20:00:00+00:00",
+      "tem_edital": false
+    },
     {
       "id": "e9872cccdb61",
       "titulo": "Seletivo da Prefeitura de Rio Bananal ES tem mensais de até R$ 5.879",
@@ -1780,36 +1810,6 @@
       "link": "https://jcconcursos.uol.com.br/noticia/empregos/inscricoes-para-22-vagas-na-cptm-sp-estao-perto-do-fim-veja-requisitos-146540",
       "fonte": "JC Concursos",
       "data": "2026-11-12T12:11:28+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "687c6aef9803",
-      "titulo": "Concurso INSS: ministra Esther Dweck confirma nova autorização em 2027, para nível superior",
-      "orgao": "INSS: ministra Esther Dweck",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Novo concurso INSS (Instituto Nacional do Seguro Social) depende de aval por parte do Mnistério da Gestão e da Inovação dos Serviços Públicos",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-inss-ministra-dweck-confirma-nova-autorizacao-em-2027-para-nivel-superior-146538",
-      "fonte": "JC Concursos",
-      "data": "2026-11-12T11:58:26+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "e8d14ab89da4",
-      "titulo": "Concurso da SEAP PE abre inscrições para 700 vagas de policial penal",
-      "orgao": "SEAP PE",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": 700,
-      "salario": "R$ 5",
-      "resumo": "Com remuneração de R$ 5,6 mil, concurso da SEAP PE (Secretaria de Administração Penitenciária e Ressocialização de Pernambuco) tem chances para candidatos com nível superior",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-da-seap-pe-abre-inscricoes-para-700-vagas-de-policial-penal-146536",
-      "fonte": "JC Concursos",
-      "data": "2026-11-12T11:36:23+00:00",
       "tem_edital": false
     }
   ]
