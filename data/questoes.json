@@ -1,6 +1,6 @@
 {
   "_comentario": "Banco de questoes do Estuda Ai. Questoes 'certo_errado' sao reformulacoes para estudo preservando conteudo cobrado, numero do item e gabarito oficial. Itens anulados excluidos. Explicacoes vazias sao preenchidas pelo workflow gerar-questoes.",
-  "atualizado_em": "2026-11-13T20:29:19.536486+00:00",
+  "atualizado_em": "2026-11-24T00:46:04.456096+00:00",
   "disciplinas": [
     "Direito Administrativo",
     "Direito Constitucional",
@@ -1780,7 +1780,7 @@
       "enunciado": "",
       "questao": "Um sistema de arquivos é uma estrutura organizada de dados usada para armazenar, recuperar e organizar arquivos em um dispositivo de armazenamento permanente. São exemplos de sistemas de arquivos:",
       "gabarito": "E",
-      "explicacao": "",
+      "explicacao": "A questão aborda o conceito de sistemas de arquivos, que gerenciam a gravação, leitura e localização de dados em unidades de armazenamento. O candidato deve identificar alternativas que contenham apenas padrões reais dessa categoria, como NTFS, FAT32 e ext4. A pegadinha comum consiste em misturar formatos de partição com protocolos de rede (como HTTP e FTP) ou extensões de arquivos comuns (como PDF e DOCX). Para alcançar o gabarito oficial E, o raciocínio correto exige reconhecer a arquitetura dos sistemas operacionais mais utilizados, diferenciando a camada lógica que organiza blocos físicos em disco dos formatos aplicacionais e de comunicação de dados, validando apenas as opções técnicas autênticas de sistemas de arquivos.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "HTML e FAT.",
@@ -1804,7 +1804,7 @@
       "enunciado": "",
       "questao": "No Microsoft 365, no aplicativo Word, é possível ajustar o espaçamento entre as linhas do documento. Dentre as opções padrão disponíveis para o espaçamento entre linhas de uma parte do documento, incluem-se:",
       "gabarito": "A",
-      "explicacao": "",
+      "explicacao": "No Microsoft Word, o espaçamento entre linhas define a distância vertical entre as linhas de texto de um parágrafo. O menu padrão da faixa de opções oferece valores predefinidos diretos para agilizar a diagramação, incluindo as opções 1,0; 1,15; 1,5; 2,0; 2,5 e 3,0. A pegadinha frequente envolve confundir o espaçamento entre linhas com o espaçamento entre parágrafos (medido em pontos antes/depois) ou listar valores fracionados incomuns que exigem configuração manual avançada. Para marcar a alternativa A, o candidato precisava recordar as opções padrões visíveis na interface do usuário na guia Página Inicial, no grupo Parágrafo, reconhecendo os valores nominais que o processador de textos disponibiliza nativamente em sua lista suspensa.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Simples e 1,5 linhas.",
@@ -1828,7 +1828,7 @@
       "enunciado": "",
       "questao": "O Microsoft 365 é uma plataforma de _________, que contém aplicativos de produtividade como o _________ e o _________. Assinale a opção que completa corretamente as lacunas, na ordem apresentada.",
       "gabarito": "B",
-      "explicacao": "",
+      "explicacao": "O Microsoft 365 é estruturado como um serviço em nuvem por assinatura que reúne ferramentas integradas para produtividade pessoal e colaborativa, incorporando amplamente aplicativos corporativos conhecidos como Word, Excel, Teams e Outlook. A pegadinha clássica tenta confundir o modelo de plataforma em nuvem com ferramentas exclusivas de hardware, sistemas operacionais locais isolados ou misturar produtos concorrentes de código aberto nas lacunas. O candidato deve manter o raciocínio focado na definição mercadológica do produto: um ecossistema baseado em nuvem voltado ao ambiente de trabalho digital, preenchendo as lacunas na ordem correta para validar a alternativa B, com a designação do modelo de serviço e seus respectivos softwares integrados.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Computação em nuvem; Windows; Excel.",
@@ -1852,7 +1852,7 @@
       "enunciado": "",
       "questao": "O LibreOffice é uma suíte de escritório de código aberto com várias aplicações integradas. Qual dos seguintes componentes NÃO faz parte do LibreOffice?",
       "gabarito": "D",
-      "explicacao": "",
+      "explicacao": "O LibreOffice é composto pelos aplicativos Writer (editor de texto), Calc (planilha eletrônica), Impress (apresentações), Draw (desenho vetorial), Base (banco de dados) e Math (fórmulas matemáticas). A questão exige identificar o item estranho a esse pacote. A pegadinha reside em apresentar ferramentas populares de outras suítes de escritório, como o Outlook, Access ou Visio da Microsoft, ou mesmo nomes genéricos que induzem o candidato a acreditar que pertencem ao projeto mantido pela The Document Foundation. Para chegar ao gabarito D, o concorrente deveria lembrar com precisão os seis programas oficiais que integram a instalação padrão do LibreOffice, excluindo a ferramenta proprietária ou inexistente assinalada.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Base",
@@ -1876,7 +1876,7 @@
       "enunciado": "",
       "questao": "No Microsoft 365 Excel, ao criar uma tabela, o software nomeia a tabela e cada cabeçalho de coluna. Assim, em vez de =SOMA(C2:C7), o Excel pode usar =SOMA(DeptoVendas[Valor das Vendas]). Essa combinação de nomes de tabelas e colunas é chamada:",
       "gabarito": "D",
-      "explicacao": "",
+      "explicacao": "No Microsoft Excel, quando um intervalo de dados é convertido formalmente em objeto Tabela, o aplicativo substitui o modelo clássico de coordenadas alfanuméricas por referências estruturadas. Esse recurso utiliza o nome da tabela e os cabeçalhos das colunas dentro de colchetes, tornando a leitura das fórmulas muito mais intuitiva e dinâmica. A pegadinha reside em confundir essa sintaxe específica com conceitos genéricos como referências absolutas, relativas ou intervalos nomeados tradicionais. Para acertar a alternativa D, o raciocínio do candidato deve identificar a nomenclatura técnica padronizada da Microsoft para essa funcionalidade: 'referência estruturada', que atualiza automaticamente o cálculo à medida que novas linhas são adicionadas à tabela.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "fórmula.",
@@ -1900,7 +1900,7 @@
       "enunciado": "",
       "questao": "O processo de verificação da identidade de um usuário, podendo envolver o uso de senhas, biometria ou tokens de segurança, é conhecido como:",
       "gabarito": "A",
-      "explicacao": "",
+      "explicacao": "O processo de confirmação e validação da identidade alegada por uma entidade ou usuário é denominado autenticação, operacionalizado por meio de fatores como conhecimento (senhas), posse (tokens) ou inerência (biometria). A pegadinha clássica em segurança da informação é a confusão entre autenticação e autorização: enquanto a primeira confirma quem o usuário é, a segunda define a quais recursos ele terá acesso após ser identificado. O candidato deveria focar na etapa exata descrita no enunciado — a checagem da identidade —, o que afasta termos como criptografia, auditoria ou integridade, conduzindo diretamente à alternativa A como resposta precisa e conceitualmente correta.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "Autenticação.",
@@ -1924,7 +1924,7 @@
       "enunciado": "",
       "questao": "Considerando as disposições da Constituição Federal, é correto afirmar que a República Federativa do Brasil tem como fundamento:",
       "gabarito": "E",
-      "explicacao": "",
+      "explicacao": "A Constituição Federal de 1988 estabelece expressamente em seu Artigo 1º os fundamentos da República Federativa do Brasil, sintetizados pelo mnemônico SO-CI-DI-VA-PLU: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, e pluralismo político. A grande pegadinha das bancas, em especial da FGV, é misturar esses fundamentos com os objetivos fundamentais da República (Artigo 3º) ou com os princípios que regem as relações internacionais (Artigo 4º). Para assinalar com segurança a alternativa E, o candidato precisava categorizar com precisão o rol do texto constitucional, distinguindo a base estrutural do Estado brasileiro de suas metas programáticas e diretrizes externas.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "o repúdio ao terrorismo e ao racismo.",
@@ -1948,7 +1948,7 @@
       "enunciado": "",
       "questao": "Considerando as disposições da Constituição Federal sobre os direitos e deveres individuais e coletivos, é correto afirmar que:",
       "gabarito": "C",
-      "explicacao": "",
+      "explicacao": "No âmbito do Artigo 5º da Constituição Federal, os direitos e deveres individuais e coletivos contam com redações literais rígidas que exigem atenção às condicionantes e exceções. As pegadinhas recorrentes desse tema envolvem suprimir ressalvas constitucionais — como a necessidade de ordem judicial durante o dia para violação de domicílio, hipóteses de flagrante delito, ou limites ao direito de reunião e liberdade de associação —, tornando assertivas incorretas pela generalização indevida. O candidato precisava analisar minuciosamente os incisos do artigo, buscando a alternativa C que transcreve perfeitamente o texto magno sem distorcer o alcance de garantias fundamentais e suas respectivas cláusulas de reserva de jurisdição.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito, em situação de desastre, para prestar socorro ou, ainda, por determinação judicial, nos períodos diurno e noturno.",
@@ -1972,7 +1972,7 @@
       "enunciado": "",
       "questao": "Considerando as disposições da Constituição Federal sobre as propostas de emenda à Constituição, é correto afirmar que a:",
       "gabarito": "C",
-      "explicacao": "",
+      "explicacao": "O processo legislativo das Propostas de Emenda à Constituição (PECs) é disciplinado detalhadamente pelo Artigo 60 da Carta Magna. O dispositivo impõe limitações formais, circunstanciais (como a proibição de emenda durante intervenção federal, estado de defesa ou sítio) e materiais (cláusulas pétreas), além de rito qualificado de votação em dois turnos por três quintos dos membros de cada Casa. A pegadinha frequente consiste em atribuir sanção ou veto ao Presidente da República, quando na realidade a promulgação compete exclusivamente às Mesas da Câmara e do Senado. O candidato deveria resgatar essas regras procedimentais estritas para identificar com firmeza a correção do gabarito C.",
       "fonte": "Caderno oficial FGV (Tipo 1 - Branca) + gabarito definitivo gmvitoria2024_gabarito_definitivo (FGV, aplicação 28/07/2024). Questão 29 anulada, excluída.",
       "alternativas": [
         "proposta de emenda será discutida e votada em cada Casa do Congresso Nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, maioria absoluta dos votos dos respectivos membros.",
