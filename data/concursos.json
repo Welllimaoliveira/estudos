@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-24T20:07:02.415099+00:00",
+  "atualizado_em": "2026-11-25T04:08:31.370912+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,66 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "5fed8ddbacce",
+      "titulo": "Prefeitura de Francisco Morato (SP) libera edital para cadastro",
+      "orgao": "Prefeitura de Francisco Morato (SP)",
+      "uf": "SP",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Processo seletivo da Prefeitura de Francisco Morato tem cadastro de reserva para profissionais da Educação.",
+      "link": "https://concursosnobrasil.com/concursos/sp/2026/11/24/prefeitura-de-francisco-morato-sp-libera-edital-para-cadastro/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-25T01:28:20+00:00",
+      "tem_edital": true
+    },
+    {
+      "id": "ef7b23b903f7",
+      "titulo": "Prefeitura Nova Itaberaba, SC, lança edital de processo seletivo",
+      "orgao": "Prefeitura Nova Itaberaba, SC, lança edital de processo seletivo",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Processo seletivo da Prefeitura de Nova Itaberaba (SC) recebe inscrições pelo Instituto Evo. Confira os cargos e outras regras do edital.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/11/24/nova-itaberaba-sc-publica-edital-de-processo-seletivo/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-25T00:47:55+00:00",
+      "tem_edital": true
+    },
+    {
+      "id": "7174dd8df3d3",
+      "titulo": "Prefeitura de Faxinal dos Guedes SC abre edital e forma cadastro",
+      "orgao": "Prefeitura de Faxinal dos Guedes SC",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": null,
+      "salario": "R$ 6.182,75",
+      "resumo": "Edital da Prefeitura de Faxinal dos Guedes prevê cadastro de reserva para funções temporárias de níveis alfabetizado, médio e superior, com vencimentos de até R$ 6.182,75.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/11/24/prefeitura-de-faxinal-dos-guedes-sc-abre-edital-e-forma-cadastro/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-24T23:51:51+00:00",
+      "tem_edital": true
+    },
+    {
+      "id": "6c3850e0dee7",
+      "titulo": "Concurso em Faxinal dos Guedes, SC, abre vagas e cadastro",
+      "orgao": "Faxinal dos Guedes, SC,",
+      "uf": "SC",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": 12,
+      "salario": "",
+      "resumo": "Edital da Prefeitura de Faxinal dos Guedes, em Santa Catarina, prevê 12 vagas imediatas e cadastro de reserva para cargos de níveis alfabetizado, médio e superior.",
+      "link": "https://concursosnobrasil.com/concursos/sc/2026/11/24/concurso-em-faxinal-dos-guedes-sc-abre-novas-vagas/",
+      "fonte": "Concursos no Brasil",
+      "data": "2026-11-24T22:52:34+00:00",
+      "tem_edital": true
+    },
     {
       "id": "fa5d2efa5e09",
       "titulo": "Concurso Prefeitura de Aguaí SP: edital em breve para cargos de níveis médio e superior",
@@ -1751,66 +1811,6 @@
       "fonte": "JC Concursos",
       "data": "2026-11-19T10:21:51+00:00",
       "tem_edital": false
-    },
-    {
-      "id": "c620073cc25b",
-      "titulo": "Região do Alto Tietê registra mais de 4,7 mil vagas de emprego abertas",
-      "orgao": "Região do Alto Tietê registra mais de 4,7 mil vagas de emprego abertas",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Oportunidades contemplam diferentes setores da economia e abrangem diversos níveis de escolaridade por meio de iniciativas públicas",
-      "link": "https://jcconcursos.uol.com.br/noticia/empregos/regiao-do-alto-tiete-registra-mais-de-47-mil-vagas-de-emprego-abertas-146663",
-      "fonte": "JC Concursos",
-      "data": "2026-11-19T08:11:14+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "85f4d9cd65ae",
-      "titulo": "Concurso SEE SP: Urgente! Publicado edital para 5 mil vagas de professores de ensino fundamental e médio",
-      "orgao": "SEE SP: Urgente!",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "fundamental",
-      "vagas": null,
-      "salario": "R$ 5",
-      "resumo": "Concurso SEE SP (Secretaria Estadual da Educação de São Paulo) é para professores de ensino fundamental e médio, até R$ 5,5 mil",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-see-sp-urgente-publicado-edital-para-5-mil-vagas-de-professores-de-ensino-fundamental-e-medio-146667",
-      "fonte": "JC Concursos",
-      "data": "2026-11-19T04:12:00+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "6bc9fb3e972b",
-      "titulo": "Concurso Bacen: Urgente! Definida banca para 170 vagas; edital em dezembro",
-      "orgao": "Bacen",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": 170,
-      "salario": "",
-      "resumo": "Concurso Bacen (Banco Central) deve contar com oportunidades para os cargos de analista, técnico e procurador, com exigências de níveis médio e superior",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-bacen-urgente-definida-banca-para-170-vagas-edital-em-dezembro-146665",
-      "fonte": "JC Concursos",
-      "data": "2026-11-18T23:30:47+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "e5b02f8ae6eb",
-      "titulo": "Prefeitura de São Martinho, Rio Grande do Sul, lança edital para Operário",
-      "orgao": "Prefeitura de São Martinho, Rio Grande do Sul, lança edital para Operário",
-      "uf": "RS",
-      "status": "aberto",
-      "nivel": "fundamental",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Processo seletivo Prefeitura de São Martinho, no estado do Rio Grande do Sul, abre inscrições gratuitas para cargo de nível fundamental.",
-      "link": "https://concursosnobrasil.com/concursos/rs/2026/11/18/prefeitura-de-sao-martinho-rio-grande-do-sul-lanca-edital-para-operario/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-11-18T20:09:56+00:00",
-      "tem_edital": true
     }
   ]
 }
