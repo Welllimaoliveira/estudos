@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-26T18:58:00.048555+00:00",
+  "atualizado_em": "2026-11-27T03:36:55.513166+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,36 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "65307ca0eba9",
+      "titulo": "Concurso Prefeitura de Capão Bonito SP: edital para guardas nos próximos dias",
+      "orgao": "Prefeitura de Capão Bonito SP",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Concurso Prefeitura de Capão Bonito SP (Prefeitura de Capão Bonito) será organizado pela Fundação Vunesp; edital em breveTestes padronizados e de admissão",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-prefeitura-de-capao-bonito-sp-edital-para-guardas-nos-proximos-dias-146796",
+      "fonte": "JC Concursos",
+      "data": "2026-11-26T20:00:00+00:00",
+      "tem_edital": true
+    },
+    {
+      "id": "3f74295b4d17",
+      "titulo": "Concurso Confef: edital em ajustes para cargos de níveis médio e superior",
+      "orgao": "Confef",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": null,
+      "salario": "",
+      "resumo": "Concurso Confef (Conselho Federal de Educação Física) será organizado pelo Instituto Quadrix; cargos ainda serão confirmados",
+      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-confef-edital-em-ajustes-para-niveis-medio-e-superior-146789",
+      "fonte": "JC Concursos",
+      "data": "2026-11-26T19:00:00+00:00",
+      "tem_edital": true
+    },
     {
       "id": "624287c149f7",
       "titulo": "⁠Prefeitura de Campos do Jordão (SP) abre edital para a Educação",
@@ -199,9 +229,9 @@
       "uf": "MT",
       "status": "aberto",
       "nivel": "",
-      "vagas": 4,
+      "vagas": 2,
       "salario": "R$ 7.701,07",
-      "resumo": "Processo seletivo Prefeitura de Vila Bela da Santíssima Trindade, em Mato Grosso, oferece 4 vagas e cadastro reserva com salários de até R$ 7.701,07.",
+      "resumo": "Processo seletivo Prefeitura de Vila Bela da Santíssima Trindade, em Mato Grosso, oferece 2 vagas e cadastro reserva com salários de até R$ 7.701,07.",
       "link": "https://concursosnobrasil.com/concursos/mt/2026/11/26/prefeitura-de-vila-bela-da-santissima-trindade-mt-lanca-edital/",
       "fonte": "Concursos no Brasil",
       "data": "2026-11-26T16:24:48+00:00",
@@ -1780,36 +1810,6 @@
       "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-hmmg-campinas-sp-ratificado-contrato-com-banca-para-niveis-medio-e-superior-146714",
       "fonte": "JC Concursos",
       "data": "2026-11-23T19:00:00+00:00",
-      "tem_edital": false
-    },
-    {
-      "id": "d68a80a195e0",
-      "titulo": "Edital da Prefeitura de Iguatemi, MS, abre vagas e cadastro reserva",
-      "orgao": "Prefeitura de Iguatemi, MS,",
-      "uf": "MS",
-      "status": "aberto",
-      "nivel": "",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Prefeitura de Iguatemi, MS, realiza processo seletivo simplificado para contratação em três cargos de apoio.",
-      "link": "https://concursosnobrasil.com/concursos/ms/2026/11/23/edital-da-prefeitura-de-iguatemi-ms-abre-vagas-e-cadastro-reserva/",
-      "fonte": "Concursos no Brasil",
-      "data": "2026-11-23T18:43:04+00:00",
-      "tem_edital": true
-    },
-    {
-      "id": "4517f35e1f20",
-      "titulo": "Processo seletivo do IBGE: últimos dias de inscrição para 27.279 vagas de recenseador",
-      "orgao": "IBGE",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "fundamental",
-      "vagas": 27279,
-      "salario": "",
-      "resumo": "Candidatos com nível fundamental podem participar do processo seletivo do IBGE (Instituto Brasileiro de Geografia e Estatística). Há chances em todo o país",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/processo-seletivo-do-ibge-ultimos-dias-de-inscricao-para-27279-vagas-de-recenseador-146723",
-      "fonte": "JC Concursos",
-      "data": "2026-11-23T18:09:07+00:00",
       "tem_edital": false
     }
   ]
