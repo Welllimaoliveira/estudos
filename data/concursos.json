@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-28T03:16:29.866029+00:00",
+  "atualizado_em": "2026-11-28T17:29:36.160615+00:00",
   "fontes": [
     {
       "nome": "Concursos no Brasil",
@@ -12,6 +12,21 @@
   ],
   "total": 120,
   "concursos": [
+    {
+      "id": "54260674ec4f",
+      "titulo": "Edital da Fundação Casa traz vagas em diferentes áreas da instituição",
+      "orgao": "Fundação Casa traz vagas em diferentes áreas da instituição",
+      "uf": "",
+      "status": "aberto",
+      "nivel": "superior",
+      "vagas": null,
+      "salario": "",
+      "resumo": "A Fundação Casa está com inscrições abertas para novo processo seletivo com vagas para candidatos do ensino superior",
+      "link": "https://jcconcursos.uol.com.br/noticia/empregos/edital-da-fundacao-casa-traz-vagas-em-diferentes-areas-da-instituicao-146833",
+      "fonte": "JC Concursos",
+      "data": "2026-11-28T08:01:00+00:00",
+      "tem_edital": true
+    },
     {
       "id": "8a48e72539c8",
       "titulo": "Prefeitura de Goiana, PE, divulga 454 vagas em processo seletivo",
@@ -1796,21 +1811,6 @@
       "fonte": "Concursos no Brasil",
       "data": "2026-11-24T19:21:48+00:00",
       "tem_edital": false
-    },
-    {
-      "id": "17f828d1633a",
-      "titulo": "Concurso CRO RJ: edital em fase de ajustes finais para níveis médio e superior",
-      "orgao": "CRO RJ",
-      "uf": "",
-      "status": "aberto",
-      "nivel": "superior",
-      "vagas": null,
-      "salario": "",
-      "resumo": "Concurso CRO RJ (Conselho Regional de Odontologia do Rio de Janeiro) contará com oportunidades para cargos de níveis médio e superior",
-      "link": "https://jcconcursos.uol.com.br/noticia/concursos/concurso-cro-rj-edital-em-fase-de-ajustes-finais-para-niveis-medio-e-superior-146743",
-      "fonte": "JC Concursos",
-      "data": "2026-11-24T19:00:00+00:00",
-      "tem_edital": true
     }
   ]
 }
